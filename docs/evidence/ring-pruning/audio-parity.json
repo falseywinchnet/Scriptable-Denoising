@@ -1,0 +1,10 @@
+{
+  "shape": [
+    2097152,
+    2
+  ],
+  "nonzero_reference": 4161534,
+  "finite": true,
+  "maximum_absolute_error": 1.6325034620954818e-20,
+  "rms_error": 3.743392066509216e-23
+}

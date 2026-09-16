@@ -1,0 +1,13 @@
+{
+  "charts": 153,
+  "peak_mismatches": 0,
+  "near_tie_differences": 0,
+  "max_peak_error": 1.1102230246251565e-16,
+  "max_competitor_error": 6.9388939039072284e-17,
+  "zero_consensus": 41,
+  "first_axis_branches_skipped": 0.47048611111111116,
+  "final_outputs_skipped": 0.82988177910052907,
+  "late_us": 27.937215277777778,
+  "early_us": 27.620659722222221,
+  "speedup": 1.0114608252930639
+}

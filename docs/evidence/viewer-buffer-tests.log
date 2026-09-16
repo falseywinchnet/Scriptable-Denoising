@@ -1,0 +1,8 @@
+test_duplicates_gaps_and_generation_reset (test_viewer.HistoryTests.test_duplicates_gaps_and_generation_reset) ... ok
+test_launch_reports_child_failure_before_first_frame (test_viewer.HistoryTests.test_launch_reports_child_failure_before_first_frame) ... ok
+test_texture_frequency_direction_and_missing_data (test_viewer.HistoryTests.test_texture_frequency_direction_and_missing_data) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.007s
+
+OK

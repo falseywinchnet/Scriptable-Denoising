@@ -1,0 +1,116 @@
+{
+  "archive_bytes": 15708291,
+  "files": [
+    "index.html",
+    "manifest.json",
+    "occupancy-comfort-final.u8",
+    "occupancy-comfort-spectra.json",
+    "occupancy-comfort.py",
+    "occupancy-comfort.wav",
+    "shape-comfort-final.u8",
+    "shape-comfort-spectra.json",
+    "shape-comfort.py",
+    "shape-comfort.wav",
+    "shape-final.u8",
+    "shape-spectra.json",
+    "shape-surface_floor.u8",
+    "shape-surface_mask.u8",
+    "shape-surface_shape.u8",
+    "shape.py",
+    "shape.wav"
+  ],
+  "shared": [
+    {
+      "original": "shape-guide.u8",
+      "reuse": "surface-guide.u8"
+    },
+    {
+      "original": "shape-surface_mean.u8",
+      "reuse": "surface-surface_mean.u8"
+    },
+    {
+      "original": "shape-surface_variance.u8",
+      "reuse": "surface-surface_variance.u8"
+    },
+    {
+      "original": "shape-surface_low.u8",
+      "reuse": "occupancy-surface_low.u8"
+    },
+    {
+      "original": "shape-surface_occupancy.u8",
+      "reuse": "occupancy-surface_occupancy.u8"
+    },
+    {
+      "original": "shape-surface_reference.u8",
+      "reuse": "occupancy-surface_floor.u8"
+    },
+    {
+      "original": "occupancy-comfort-guide.u8",
+      "reuse": "surface-guide.u8"
+    },
+    {
+      "original": "occupancy-comfort-surface_mean.u8",
+      "reuse": "surface-surface_mean.u8"
+    },
+    {
+      "original": "occupancy-comfort-surface_variance.u8",
+      "reuse": "surface-surface_variance.u8"
+    },
+    {
+      "original": "occupancy-comfort-surface_floor.u8",
+      "reuse": "occupancy-surface_floor.u8"
+    },
+    {
+      "original": "occupancy-comfort-surface_mask.u8",
+      "reuse": "occupancy-surface_mask.u8"
+    },
+    {
+      "original": "occupancy-comfort-surface_low.u8",
+      "reuse": "occupancy-surface_low.u8"
+    },
+    {
+      "original": "occupancy-comfort-surface_occupancy.u8",
+      "reuse": "occupancy-surface_occupancy.u8"
+    },
+    {
+      "original": "occupancy-comfort-surface_reference.u8",
+      "reuse": "surface-surface_floor.u8"
+    },
+    {
+      "original": "shape-comfort-guide.u8",
+      "reuse": "surface-guide.u8"
+    },
+    {
+      "original": "shape-comfort-surface_mean.u8",
+      "reuse": "surface-surface_mean.u8"
+    },
+    {
+      "original": "shape-comfort-surface_variance.u8",
+      "reuse": "surface-surface_variance.u8"
+    },
+    {
+      "original": "shape-comfort-surface_floor.u8",
+      "reuse": "shape-surface_floor.u8"
+    },
+    {
+      "original": "shape-comfort-surface_mask.u8",
+      "reuse": "shape-surface_mask.u8"
+    },
+    {
+      "original": "shape-comfort-surface_low.u8",
+      "reuse": "occupancy-surface_low.u8"
+    },
+    {
+      "original": "shape-comfort-surface_occupancy.u8",
+      "reuse": "occupancy-surface_occupancy.u8"
+    },
+    {
+      "original": "shape-comfort-surface_reference.u8",
+      "reuse": "occupancy-surface_floor.u8"
+    },
+    {
+      "original": "shape-comfort-surface_shape.u8",
+      "reuse": "shape-surface_shape.u8"
+    }
+  ]
+}

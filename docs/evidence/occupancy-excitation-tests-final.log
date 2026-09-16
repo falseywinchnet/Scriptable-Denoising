@@ -1,0 +1,10 @@
+test_exact_fractional_hann_response (__main__.Experiments.test_exact_fractional_hann_response) ... ok
+test_excitation_protected_band_budget_disabled_and_phase (__main__.Experiments.test_excitation_protected_band_budget_disabled_and_phase) ... ok
+test_low_anchor_and_baseline_moment_identity (__main__.Experiments.test_low_anchor_and_baseline_moment_identity) ... ok
+test_pitch_uses_multiple_components_and_rejects_single_line (__main__.Experiments.test_pitch_uses_multiple_components_and_rejects_single_line) ... ok
+test_two_level_occupancy_and_scale (__main__.Experiments.test_two_level_occupancy_and_scale) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 7.675s
+
+OK

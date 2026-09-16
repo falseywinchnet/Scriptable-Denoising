@@ -1,0 +1,12 @@
+{
+  "comfort": {
+    "power": 0.40292885153180097,
+    "lower_power": 1984.0,
+    "max_ratio": 0.0012
+  },
+  "shape": {
+    "flat_score": 0.0,
+    "continual_line_score": 0.6906015899135716,
+    "maximum": 0.8002979579808778
+  }
+}

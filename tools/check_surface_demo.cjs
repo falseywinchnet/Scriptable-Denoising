@@ -1,0 +1,27 @@
+const {chromium}=require('playwright');
+const fs=require('fs');
+(async()=>{
+ const browser=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',args:['--autoplay-policy=no-user-gesture-required']});
+ const page=await browser.newPage({viewport:{width:1080,height:1600}});
+ const errors=[];page.on('pageerror',e=>errors.push(String(e)));page.on('response',r=>{if(r.status()>=400)errors.push(r.status()+' '+r.url())});
+ await page.goto(process.env.DEMO_URL||'http://127.0.0.1:8769/');
+ await page.waitForFunction(()=>document.querySelector('#play').textContent==='Play'&&document.querySelector('#visualState').textContent.includes('actual native snapshots'),{timeout:60000});
+ await page.locator('#hz').selectOption('4000');await page.locator('#span').selectOption('2');
+ await page.locator('#seek').evaluate(e=>{e.value='2.7';e.dispatchEvent(new Event('input'))});
+ await page.locator('details').evaluate(e=>e.open=true);
+ await page.waitForFunction(()=>document.querySelector('#visualState').textContent.includes('2.700'));
+ await page.screenshot({path:'build/listening-demo-v6/browser-surface.png',fullPage:true});
+ await page.locator('#surfaceField').selectOption('surface_mean');
+ await page.locator('#surfaceField').selectOption('surface_variance');
+ await page.locator('#surfaceField').selectOption('surface_floor');
+ await page.locator('#play').click();await page.waitForFunction(()=>document.querySelector('#play').textContent==='Pause');
+ await page.waitForFunction(()=>document.querySelector('#seek').value>3.1);
+ await page.locator('#play').click();const stopped=await page.locator('#seek').inputValue();
+ await page.locator('#choices button').filter({hasText:'Baseline Cleanup'}).click();
+ await page.locator('#choices button').filter({hasText:'Variance surface'}).click();
+ await page.waitForFunction(()=>document.querySelector('#visualState').textContent.startsWith('Variance surface')&&!document.querySelector('#surfaceExtras').hidden);
+ const snapshot=await page.evaluate(()=>({visual:document.querySelector('#visualState').textContent,buttons:[...document.querySelectorAll('#choices button')].map(b=>b.textContent),surfaceVisible:!document.querySelector('#surfaceExtras').hidden,panels:spectra[surfaceIndex].surface_panels.map(p=>({kind:p.kind,bytes:p.bytes.length,expected:p.bins*p.frames})),playing,position:document.querySelector('#seek').value}));
+ if(errors.length||snapshot.playing||!snapshot.surfaceVisible||snapshot.panels.some(p=>p.bytes!==p.expected)||snapshot.position!==stopped)throw Error(JSON.stringify({errors,snapshot}));
+ fs.writeFileSync('docs/evidence/variance-surface-browser.json',JSON.stringify({errors,...snapshot},null,2));
+ console.log(JSON.stringify({errors,...snapshot}));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

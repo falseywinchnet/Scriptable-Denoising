@@ -1,0 +1,91 @@
+{
+  "transport": [
+    {
+      "n": 512,
+      "e": 8,
+      "half": 0,
+      "donor": 3,
+      "target": 27,
+      "code": 0,
+      "coefficient_error": 1.7383418049946859e-15,
+      "phase_error_radians": 2.0046479286197547e-13,
+      "unintended_bin_max": 4.322484380235895e-15
+    },
+    {
+      "n": 512,
+      "e": 8,
+      "half": 1,
+      "donor": 3,
+      "target": 27,
+      "code": 0,
+      "coefficient_error": 3.3766115072321297e-16,
+      "phase_error_radians": -8.249591265049886e-14,
+      "unintended_bin_max": 4.556312550356801e-15
+    },
+    {
+      "n": 64,
+      "e": 1,
+      "half": 0,
+      "donor": 3,
+      "target": 6,
+      "code": 0,
+      "coefficient_error": 9.155133597044475e-16,
+      "phase_error_radians": 3.141592653589712,
+      "unintended_bin_max": 3.1106063782808446e-15
+    },
+    {
+      "n": 64,
+      "e": 1,
+      "half": 1,
+      "donor": 3,
+      "target": 6,
+      "code": 0,
+      "coefficient_error": 1.942890293094024e-16,
+      "phase_error_radians": 3.141592653589257,
+      "unintended_bin_max": 2.951419986500741e-15
+    }
+  ],
+  "demo_added_rms": 0.0013305064755590866,
+  "registered_rms": 0.04500080311064195,
+  "added_to_registered_power_db": -30.584065438382893,
+  "added_power_band_fractions": {
+    "0-3000Hz": 8.537530087792188e-06,
+    "3000-3400Hz": 1.2008872546302103e-05,
+    "3400-4000Hz": 0.1498328898517643,
+    "4000-6000Hz": 0.6956636556103732,
+    "6000-8000Hz": 0.15443768248759587,
+    "8000-24001Hz": 4.522564763257691e-05
+  },
+  "native_stft_center_phase": [
+    {
+      "half": 0,
+      "frame": 3,
+      "centered_direct_transform_error": 7.105427357601002e-15
+    },
+    {
+      "half": 0,
+      "frame": 4,
+      "centered_direct_transform_error": 1.4210854715202004e-14
+    },
+    {
+      "half": 0,
+      "frame": 5,
+      "centered_direct_transform_error": 1.4210854715202004e-14
+    },
+    {
+      "half": 1,
+      "frame": 3,
+      "centered_direct_transform_error": 1.5888218580782548e-14
+    },
+    {
+      "half": 1,
+      "frame": 4,
+      "centered_direct_transform_error": 3.552713678800501e-14
+    },
+    {
+      "half": 1,
+      "frame": 5,
+      "centered_direct_transform_error": 7.105427357601002e-15
+    }
+  ]
+}

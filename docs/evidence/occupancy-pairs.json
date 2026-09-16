@@ -1,0 +1,353 @@
+{
+  "seed": 10203,
+  "sample_rate": 48000,
+  "source_sha256": "ea42758896de04a5522b8edf4fd74bdee8dea25a29680815be6a00cc9ce1b252",
+  "description": "Identical observed-mixture analysis in both channels; one common adaptive mask filters known clean and noise separately. Synthetic fixtures, not speech-quality scores.",
+  "variants": [
+    {
+      "name": "baseline",
+      "seconds": 0.49808120797388256,
+      "status": {
+        "abi": 1,
+        "generation": 1,
+        "attempt": 1,
+        "loading": false,
+        "success": true,
+        "error": "",
+        "bypass": false,
+        "squelch": false,
+        "harmonics": false,
+        "runtime_fault": false,
+        "port": 52381,
+        "sample_rate": 48000,
+        "channels": 2,
+        "bandwidth": 6000,
+        "fft": 512,
+        "hop": 128,
+        "block": 8192,
+        "frames": 192,
+        "bins": 257,
+        "transform": "rfft",
+        "analysis_mode": "baseline",
+        "guide_threads": 0,
+        "guide_fft": 0,
+        "guide_bins": 0,
+        "guide_frames": 0,
+        "guide_hop": 0,
+        "guide_coverage_hz": 0,
+        "viewer": false,
+        "viewer_error": "",
+        "latency_samples": 16768,
+        "blocks_processed": 108,
+        "faults": 0,
+        "last_block_ns": 2898291,
+        "peak_block_ns": 7706791,
+        "sha256": "b7d1af097710d15788d8fd22133b85faafe3758456bc7ff53f3ebcfda661918c"
+      },
+      "metrics": [
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "voiced",
+          "clean_gain_db": -24.9382381439209,
+          "noise_gain_db": -27.793109893798828,
+          "clean_distortion_ratio": 0.9353997707366943,
+          "mixture_error_ratio": 0.9337075352668762
+        },
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -14.188519477844238,
+          "noise_gain_db": -16.685575485229492,
+          "clean_distortion_ratio": 0.7461190819740295,
+          "mixture_error_ratio": 0.7505677938461304
+        },
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -45.37651062011719,
+          "noise_gain_db": -32.424354553222656,
+          "clean_distortion_ratio": 0.9894174933433533,
+          "mixture_error_ratio": 1.0185437202453613
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "voiced",
+          "clean_gain_db": -3.8649749755859375,
+          "noise_gain_db": -9.60157299041748,
+          "clean_distortion_ratio": 0.2870827615261078,
+          "mixture_error_ratio": 0.34950998425483704
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -0.6217550039291382,
+          "noise_gain_db": -7.02390718460083,
+          "clean_distortion_ratio": 0.02420186996459961,
+          "mixture_error_ratio": 0.11530686914920807
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -47.267181396484375,
+          "noise_gain_db": -49.072486877441406,
+          "clean_distortion_ratio": 0.9917631149291992,
+          "mixture_error_ratio": 0.9916560053825378
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "voiced",
+          "clean_gain_db": -1.2879250049591064,
+          "noise_gain_db": -9.13221549987793,
+          "clean_distortion_ratio": 0.1008339524269104,
+          "mixture_error_ratio": 0.22301699221134186
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -0.362027108669281,
+          "noise_gain_db": -9.442831993103027,
+          "clean_distortion_ratio": 0.012769111432135105,
+          "mixture_error_ratio": 0.11186165362596512
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -49.51837921142578,
+          "noise_gain_db": -49.931087493896484,
+          "clean_distortion_ratio": 0.993659496307373,
+          "mixture_error_ratio": 0.9952070713043213
+        }
+      ]
+    },
+    {
+      "name": "surface",
+      "seconds": 67.75363954203203,
+      "status": {
+        "abi": 1,
+        "generation": 1,
+        "attempt": 1,
+        "loading": false,
+        "success": true,
+        "error": "",
+        "bypass": false,
+        "squelch": false,
+        "harmonics": false,
+        "runtime_fault": false,
+        "port": 52381,
+        "sample_rate": 48000,
+        "channels": 2,
+        "bandwidth": 6000,
+        "fft": 512,
+        "hop": 128,
+        "block": 8192,
+        "frames": 192,
+        "bins": 257,
+        "transform": "rfft",
+        "analysis_mode": "registered",
+        "guide_threads": 3,
+        "guide_fft": 2048,
+        "guide_bins": 2048,
+        "guide_frames": 48,
+        "guide_hop": 512,
+        "guide_coverage_hz": 24000,
+        "viewer": false,
+        "viewer_error": "",
+        "latency_samples": 16768,
+        "blocks_processed": 108,
+        "faults": 0,
+        "last_block_ns": 530067250,
+        "peak_block_ns": 715957875,
+        "sha256": "8e6b989cc816d0a0ca16b948ebd11158eb91dd38e83a14ae4e9c689f80d7ef87"
+      },
+      "metrics": [
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "voiced",
+          "clean_gain_db": -4.33111572265625,
+          "noise_gain_db": -3.8535401821136475,
+          "clean_distortion_ratio": 0.2765321135520935,
+          "mixture_error_ratio": 0.3633975386619568
+        },
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -3.5024988651275635,
+          "noise_gain_db": -3.809734582901001,
+          "clean_distortion_ratio": 0.20830804109573364,
+          "mixture_error_ratio": 0.28619763255119324
+        },
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -0.9384967088699341,
+          "noise_gain_db": -4.611954212188721,
+          "clean_distortion_ratio": 0.013781600631773472,
+          "mixture_error_ratio": 16.885358810424805
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "voiced",
+          "clean_gain_db": -5.464558124542236,
+          "noise_gain_db": -5.292780876159668,
+          "clean_distortion_ratio": 0.3224814832210541,
+          "mixture_error_ratio": 0.4745679199695587
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -3.348412275314331,
+          "noise_gain_db": -4.5107808113098145,
+          "clean_distortion_ratio": 0.1963353157043457,
+          "mixture_error_ratio": 0.35468295216560364
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -2.915235996246338,
+          "noise_gain_db": -5.2112226486206055,
+          "clean_distortion_ratio": 0.08335015922784805,
+          "mixture_error_ratio": 35.492549896240234
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "voiced",
+          "clean_gain_db": -5.511139869689941,
+          "noise_gain_db": -5.3584184646606445,
+          "clean_distortion_ratio": 0.33065980672836304,
+          "mixture_error_ratio": 0.6213311553001404
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -3.458465576171875,
+          "noise_gain_db": -4.906906604766846,
+          "clean_distortion_ratio": 0.20681339502334595,
+          "mixture_error_ratio": 0.48915114998817444
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -2.4382684230804443,
+          "noise_gain_db": -5.123385906219482,
+          "clean_distortion_ratio": 0.06292601674795151,
+          "mixture_error_ratio": 71.94615936279297
+        }
+      ]
+    },
+    {
+      "name": "occupancy",
+      "seconds": 72.17805783287622,
+      "status": {
+        "abi": 1,
+        "generation": 1,
+        "attempt": 1,
+        "loading": false,
+        "success": true,
+        "error": "",
+        "bypass": false,
+        "squelch": false,
+        "harmonics": false,
+        "runtime_fault": false,
+        "port": 52381,
+        "sample_rate": 48000,
+        "channels": 2,
+        "bandwidth": 6000,
+        "fft": 512,
+        "hop": 128,
+        "block": 8192,
+        "frames": 192,
+        "bins": 257,
+        "transform": "rfft",
+        "analysis_mode": "registered",
+        "guide_threads": 3,
+        "guide_fft": 2048,
+        "guide_bins": 2048,
+        "guide_frames": 48,
+        "guide_hop": 512,
+        "guide_coverage_hz": 24000,
+        "viewer": false,
+        "viewer_error": "",
+        "latency_samples": 16768,
+        "blocks_processed": 108,
+        "faults": 0,
+        "last_block_ns": 555294000,
+        "peak_block_ns": 678932084,
+        "sha256": "3d410a13524de561ba9c013549954bdfcd83f0807605ad7e512d02943ccc306d"
+      },
+      "metrics": [
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "voiced",
+          "clean_gain_db": -5.913697242736816,
+          "noise_gain_db": -6.418268203735352,
+          "clean_distortion_ratio": 0.5069469213485718,
+          "mixture_error_ratio": 0.5535672307014465
+        },
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -7.1288533210754395,
+          "noise_gain_db": -8.899198532104492,
+          "clean_distortion_ratio": 0.47583964467048645,
+          "mixture_error_ratio": 0.5017552375793457
+        },
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -2.8542139530181885,
+          "noise_gain_db": -9.104854583740234,
+          "clean_distortion_ratio": 0.0823700800538063,
+          "mixture_error_ratio": 6.116301536560059
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "voiced",
+          "clean_gain_db": -8.019371032714844,
+          "noise_gain_db": -10.10163402557373,
+          "clean_distortion_ratio": 0.5801061391830444,
+          "mixture_error_ratio": 0.6248769760131836
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -6.964794158935547,
+          "noise_gain_db": -9.277161598205566,
+          "clean_distortion_ratio": 0.4732488691806793,
+          "mixture_error_ratio": 0.522038996219635
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -4.519262790679932,
+          "noise_gain_db": -9.62831974029541,
+          "clean_distortion_ratio": 0.18655607104301453,
+          "mixture_error_ratio": 12.931729316711426
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "voiced",
+          "clean_gain_db": -8.016048431396484,
+          "noise_gain_db": -9.9195556640625,
+          "clean_distortion_ratio": 0.5786963105201721,
+          "mixture_error_ratio": 0.6737287044525146
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -6.991710662841797,
+          "noise_gain_db": -9.344348907470703,
+          "clean_distortion_ratio": 0.4733794927597046,
+          "mixture_error_ratio": 0.5714405179023743
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -3.975264072418213,
+          "noise_gain_db": -9.35188102722168,
+          "clean_distortion_ratio": 0.1612507700920105,
+          "mixture_error_ratio": 27.291650772094727
+        }
+      ]
+    }
+  ]
+}

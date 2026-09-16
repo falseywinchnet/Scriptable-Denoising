@@ -1,0 +1,123 @@
+{
+  "seed": 10203,
+  "sample_rate": 48000,
+  "source_sha256": "abb2b1acb7c24bb3ab2d43752d70a4440beccf783e9225624a8277fa6408b1a0",
+  "description": "Identical observed-mixture analysis in both channels; one common adaptive mask filters known clean and noise separately. Synthetic fixtures, not speech-quality scores.",
+  "variants": [
+    {
+      "name": "shape-soft",
+      "seconds": 91.10744175012223,
+      "status": {
+        "abi": 1,
+        "generation": 1,
+        "attempt": 1,
+        "loading": false,
+        "success": true,
+        "error": "",
+        "bypass": false,
+        "squelch": false,
+        "harmonics": false,
+        "runtime_fault": false,
+        "port": 64370,
+        "sample_rate": 48000,
+        "channels": 2,
+        "bandwidth": 6000,
+        "fft": 512,
+        "hop": 128,
+        "block": 8192,
+        "frames": 192,
+        "bins": 257,
+        "transform": "rfft",
+        "analysis_mode": "registered",
+        "guide_threads": 3,
+        "guide_fft": 2048,
+        "guide_bins": 2048,
+        "guide_frames": 48,
+        "guide_hop": 512,
+        "guide_coverage_hz": 24000,
+        "viewer": false,
+        "viewer_error": "",
+        "latency_samples": 16768,
+        "blocks_processed": 108,
+        "faults": 0,
+        "last_block_ns": 657056209,
+        "peak_block_ns": 859053791,
+        "sha256": "b0fa5df8e88331d71afc5dfca4326d1fbd3239e6e0d432dc73c7c1c01a4e32e0"
+      },
+      "metrics": [
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "voiced",
+          "clean_gain_db": -7.644310474395752,
+          "noise_gain_db": -10.094542503356934,
+          "clean_distortion_ratio": 0.5545939207077026,
+          "mixture_error_ratio": 0.5728858709335327
+        },
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -6.82738733291626,
+          "noise_gain_db": -8.396986961364746,
+          "clean_distortion_ratio": 0.45821329951286316,
+          "mixture_error_ratio": 0.4874964952468872
+        },
+        {
+          "cutoff_hz": 1200.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -5.896907806396484,
+          "noise_gain_db": -13.570889472961426,
+          "clean_distortion_ratio": 0.2650316655635834,
+          "mixture_error_ratio": 2.463913917541504
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "voiced",
+          "clean_gain_db": -8.11731243133545,
+          "noise_gain_db": -12.74099349975586,
+          "clean_distortion_ratio": 0.5772960782051086,
+          "mixture_error_ratio": 0.6020844578742981
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -6.765782833099365,
+          "noise_gain_db": -11.303099632263184,
+          "clean_distortion_ratio": 0.45576760172843933,
+          "mixture_error_ratio": 0.48519834876060486
+        },
+        {
+          "cutoff_hz": 3000.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -4.732721328735352,
+          "noise_gain_db": -14.190521240234375,
+          "clean_distortion_ratio": 0.19286179542541504,
+          "mixture_error_ratio": 4.602529048919678
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "voiced",
+          "clean_gain_db": -8.01646900177002,
+          "noise_gain_db": -13.576559066772461,
+          "clean_distortion_ratio": 0.5718170404434204,
+          "mixture_error_ratio": 0.6113696098327637
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "continuous_fm",
+          "clean_gain_db": -6.727299690246582,
+          "noise_gain_db": -12.68944263458252,
+          "clean_distortion_ratio": 0.45562174916267395,
+          "mixture_error_ratio": 0.49914225935935974
+        },
+        {
+          "cutoff_hz": 6000.0,
+          "kind": "weak_chirp",
+          "clean_gain_db": -5.665215492248535,
+          "noise_gain_db": -14.966018676757812,
+          "clean_distortion_ratio": 0.24763168394565582,
+          "mixture_error_ratio": 7.668390274047852
+        }
+      ]
+    }
+  ]
+}

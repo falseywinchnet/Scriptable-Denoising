@@ -1,0 +1,5005 @@
+{
+  "source_sha256": "4ef143eafa21afa1c8bd4f6db1ca7cba62c74a2dbf9d2b93a10fa617b46cb7a9",
+  "quantile": 0.2,
+  "context_seconds": 0.512,
+  "emitted_frames": 16,
+  "quantile_frames": 42,
+  "calibration": "8 independent white-noise contexts; candidate local temporal q20; no cutoff input",
+  "heldout_trials_per_case": 12,
+  "geometry": {
+    "sample_rate": 48000,
+    "guide_fft": 2048,
+    "guide_hop": 512,
+    "guide_rows": 48,
+    "guide_bins": 2048,
+    "guard_bins": 4,
+    "flank_bins": 16
+  },
+  "driver_sha256": "33c94b27cdad9eb71c290681d09870e4435e93c6287a90d25f1b6228f406f87c",
+  "native_sha256": "ee0b069d9e81b1edb80d94953ad3c9b510615188f5cb839a5e1ddb66e87b0210",
+  "invariants": {
+    "diagonal_amplitude_scale_max_ratio_error": 7.105427357601002e-15,
+    "appended_zero_bins_max_ratio_error": 0.0,
+    "zero_input": "abstention"
+  },
+  "null_thresholds": {
+    "joint": 3.9573825733594097,
+    "joint_pooled": 2.9966049349020034,
+    "cell": 3.8732338133603585,
+    "pooled": 2.922480373678371,
+    "nominal_cell_false_alarm": 0.01
+  },
+  "wrong_halfnormal_ratio_threshold": 10.167194618239618,
+  "wrong_halfnormal_empirical_false_alarm": 0.0,
+  "cases": [
+    {
+      "kind": "noise",
+      "cutoff_hz": 500.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.0,
+          "frame_fraction_with_any_seed": 0.0,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          }
+        },
+        {
+          "seed_fraction": 0.0,
+          "frame_fraction_with_any_seed": 0.0,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          }
+        },
+        {
+          "seed_fraction": 0.0,
+          "frame_fraction_with_any_seed": 0.0,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.003676470588235294,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          }
+        },
+        {
+          "seed_fraction": 0.015625,
+          "frame_fraction_with_any_seed": 0.125,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0078125,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.003676470588235294,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          }
+        },
+        {
+          "seed_fraction": 0.0,
+          "frame_fraction_with_any_seed": 0.0,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.01838235294117647,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.014705882352941176,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011029411764705883,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.0078125,
+          "frame_fraction_with_any_seed": 0.0625,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.015625,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.015625,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition": {
+            "seed_fraction": 0.014705882352941176,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.003676470588235294,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011029411764705883,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.0078125,
+          "frame_fraction_with_any_seed": 0.0625,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0078125,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.003676470588235294,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          }
+        },
+        {
+          "seed_fraction": 0.0,
+          "frame_fraction_with_any_seed": 0.0,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          }
+        },
+        {
+          "seed_fraction": 0.0234375,
+          "frame_fraction_with_any_seed": 0.125,
+          "pooled": {
+            "seed_fraction": 0.0234375,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint": {
+            "seed_fraction": 0.015625,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.015625,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition": {
+            "seed_fraction": 0.01838235294117647,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.014705882352941176,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.014705882352941176,
+            "frame_fraction_with_any_seed": 0.1875
+          }
+        },
+        {
+          "seed_fraction": 0.0,
+          "frame_fraction_with_any_seed": 0.0,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.003676470588235294,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.003676470588235294,
+            "frame_fraction_with_any_seed": 0.0625
+          }
+        },
+        {
+          "seed_fraction": 0.0078125,
+          "frame_fraction_with_any_seed": 0.0625,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.011029411764705883,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.014705882352941176,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011029411764705883,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.0,
+          "frame_fraction_with_any_seed": 0.0,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.011029411764705883,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.029411764705882353,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007352941176470588,
+            "frame_fraction_with_any_seed": 0.0625
+          }
+        }
+      ]
+    },
+    {
+      "kind": "noise",
+      "cutoff_hz": 1200.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.00125,
+          "frame_fraction_with_any_seed": 0.0625,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.00125,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.003048780487804878,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.001524390243902439,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.003048780487804878,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.005,
+          "frame_fraction_with_any_seed": 0.1875,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0025,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.010670731707317074,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.013719512195121951,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007621951219512195,
+            "frame_fraction_with_any_seed": 0.1875
+          }
+        },
+        {
+          "seed_fraction": 0.00125,
+          "frame_fraction_with_any_seed": 0.0625,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.0025,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.005,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition": {
+            "seed_fraction": 0.004573170731707317,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.003048780487804878,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.00625,
+          "frame_fraction_with_any_seed": 0.25,
+          "pooled": {
+            "seed_fraction": 0.0075,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "joint": {
+            "seed_fraction": 0.005,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00625,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition": {
+            "seed_fraction": 0.004573170731707317,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.001524390243902439,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.004573170731707317,
+            "frame_fraction_with_any_seed": 0.1875
+          }
+        },
+        {
+          "seed_fraction": 0.00625,
+          "frame_fraction_with_any_seed": 0.125,
+          "pooled": {
+            "seed_fraction": 0.0075,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint": {
+            "seed_fraction": 0.0075,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0075,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition": {
+            "seed_fraction": 0.003048780487804878,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.003048780487804878,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.004573170731707317,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.0075,
+          "frame_fraction_with_any_seed": 0.3125,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.00625,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00125,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition": {
+            "seed_fraction": 0.006097560975609756,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.004573170731707317,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.004573170731707317,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.01375,
+          "frame_fraction_with_any_seed": 0.375,
+          "pooled": {
+            "seed_fraction": 0.0175,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint": {
+            "seed_fraction": 0.01625,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0175,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition": {
+            "seed_fraction": 0.01524390243902439,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.010670731707317074,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.010670731707317074,
+            "frame_fraction_with_any_seed": 0.25
+          }
+        },
+        {
+          "seed_fraction": 0.00375,
+          "frame_fraction_with_any_seed": 0.125,
+          "pooled": {
+            "seed_fraction": 0.005,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint": {
+            "seed_fraction": 0.00375,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.005,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          }
+        },
+        {
+          "seed_fraction": 0.0075,
+          "frame_fraction_with_any_seed": 0.25,
+          "pooled": {
+            "seed_fraction": 0.00625,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "joint": {
+            "seed_fraction": 0.0075,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.005,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition": {
+            "seed_fraction": 0.01676829268292683,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.018292682926829267,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.01524390243902439,
+            "frame_fraction_with_any_seed": 0.3125
+          }
+        },
+        {
+          "seed_fraction": 0.0025,
+          "frame_fraction_with_any_seed": 0.125,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.00375,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.013719512195121951,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.013719512195121951,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.013719512195121951,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.00375,
+          "frame_fraction_with_any_seed": 0.125,
+          "pooled": {
+            "seed_fraction": 0.00375,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint": {
+            "seed_fraction": 0.0025,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0025,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition": {
+            "seed_fraction": 0.003048780487804878,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.003048780487804878,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.01125,
+          "frame_fraction_with_any_seed": 0.3125,
+          "pooled": {
+            "seed_fraction": 0.01375,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint": {
+            "seed_fraction": 0.01,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.02,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition": {
+            "seed_fraction": 0.009146341463414634,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.01524390243902439,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009146341463414634,
+            "frame_fraction_with_any_seed": 0.3125
+          }
+        }
+      ]
+    },
+    {
+      "kind": "noise",
+      "cutoff_hz": 3000.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.006329113924050633,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.004746835443037975,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint": {
+            "seed_fraction": 0.006724683544303798,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.004746835443037975,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.4375
+          }
+        },
+        {
+          "seed_fraction": 0.010680379746835443,
+          "frame_fraction_with_any_seed": 0.75,
+          "pooled": {
+            "seed_fraction": 0.010284810126582278,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.007515822784810127,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00949367088607595,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.011529126213592233,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.00435126582278481,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.0007911392405063291,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint": {
+            "seed_fraction": 0.005142405063291139,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.002768987341772152,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007281553398058253,
+            "frame_fraction_with_any_seed": 0.5
+          }
+        },
+        {
+          "seed_fraction": 0.005142405063291139,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.007911392405063292,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.007120253164556962,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00949367088607595,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.1875
+          }
+        },
+        {
+          "seed_fraction": 0.005933544303797469,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.007515822784810127,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.005537974683544304,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.008306962025316455,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.013349514563106795,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.017597087378640776,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011529126213592233,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        },
+        {
+          "seed_fraction": 0.0122626582278481,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.009098101265822785,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.012658227848101266,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.009889240506329115,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.007281553398058253,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.3125
+          }
+        },
+        {
+          "seed_fraction": 0.007515822784810127,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.006724683544303798,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint": {
+            "seed_fraction": 0.007120253164556962,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.005142405063291139,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.003955696202531646,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.002768987341772152,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.01305379746835443,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.014240506329113924,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "joint": {
+            "seed_fraction": 0.01305379746835443,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.013449367088607595,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.0122626582278481,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.014240506329113924,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.010284810126582278,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.012658227848101266,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.5
+          }
+        },
+        {
+          "seed_fraction": 0.003955696202531646,
+          "frame_fraction_with_any_seed": 0.375,
+          "pooled": {
+            "seed_fraction": 0.003955696202531646,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "joint": {
+            "seed_fraction": 0.0031645569620253164,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0031645569620253164,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          }
+        },
+        {
+          "seed_fraction": 0.010680379746835443,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.010284810126582278,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.011867088607594937,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.011867088607594937,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.016383495145631068,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        }
+      ]
+    },
+    {
+      "kind": "noise",
+      "cutoff_hz": 6000.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.005749258160237389,
+          "frame_fraction_with_any_seed": 0.875,
+          "pooled": {
+            "seed_fraction": 0.005934718100890208,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "joint": {
+            "seed_fraction": 0.006491097922848665,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.007603857566765578,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.014329268292682927,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.016158536585365854,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.01402439024390244,
+            "frame_fraction_with_any_seed": 0.8125
+          }
+        },
+        {
+          "seed_fraction": 0.00908753709198813,
+          "frame_fraction_with_any_seed": 0.875,
+          "pooled": {
+            "seed_fraction": 0.009458456973293769,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint": {
+            "seed_fraction": 0.008531157270029673,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00908753709198813,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.010365853658536586,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.008841463414634146,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011280487804878048,
+            "frame_fraction_with_any_seed": 0.75
+          }
+        },
+        {
+          "seed_fraction": 0.00741839762611276,
+          "frame_fraction_with_any_seed": 0.75,
+          "pooled": {
+            "seed_fraction": 0.007047477744807121,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.007232937685459941,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.006120178041543026,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.010670731707317074,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.010670731707317074,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.010365853658536586,
+            "frame_fraction_with_any_seed": 0.8125
+          }
+        },
+        {
+          "seed_fraction": 0.006862017804154303,
+          "frame_fraction_with_any_seed": 0.875,
+          "pooled": {
+            "seed_fraction": 0.005007418397626113,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint": {
+            "seed_fraction": 0.006862017804154303,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.005007418397626113,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.014939024390243902,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.014329268292682927,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.01402439024390244,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.013538575667655787,
+          "frame_fraction_with_any_seed": 0.9375,
+          "pooled": {
+            "seed_fraction": 0.014094955489614243,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint": {
+            "seed_fraction": 0.012611275964391691,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.013909495548961424,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition": {
+            "seed_fraction": 0.01097560975609756,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.008231707317073171,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011890243902439025,
+            "frame_fraction_with_any_seed": 0.8125
+          }
+        },
+        {
+          "seed_fraction": 0.01112759643916914,
+          "frame_fraction_with_any_seed": 0.9375,
+          "pooled": {
+            "seed_fraction": 0.009829376854599406,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint": {
+            "seed_fraction": 0.012425816023738873,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.01112759643916914,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "transition": {
+            "seed_fraction": 0.010365853658536586,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.009451219512195122,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.008841463414634146,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        },
+        {
+          "seed_fraction": 0.00908753709198813,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.008716617210682493,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint": {
+            "seed_fraction": 0.00908753709198813,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.008160237388724036,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition": {
+            "seed_fraction": 0.013109756097560975,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.013109756097560975,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.012195121951219513,
+            "frame_fraction_with_any_seed": 0.8125
+          }
+        },
+        {
+          "seed_fraction": 0.00556379821958457,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.003152818991097923,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.004821958456973294,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.002410979228486647,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition": {
+            "seed_fraction": 0.007317073170731708,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.00701219512195122,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.005792682926829268,
+            "frame_fraction_with_any_seed": 0.75
+          }
+        },
+        {
+          "seed_fraction": 0.01298219584569733,
+          "frame_fraction_with_any_seed": 0.9375,
+          "pooled": {
+            "seed_fraction": 0.008716617210682493,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.012611275964391691,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00908753709198813,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition": {
+            "seed_fraction": 0.011890243902439025,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.01798780487804878,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.010670731707317074,
+            "frame_fraction_with_any_seed": 0.75
+          }
+        },
+        {
+          "seed_fraction": 0.010200296735905045,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.01094213649851632,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint": {
+            "seed_fraction": 0.009458456973293769,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.009829376854599406,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.012804878048780487,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.014939024390243902,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011280487804878048,
+            "frame_fraction_with_any_seed": 0.8125
+          }
+        },
+        {
+          "seed_fraction": 0.00741839762611276,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.007789317507418398,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "joint": {
+            "seed_fraction": 0.007047477744807121,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.006305637982195846,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition": {
+            "seed_fraction": 0.010670731707317074,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.006097560975609756,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.010670731707317074,
+            "frame_fraction_with_any_seed": 0.6875
+          }
+        },
+        {
+          "seed_fraction": 0.008902077151335312,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.01279673590504451,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint": {
+            "seed_fraction": 0.010200296735905045,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.011683976261127596,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "transition": {
+            "seed_fraction": 0.005182926829268293,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024390243902439024,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.004573170731707317,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        }
+      ]
+    },
+    {
+      "kind": "noise",
+      "cutoff_hz": 12000.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.00935251798561151,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.009892086330935251,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.009622302158273381,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.010881294964028777,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.014786585365853658,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.017225609756097562,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.013414634146341463,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.011600719424460431,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.010701438848920863,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint": {
+            "seed_fraction": 0.011151079136690648,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.010971223021582734,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.015091463414634146,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.015396341463414634,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.012804878048780487,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.010341726618705036,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.01025179856115108,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.010701438848920863,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00935251798561151,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.012804878048780487,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.014481707317073171,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011432926829268292,
+            "frame_fraction_with_any_seed": 0.9375
+          }
+        },
+        {
+          "seed_fraction": 0.010701438848920863,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.008992805755395683,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.010161870503597122,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.008093525179856115,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.012195121951219513,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.015548780487804878,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011432926829268292,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.011600719424460431,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.009262589928057554,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.011600719424460431,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.010881294964028777,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.008689024390243903,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.007469512195121951,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007317073170731708,
+            "frame_fraction_with_any_seed": 0.9375
+          }
+        },
+        {
+          "seed_fraction": 0.010161870503597122,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.010161870503597122,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.01106115107913669,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.010161870503597122,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.012042682926829269,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.014481707317073171,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.010670731707317074,
+            "frame_fraction_with_any_seed": 0.9375
+          }
+        },
+        {
+          "seed_fraction": 0.010611510791366907,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.009802158273381295,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint": {
+            "seed_fraction": 0.01052158273381295,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.008902877697841727,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition": {
+            "seed_fraction": 0.005792682926829268,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.004573170731707317,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.005792682926829268,
+            "frame_fraction_with_any_seed": 0.875
+          }
+        },
+        {
+          "seed_fraction": 0.008633093525179856,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.005215827338129497,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "joint": {
+            "seed_fraction": 0.007823741007194244,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.004316546762589928,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition": {
+            "seed_fraction": 0.009451219512195122,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.010670731707317074,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.00975609756097561,
+            "frame_fraction_with_any_seed": 0.9375
+          }
+        },
+        {
+          "seed_fraction": 0.011510791366906475,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.011241007194244604,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.012050359712230216,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.012589928057553957,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.008689024390243903,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.007317073170731708,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007469512195121951,
+            "frame_fraction_with_any_seed": 0.875
+          }
+        },
+        {
+          "seed_fraction": 0.011330935251798561,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.011420863309352517,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.010161870503597122,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.011241007194244604,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition": {
+            "seed_fraction": 0.013567073170731707,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.014481707317073171,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.013719512195121951,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.009532374100719424,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.00935251798561151,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.008992805755395683,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.009172661870503597,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.012804878048780487,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.013719512195121951,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.012042682926829269,
+            "frame_fraction_with_any_seed": 0.875
+          }
+        },
+        {
+          "seed_fraction": 0.008453237410071942,
+          "frame_fraction_with_any_seed": 0.9375,
+          "pooled": {
+            "seed_fraction": 0.007553956834532374,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint": {
+            "seed_fraction": 0.008723021582733814,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.008633093525179856,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "transition": {
+            "seed_fraction": 0.007164634146341464,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.004420731707317073,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.00625,
+            "frame_fraction_with_any_seed": 0.875
+          }
+        }
+      ]
+    },
+    {
+      "kind": "noise",
+      "cutoff_hz": null,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.01005789786223278,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.010391923990498812,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.010800178147268408,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.010985748218527316,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.011802256532066508,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.01235896674584323,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.01235896674584323,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.013323931116389548,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.008981591448931117,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.009092933491686462,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.008907363420427554,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00853622327790974,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.011987826603325416,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.011765142517814726,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.011765142517814726,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.011950712589073634,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.010429038004750594,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.01057749406175772,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.010280581947743467,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.010651722090261283,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.010651722090261283,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.01109709026128266,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.010280581947743467,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.011394002375296912,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.009946555819477435,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.00809085510688836,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.00957541567695962,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.007608372921615202,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.009389845605700713,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.008387767220902613,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.009389845605700713,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00809085510688836,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.011690914489311165,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.01105997624703088,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.011616686460807601,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.011208432304038004,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.010948634204275534,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.011171318289786224,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.010911520190023753,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.010651722090261283,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.010874406175771971,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.01105997624703088,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.010911520190023753,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.011208432304038004,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        },
+        {
+          "seed_fraction": 0.008424881235154395,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.009018705463182898,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.007793942992874109,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.007682600950118764,
+            "frame_fraction_with_any_seed": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "kind": "noise",
+      "cutoff_hz": 3000.0,
+      "filter": "brick",
+      "trials": [
+        {
+          "seed_fraction": 0.005933544303797469,
+          "frame_fraction_with_any_seed": 0.375,
+          "pooled": {
+            "seed_fraction": 0.006329113924050633,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.006724683544303798,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.006724683544303798,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007888349514563107,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.006724683544303798,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.009098101265822785,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.007120253164556962,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00870253164556962,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.007888349514563107,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.011529126213592233,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007888349514563107,
+            "frame_fraction_with_any_seed": 0.4375
+          }
+        },
+        {
+          "seed_fraction": 0.001977848101265823,
+          "frame_fraction_with_any_seed": 0.3125,
+          "pooled": {
+            "seed_fraction": 0.00039556962025316455,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "joint": {
+            "seed_fraction": 0.001977848101265823,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00039556962025316455,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.00424757281553398,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.3125
+          }
+        },
+        {
+          "seed_fraction": 0.005933544303797469,
+          "frame_fraction_with_any_seed": 0.5,
+          "pooled": {
+            "seed_fraction": 0.006329113924050633,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint": {
+            "seed_fraction": 0.006329113924050633,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.006329113924050633,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          }
+        },
+        {
+          "seed_fraction": 0.007120253164556962,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.005142405063291139,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint": {
+            "seed_fraction": 0.007120253164556962,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.005933544303797469,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          }
+        },
+        {
+          "seed_fraction": 0.01305379746835443,
+          "frame_fraction_with_any_seed": 0.75,
+          "pooled": {
+            "seed_fraction": 0.00949367088607595,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.0122626582278481,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0122626582278481,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0012135922330097086,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.005933544303797469,
+          "frame_fraction_with_any_seed": 0.3125,
+          "pooled": {
+            "seed_fraction": 0.007911392405063292,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.004746835443037975,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.004746835443037975,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition": {
+            "seed_fraction": 0.0006067961165048543,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0012135922330097086,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0006067961165048543,
+            "frame_fraction_with_any_seed": 0.0625
+          }
+        },
+        {
+          "seed_fraction": 0.002768987341772152,
+          "frame_fraction_with_any_seed": 0.25,
+          "pooled": {
+            "seed_fraction": 0.0015822784810126582,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint": {
+            "seed_fraction": 0.002768987341772152,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.001977848101265823,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition": {
+            "seed_fraction": 0.0012135922330097086,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0012135922330097086,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.009889240506329115,
+          "frame_fraction_with_any_seed": 0.5,
+          "pooled": {
+            "seed_fraction": 0.008306962025316455,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.009098101265822785,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.009098101265822785,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition": {
+            "seed_fraction": 0.0012135922330097086,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.125
+          }
+        },
+        {
+          "seed_fraction": 0.011867088607594937,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.013449367088607595,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.009098101265822785,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.011471518987341773,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.00424757281553398,
+            "frame_fraction_with_any_seed": 0.1875
+          }
+        },
+        {
+          "seed_fraction": 0.004746835443037975,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.005142405063291139,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint": {
+            "seed_fraction": 0.00435126582278481,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00435126582278481,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition": {
+            "seed_fraction": 0.0006067961165048543,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0006067961165048543,
+            "frame_fraction_with_any_seed": 0.0625
+          }
+        },
+        {
+          "seed_fraction": 0.008306962025316455,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.007911392405063292,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.009098101265822785,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.008306962025316455,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.007888349514563107,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.013956310679611651,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.006674757281553398,
+            "frame_fraction_with_any_seed": 0.4375
+          }
+        }
+      ]
+    },
+    {
+      "kind": "colored",
+      "cutoff_hz": 3000.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.004746835443037975,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.005142405063291139,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint": {
+            "seed_fraction": 0.005537974683544304,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00435126582278481,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition": {
+            "seed_fraction": 0.010922330097087379,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.007281553398058253,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        },
+        {
+          "seed_fraction": 0.010284810126582278,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.014240506329113924,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.010680379746835443,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.014240506329113924,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.010922330097087379,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007888349514563107,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.0011867088607594937,
+          "frame_fraction_with_any_seed": 0.1875,
+          "pooled": {
+            "seed_fraction": 0.00039556962025316455,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "joint": {
+            "seed_fraction": 0.0011867088607594937,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00039556962025316455,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition": {
+            "seed_fraction": 0.011529126213592233,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.010922330097087379,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.010922330097087379,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        },
+        {
+          "seed_fraction": 0.008306962025316455,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.009889240506329115,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "joint": {
+            "seed_fraction": 0.008306962025316455,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.009889240506329115,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.3125
+          }
+        },
+        {
+          "seed_fraction": 0.005537974683544304,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.004746835443037975,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint": {
+            "seed_fraction": 0.006329113924050633,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.005933544303797469,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition": {
+            "seed_fraction": 0.012742718446601941,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.012135922330097087,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        },
+        {
+          "seed_fraction": 0.0122626582278481,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.012658227848101266,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "joint": {
+            "seed_fraction": 0.011075949367088608,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.011075949367088608,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.007888349514563107,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.006674757281553398,
+            "frame_fraction_with_any_seed": 0.4375
+          }
+        },
+        {
+          "seed_fraction": 0.011075949367088608,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.007120253164556962,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint": {
+            "seed_fraction": 0.009889240506329115,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.004746835443037975,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition": {
+            "seed_fraction": 0.006674757281553398,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0012135922330097086,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0048543689320388345,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.002768987341772152,
+          "frame_fraction_with_any_seed": 0.1875,
+          "pooled": {
+            "seed_fraction": 0.0015822784810126582,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint": {
+            "seed_fraction": 0.0031645569620253164,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.001977848101265823,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition": {
+            "seed_fraction": 0.007888349514563107,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.006674757281553398,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        },
+        {
+          "seed_fraction": 0.013844936708860759,
+          "frame_fraction_with_any_seed": 0.75,
+          "pooled": {
+            "seed_fraction": 0.011471518987341773,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.011867088607594937,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.010284810126582278,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007281553398058253,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.009889240506329115,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.010680379746835443,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint": {
+            "seed_fraction": 0.009098101265822785,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00870253164556962,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition": {
+            "seed_fraction": 0.006674757281553398,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.005142405063291139,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.005142405063291139,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint": {
+            "seed_fraction": 0.003560126582278481,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.003560126582278481,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0006067961165048543,
+            "frame_fraction_with_any_seed": 0.0625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.1875
+          }
+        },
+        {
+          "seed_fraction": 0.011867088607594937,
+          "frame_fraction_with_any_seed": 0.75,
+          "pooled": {
+            "seed_fraction": 0.015427215189873418,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint": {
+            "seed_fraction": 0.011867088607594937,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.012658227848101266,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.013956310679611651,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.006674757281553398,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        }
+      ]
+    },
+    {
+      "kind": "impulses",
+      "cutoff_hz": 3000.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.05617088607594937,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.09018987341772151,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.06408227848101265,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.09572784810126582,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition": {
+            "seed_fraction": 0.040655339805825245,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.06978155339805825,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.04247572815533981,
+            "frame_fraction_with_any_seed": 0.5
+          }
+        },
+        {
+          "seed_fraction": 0.054984177215189875,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.08662974683544304,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.05735759493670886,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.09058544303797468,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.05703883495145631,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0904126213592233,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.05157766990291262,
+            "frame_fraction_with_any_seed": 0.5
+          }
+        },
+        {
+          "seed_fraction": 0.04786392405063291,
+          "frame_fraction_with_any_seed": 0.3125,
+          "pooled": {
+            "seed_fraction": 0.0680379746835443,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint": {
+            "seed_fraction": 0.051819620253164556,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.07674050632911393,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition": {
+            "seed_fraction": 0.040655339805825245,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.06674757281553398,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.038834951456310676,
+            "frame_fraction_with_any_seed": 0.3125
+          }
+        },
+        {
+          "seed_fraction": 0.06447784810126582,
+          "frame_fraction_with_any_seed": 0.5,
+          "pooled": {
+            "seed_fraction": 0.11194620253164557,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint": {
+            "seed_fraction": 0.06606012658227849,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.1127373417721519,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition": {
+            "seed_fraction": 0.05764563106796117,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0891990291262136,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.05521844660194175,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.03995253164556962,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.054984177215189875,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.042325949367088604,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.054984177215189875,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition": {
+            "seed_fraction": 0.05643203883495146,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.08616504854368932,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_joint": {
+            "seed_fraction": 0.05461165048543689,
+            "frame_fraction_with_any_seed": 0.4375
+          }
+        },
+        {
+          "seed_fraction": 0.06843354430379747,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.11431962025316456,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.07238924050632911,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.12262658227848101,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition": {
+            "seed_fraction": 0.047936893203883495,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.06674757281553398,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.04975728155339806,
+            "frame_fraction_with_any_seed": 0.6875
+          }
+        },
+        {
+          "seed_fraction": 0.03916139240506329,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.05814873417721519,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.040348101265822785,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.05261075949367089,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.046723300970873786,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.06492718446601942,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_joint": {
+            "seed_fraction": 0.044902912621359224,
+            "frame_fraction_with_any_seed": 0.25
+          }
+        },
+        {
+          "seed_fraction": 0.06329113924050633,
+          "frame_fraction_with_any_seed": 0.3125,
+          "pooled": {
+            "seed_fraction": 0.08900316455696203,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.06487341772151899,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.09572784810126582,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition": {
+            "seed_fraction": 0.05521844660194175,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.08980582524271845,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.05279126213592233,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.06210443037974683,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.09651898734177215,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint": {
+            "seed_fraction": 0.0636867088607595,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.10799050632911393,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition": {
+            "seed_fraction": 0.04308252427184466,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.06371359223300971,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.04247572815533981,
+            "frame_fraction_with_any_seed": 0.3125
+          }
+        },
+        {
+          "seed_fraction": 0.05379746835443038,
+          "frame_fraction_with_any_seed": 0.3125,
+          "pooled": {
+            "seed_fraction": 0.08306962025316456,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.05419303797468354,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.08386075949367089,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition": {
+            "seed_fraction": 0.05339805825242718,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.07888349514563107,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.05157766990291262,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        },
+        {
+          "seed_fraction": 0.051819620253164556,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.07911392405063292,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.05458860759493671,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.08346518987341772,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition": {
+            "seed_fraction": 0.05461165048543689,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.08191747572815535,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.05157766990291262,
+            "frame_fraction_with_any_seed": 0.25
+          }
+        },
+        {
+          "seed_fraction": 0.05419303797468354,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.07911392405063292,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint": {
+            "seed_fraction": 0.06052215189873418,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.08979430379746836,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.05157766990291262,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0825242718446602,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.05279126213592233,
+            "frame_fraction_with_any_seed": 0.375
+          }
+        }
+      ]
+    },
+    {
+      "kind": "noise_step",
+      "cutoff_hz": 3000.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.13528481012658228,
+          "frame_fraction_with_any_seed": 0.5,
+          "pooled": {
+            "seed_fraction": 0.2638449367088608,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint": {
+            "seed_fraction": 0.14280063291139242,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.2749208860759494,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition": {
+            "seed_fraction": 0.1328883495145631,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.23300970873786409,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_joint": {
+            "seed_fraction": 0.1304611650485437,
+            "frame_fraction_with_any_seed": 0.5
+          }
+        },
+        {
+          "seed_fraction": 0.1530854430379747,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.3069620253164557,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.15981012658227847,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.32436708860759494,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.1953883495145631,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.3683252427184466,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_joint": {
+            "seed_fraction": 0.19478155339805825,
+            "frame_fraction_with_any_seed": 0.625
+          }
+        },
+        {
+          "seed_fraction": 0.1495253164556962,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.283623417721519,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.16534810126582278,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.307753164556962,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.1328883495145631,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.2487864077669903,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_joint": {
+            "seed_fraction": 0.1328883495145631,
+            "frame_fraction_with_any_seed": 0.5
+          }
+        },
+        {
+          "seed_fraction": 0.19106012658227847,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.3326740506329114,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.19699367088607594,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.341376582278481,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.18385922330097088,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.3276699029126214,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_joint": {
+            "seed_fraction": 0.1808252427184466,
+            "frame_fraction_with_any_seed": 0.5
+          }
+        },
+        {
+          "seed_fraction": 0.16574367088607594,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.3069620253164557,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.17602848101265822,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.32792721518987344,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.16686893203883496,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.28519417475728154,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.16262135922330098,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        },
+        {
+          "seed_fraction": 0.20609177215189872,
+          "frame_fraction_with_any_seed": 0.75,
+          "pooled": {
+            "seed_fraction": 0.35324367088607594,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "joint": {
+            "seed_fraction": 0.21123417721518986,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.36075949367088606,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition": {
+            "seed_fraction": 0.17475728155339806,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.31978155339805825,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.18385922330097088,
+            "frame_fraction_with_any_seed": 0.625
+          }
+        },
+        {
+          "seed_fraction": 0.20094936708860758,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.3473101265822785,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.21162974683544303,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.35799050632911394,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.13106796116504854,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.2524271844660194,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.1304611650485437,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        },
+        {
+          "seed_fraction": 0.14359177215189872,
+          "frame_fraction_with_any_seed": 0.5,
+          "pooled": {
+            "seed_fraction": 0.2678006329113924,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.14912974683544303,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.27966772151898733,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.16565533980582525,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.33434466019417475,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.16565533980582525,
+            "frame_fraction_with_any_seed": 0.5
+          }
+        },
+        {
+          "seed_fraction": 0.20253164556962025,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.3370253164556962,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.21400316455696203,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.3512658227848101,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.19842233009708737,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.35133495145631066,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.20570388349514562,
+            "frame_fraction_with_any_seed": 0.5
+          }
+        },
+        {
+          "seed_fraction": 0.1906645569620253,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.34335443037974683,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.1997626582278481,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.3560126582278481,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.16686893203883496,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.28762135922330095,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.17900485436893204,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        },
+        {
+          "seed_fraction": 0.1629746835443038,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.2939082278481013,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.1685126582278481,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.31052215189873417,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.18992718446601942,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.36529126213592233,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.19842233009708737,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        },
+        {
+          "seed_fraction": 0.17325949367088608,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.31447784810126583,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.19224683544303797,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.346123417721519,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.18325242718446602,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.33495145631067963,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_joint": {
+            "seed_fraction": 0.1862864077669903,
+            "frame_fraction_with_any_seed": 0.5625
+          }
+        }
+      ]
+    },
+    {
+      "kind": "sparse_tone",
+      "cutoff_hz": 3000.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.03757911392405063,
+          "frame_fraction_with_any_seed": 0.875,
+          "pooled": {
+            "seed_fraction": 0.048259493670886076,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint": {
+            "seed_fraction": 0.040348101265822785,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0490506329113924,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_signal_region_seed_fraction": 0.5833333333333334,
+          "joint_pooled_signal_region_seed_fraction": 0.7333333333333333,
+          "joint_floor_bias_at_tone_db": 0.3317233807273132,
+          "signal_region_seed_fraction": 0.5833333333333334,
+          "signal_region_pooled_seed_fraction": 0.7166666666666667,
+          "floor_bias_at_tone_db": 3.4567385913919018
+        },
+        {
+          "seed_fraction": 0.04153481012658228,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.05775316455696203,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.04272151898734177,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.058544303797468354,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.011529126213592233,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_signal_region_seed_fraction": 0.5833333333333334,
+          "joint_pooled_signal_region_seed_fraction": 0.7666666666666667,
+          "joint_floor_bias_at_tone_db": 0.5341395748351392,
+          "signal_region_seed_fraction": 0.5666666666666667,
+          "signal_region_pooled_seed_fraction": 0.75,
+          "floor_bias_at_tone_db": 2.1379871003583033
+        },
+        {
+          "seed_fraction": 0.03322784810126582,
+          "frame_fraction_with_any_seed": 0.9375,
+          "pooled": {
+            "seed_fraction": 0.038765822784810125,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint": {
+            "seed_fraction": 0.03955696202531646,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.04865506329113924,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007281553398058253,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_signal_region_seed_fraction": 0.5666666666666667,
+          "joint_pooled_signal_region_seed_fraction": 0.7333333333333333,
+          "joint_floor_bias_at_tone_db": -1.5275282548570441,
+          "signal_region_seed_fraction": 0.5666666666666667,
+          "signal_region_pooled_seed_fraction": 0.6833333333333333,
+          "floor_bias_at_tone_db": 2.746993758220539
+        },
+        {
+          "seed_fraction": 0.037183544303797465,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.05102848101265823,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.03916139240506329,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.05221518987341772,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "joint_signal_region_seed_fraction": 0.5666666666666667,
+          "joint_pooled_signal_region_seed_fraction": 0.7166666666666667,
+          "joint_floor_bias_at_tone_db": 2.0546904501712566,
+          "signal_region_seed_fraction": 0.5666666666666667,
+          "signal_region_pooled_seed_fraction": 0.7,
+          "floor_bias_at_tone_db": 2.1093442767736996
+        },
+        {
+          "seed_fraction": 0.03757911392405063,
+          "frame_fraction_with_any_seed": 0.9375,
+          "pooled": {
+            "seed_fraction": 0.056566455696202535,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint": {
+            "seed_fraction": 0.038370253164556965,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.056566455696202535,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition": {
+            "seed_fraction": 0.013349514563106795,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.017597087378640776,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011529126213592233,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_signal_region_seed_fraction": 0.6166666666666667,
+          "joint_pooled_signal_region_seed_fraction": 0.8166666666666667,
+          "joint_floor_bias_at_tone_db": -0.037982562961292335,
+          "signal_region_seed_fraction": 0.6166666666666667,
+          "signal_region_pooled_seed_fraction": 0.8166666666666667,
+          "floor_bias_at_tone_db": 1.5587072613705462
+        },
+        {
+          "seed_fraction": 0.045490506329113924,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.0557753164556962,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint": {
+            "seed_fraction": 0.04944620253164557,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.06091772151898734,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.007281553398058253,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_signal_region_seed_fraction": 0.5833333333333334,
+          "joint_pooled_signal_region_seed_fraction": 0.8,
+          "joint_floor_bias_at_tone_db": -0.7839419760540123,
+          "signal_region_seed_fraction": 0.55,
+          "signal_region_pooled_seed_fraction": 0.7333333333333333,
+          "floor_bias_at_tone_db": 1.7220180751845953
+        },
+        {
+          "seed_fraction": 0.038370253164556965,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.048259493670886076,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.038370253164556965,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0490506329113924,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint_signal_region_seed_fraction": 0.55,
+          "joint_pooled_signal_region_seed_fraction": 0.6666666666666666,
+          "joint_floor_bias_at_tone_db": -0.3955103892963724,
+          "signal_region_seed_fraction": 0.55,
+          "signal_region_pooled_seed_fraction": 0.6666666666666666,
+          "floor_bias_at_tone_db": 1.1855403796905812
+        },
+        {
+          "seed_fraction": 0.032041139240506326,
+          "frame_fraction_with_any_seed": 0.9375,
+          "pooled": {
+            "seed_fraction": 0.04113924050632911,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.036787974683544306,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.04430379746835443,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_signal_region_seed_fraction": 0.5666666666666667,
+          "joint_pooled_signal_region_seed_fraction": 0.6666666666666666,
+          "joint_floor_bias_at_tone_db": -0.4862926431581302,
+          "signal_region_seed_fraction": 0.5,
+          "signal_region_pooled_seed_fraction": 0.6666666666666666,
+          "floor_bias_at_tone_db": 1.383877198862191
+        },
+        {
+          "seed_fraction": 0.048259493670886076,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.061708860759493674,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.050237341772151896,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.06447784810126582,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0048543689320388345,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_signal_region_seed_fraction": 0.6166666666666667,
+          "joint_pooled_signal_region_seed_fraction": 0.8166666666666667,
+          "joint_floor_bias_at_tone_db": 0.22918951901617896,
+          "signal_region_seed_fraction": 0.6166666666666667,
+          "signal_region_pooled_seed_fraction": 0.8,
+          "floor_bias_at_tone_db": 3.13418360174698
+        },
+        {
+          "seed_fraction": 0.04667721518987342,
+          "frame_fraction_with_any_seed": 0.875,
+          "pooled": {
+            "seed_fraction": 0.0625,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint": {
+            "seed_fraction": 0.04707278481012658,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.06329113924050633,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_signal_region_seed_fraction": 0.6,
+          "joint_pooled_signal_region_seed_fraction": 0.75,
+          "joint_floor_bias_at_tone_db": -0.8365125871072805,
+          "signal_region_seed_fraction": 0.6,
+          "signal_region_pooled_seed_fraction": 0.7333333333333333,
+          "floor_bias_at_tone_db": 2.081776029131012
+        },
+        {
+          "seed_fraction": 0.035205696202531646,
+          "frame_fraction_with_any_seed": 0.9375,
+          "pooled": {
+            "seed_fraction": 0.0490506329113924,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint": {
+            "seed_fraction": 0.038765822784810125,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.050237341772151896,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "joint_signal_region_seed_fraction": 0.6166666666666667,
+          "joint_pooled_signal_region_seed_fraction": 0.7333333333333333,
+          "joint_floor_bias_at_tone_db": 0.254667546391962,
+          "signal_region_seed_fraction": 0.5666666666666667,
+          "signal_region_pooled_seed_fraction": 0.7333333333333333,
+          "floor_bias_at_tone_db": 2.6702318654011585
+        },
+        {
+          "seed_fraction": 0.04153481012658228,
+          "frame_fraction_with_any_seed": 1.0,
+          "pooled": {
+            "seed_fraction": 0.053401898734177215,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint": {
+            "seed_fraction": 0.04707278481012658,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.05893987341772152,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.016383495145631068,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_signal_region_seed_fraction": 0.5833333333333334,
+          "joint_pooled_signal_region_seed_fraction": 0.7833333333333333,
+          "joint_floor_bias_at_tone_db": -1.511847995150095,
+          "signal_region_seed_fraction": 0.5833333333333334,
+          "signal_region_pooled_seed_fraction": 0.7833333333333333,
+          "floor_bias_at_tone_db": 2.8069357845541503
+        }
+      ]
+    },
+    {
+      "kind": "weak_tone",
+      "cutoff_hz": 3000.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.007120253164556962,
+          "frame_fraction_with_any_seed": 0.5,
+          "pooled": {
+            "seed_fraction": 0.004746835443037975,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint": {
+            "seed_fraction": 0.007120253164556962,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.004746835443037975,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition": {
+            "seed_fraction": 0.007888349514563107,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_signal_region_seed_fraction": 0.0,
+          "joint_pooled_signal_region_seed_fraction": 0.0,
+          "joint_floor_bias_at_tone_db": 0.6152261186606031,
+          "signal_region_seed_fraction": 0.0,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 1.2130883080993253
+        },
+        {
+          "seed_fraction": 0.00949367088607595,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.008306962025316455,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint": {
+            "seed_fraction": 0.006724683544303798,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.006724683544303798,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.011529126213592233,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_signal_region_seed_fraction": 0.0,
+          "joint_pooled_signal_region_seed_fraction": 0.0,
+          "joint_floor_bias_at_tone_db": 0.6410729999649756,
+          "signal_region_seed_fraction": 0.0,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 0.8468573822622993
+        },
+        {
+          "seed_fraction": 0.005142405063291139,
+          "frame_fraction_with_any_seed": 0.5,
+          "pooled": {
+            "seed_fraction": 0.0011867088607594937,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint": {
+            "seed_fraction": 0.005142405063291139,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.002768987341772152,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007281553398058253,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_signal_region_seed_fraction": 0.0,
+          "joint_pooled_signal_region_seed_fraction": 0.0,
+          "joint_floor_bias_at_tone_db": -1.637753084974392,
+          "signal_region_seed_fraction": 0.0,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 0.008887494609947868
+        },
+        {
+          "seed_fraction": 0.006724683544303798,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.011471518987341773,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.007911392405063292,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.012658227848101266,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "joint_signal_region_seed_fraction": 0.03333333333333333,
+          "joint_pooled_signal_region_seed_fraction": 0.08333333333333333,
+          "joint_floor_bias_at_tone_db": -0.2595777164866645,
+          "signal_region_seed_fraction": 0.05,
+          "signal_region_pooled_seed_fraction": 0.1,
+          "floor_bias_at_tone_db": -0.2595777164866645
+        },
+        {
+          "seed_fraction": 0.005537974683544304,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.007120253164556962,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.005537974683544304,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.00870253164556962,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.013349514563106795,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.017597087378640776,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011529126213592233,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_signal_region_seed_fraction": 0.0,
+          "joint_pooled_signal_region_seed_fraction": 0.0,
+          "joint_floor_bias_at_tone_db": 0.3896831573033113,
+          "signal_region_seed_fraction": 0.0,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 1.7875530939643702
+        },
+        {
+          "seed_fraction": 0.0122626582278481,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.007911392405063292,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.013449367088607595,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.009889240506329115,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.007281553398058253,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_signal_region_seed_fraction": 0.016666666666666666,
+          "joint_pooled_signal_region_seed_fraction": 0.0,
+          "joint_floor_bias_at_tone_db": -0.5428786127674244,
+          "signal_region_seed_fraction": 0.0,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": -0.024724812213809857
+        },
+        {
+          "seed_fraction": 0.00949367088607595,
+          "frame_fraction_with_any_seed": 0.75,
+          "pooled": {
+            "seed_fraction": 0.007515822784810127,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.007911392405063292,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.005537974683544304,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint_signal_region_seed_fraction": 0.05,
+          "joint_pooled_signal_region_seed_fraction": 0.05,
+          "joint_floor_bias_at_tone_db": -0.27401219850669206,
+          "signal_region_seed_fraction": 0.03333333333333333,
+          "signal_region_pooled_seed_fraction": 0.03333333333333333,
+          "floor_bias_at_tone_db": -0.15371791983317973
+        },
+        {
+          "seed_fraction": 0.004746835443037975,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.003560126582278481,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_signal_region_seed_fraction": 0.016666666666666666,
+          "joint_pooled_signal_region_seed_fraction": 0.0,
+          "joint_floor_bias_at_tone_db": -0.3797381648138958,
+          "signal_region_seed_fraction": 0.016666666666666666,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 0.002732803540802253
+        },
+        {
+          "seed_fraction": 0.015822784810126583,
+          "frame_fraction_with_any_seed": 0.875,
+          "pooled": {
+            "seed_fraction": 0.01661392405063291,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "joint": {
+            "seed_fraction": 0.015427215189873418,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.017800632911392406,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "transition": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0048543689320388345,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_signal_region_seed_fraction": 0.06666666666666667,
+          "joint_pooled_signal_region_seed_fraction": 0.16666666666666666,
+          "joint_floor_bias_at_tone_db": 0.2850419590383291,
+          "signal_region_seed_fraction": 0.05,
+          "signal_region_pooled_seed_fraction": 0.1,
+          "floor_bias_at_tone_db": 0.327026607645245
+        },
+        {
+          "seed_fraction": 0.0122626582278481,
+          "frame_fraction_with_any_seed": 0.75,
+          "pooled": {
+            "seed_fraction": 0.014240506329113924,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.009889240506329115,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0122626582278481,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_signal_region_seed_fraction": 0.0,
+          "joint_pooled_signal_region_seed_fraction": 0.0,
+          "joint_floor_bias_at_tone_db": -1.0923400221676054,
+          "signal_region_seed_fraction": 0.0,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 0.8757761998121467
+        },
+        {
+          "seed_fraction": 0.004746835443037975,
+          "frame_fraction_with_any_seed": 0.375,
+          "pooled": {
+            "seed_fraction": 0.005933544303797469,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.003955696202531646,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.004746835443037975,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "joint_signal_region_seed_fraction": 0.05,
+          "joint_pooled_signal_region_seed_fraction": 0.03333333333333333,
+          "joint_floor_bias_at_tone_db": 0.16944224714412637,
+          "signal_region_seed_fraction": 0.05,
+          "signal_region_pooled_seed_fraction": 0.05,
+          "floor_bias_at_tone_db": 1.5760362493431646
+        },
+        {
+          "seed_fraction": 0.010284810126582278,
+          "frame_fraction_with_any_seed": 0.75,
+          "pooled": {
+            "seed_fraction": 0.009098101265822785,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint": {
+            "seed_fraction": 0.011471518987341773,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.011075949367088608,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.016383495145631068,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_signal_region_seed_fraction": 0.05,
+          "joint_pooled_signal_region_seed_fraction": 0.03333333333333333,
+          "joint_floor_bias_at_tone_db": -1.7209999897664536,
+          "signal_region_seed_fraction": 0.05,
+          "signal_region_pooled_seed_fraction": 0.05,
+          "floor_bias_at_tone_db": 0.10195490682118974
+        }
+      ]
+    },
+    {
+      "kind": "persistent_tone",
+      "cutoff_hz": 3000.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.005933544303797469,
+          "frame_fraction_with_any_seed": 0.5,
+          "pooled": {
+            "seed_fraction": 0.004746835443037975,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint": {
+            "seed_fraction": 0.0490506329113924,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.06091772151898734,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.007888349514563107,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_signal_region_seed_fraction": 0.578125,
+          "joint_pooled_signal_region_seed_fraction": 0.7447916666666666,
+          "joint_floor_bias_at_tone_db": 0.3914243470544585,
+          "signal_region_seed_fraction": 0.006944444444444444,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 31.55738539032661
+        },
+        {
+          "seed_fraction": 0.00949367088607595,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.007911392405063292,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint": {
+            "seed_fraction": 0.051819620253164556,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.06329113924050633,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.010922330097087379,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.011529126213592233,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_signal_region_seed_fraction": 0.5833333333333334,
+          "joint_pooled_signal_region_seed_fraction": 0.7274305555555556,
+          "joint_floor_bias_at_tone_db": 0.6288537987773724,
+          "signal_region_seed_fraction": 0.010416666666666666,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 31.2995213301112
+        },
+        {
+          "seed_fraction": 0.0031645569620253164,
+          "frame_fraction_with_any_seed": 0.375,
+          "pooled": {
+            "seed_fraction": 0.0011867088607594937,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint": {
+            "seed_fraction": 0.04746835443037975,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.05735759493670886,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_signal_region_seed_fraction": 0.578125,
+          "joint_pooled_signal_region_seed_fraction": 0.7361111111111112,
+          "joint_floor_bias_at_tone_db": -1.4794896301168534,
+          "signal_region_seed_fraction": 0.005208333333333333,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 29.50364466407221
+        },
+        {
+          "seed_fraction": 0.007515822784810127,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.007120253164556962,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.0490506329113924,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.060126582278481014,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0012135922330097086,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint_signal_region_seed_fraction": 0.5677083333333334,
+          "joint_pooled_signal_region_seed_fraction": 0.7013888888888888,
+          "joint_floor_bias_at_tone_db": 2.4009306961225607,
+          "signal_region_seed_fraction": 0.015625,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 31.50707621894682
+        },
+        {
+          "seed_fraction": 0.006724683544303798,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.007515822784810127,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.049841772151898736,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.06566455696202532,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.013956310679611651,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.01820388349514563,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.012135922330097087,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_signal_region_seed_fraction": 0.5815972222222222,
+          "joint_pooled_signal_region_seed_fraction": 0.7482638888888888,
+          "joint_floor_bias_at_tone_db": 0.463374772962794,
+          "signal_region_seed_fraction": 0.013888888888888888,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 30.836088108987497
+        },
+        {
+          "seed_fraction": 0.011075949367088608,
+          "frame_fraction_with_any_seed": 0.75,
+          "pooled": {
+            "seed_fraction": 0.007120253164556962,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint": {
+            "seed_fraction": 0.053401898734177215,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.06566455696202532,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.007281553398058253,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.006674757281553398,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_signal_region_seed_fraction": 0.5868055555555556,
+          "joint_pooled_signal_region_seed_fraction": 0.7447916666666666,
+          "joint_floor_bias_at_tone_db": -0.13023953737428798,
+          "signal_region_seed_fraction": 0.013888888888888888,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 30.98088713803291
+        },
+        {
+          "seed_fraction": 0.006329113924050633,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.005142405063291139,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint": {
+            "seed_fraction": 0.04707278481012658,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.05419303797468354,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint_signal_region_seed_fraction": 0.5746527777777778,
+          "joint_pooled_signal_region_seed_fraction": 0.7309027777777778,
+          "joint_floor_bias_at_tone_db": -0.07536088845759556,
+          "signal_region_seed_fraction": 0.015625,
+          "signal_region_pooled_seed_fraction": 0.005208333333333333,
+          "floor_bias_at_tone_db": 30.056394426226536
+        },
+        {
+          "seed_fraction": 0.0031645569620253164,
+          "frame_fraction_with_any_seed": 0.3125,
+          "pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "joint": {
+            "seed_fraction": 0.04430379746835443,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.05419303797468354,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.0048543689320388345,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_signal_region_seed_fraction": 0.5711805555555556,
+          "joint_pooled_signal_region_seed_fraction": 0.7222222222222222,
+          "joint_floor_bias_at_tone_db": 0.11893924039592463,
+          "signal_region_seed_fraction": 0.008680555555555556,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 30.119183196943368
+        },
+        {
+          "seed_fraction": 0.010680379746835443,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.013844936708860759,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint": {
+            "seed_fraction": 0.05419303797468354,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.07199367088607594,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_signal_region_seed_fraction": 0.6006944444444444,
+          "joint_pooled_signal_region_seed_fraction": 0.7708333333333334,
+          "joint_floor_bias_at_tone_db": 0.16463205853066656,
+          "signal_region_seed_fraction": 0.012152777777777778,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 32.38674806692249
+        },
+        {
+          "seed_fraction": 0.010680379746835443,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.0122626582278481,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.05102848101265823,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.06606012658227849,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_signal_region_seed_fraction": 0.5729166666666666,
+          "joint_pooled_signal_region_seed_fraction": 0.7222222222222222,
+          "joint_floor_bias_at_tone_db": -0.44429865978023564,
+          "signal_region_seed_fraction": 0.012152777777777778,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 30.304651426387604
+        },
+        {
+          "seed_fraction": 0.0031645569620253164,
+          "frame_fraction_with_any_seed": 0.3125,
+          "pooled": {
+            "seed_fraction": 0.005142405063291139,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint": {
+            "seed_fraction": 0.043908227848101264,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.05458860759493671,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "joint_signal_region_seed_fraction": 0.578125,
+          "joint_pooled_signal_region_seed_fraction": 0.7274305555555556,
+          "joint_floor_bias_at_tone_db": 0.5678392250094343,
+          "signal_region_seed_fraction": 0.015625,
+          "signal_region_pooled_seed_fraction": 0.0,
+          "floor_bias_at_tone_db": 31.31463044438009
+        },
+        {
+          "seed_fraction": 0.009889240506329115,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.006329113924050633,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.054984177215189875,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0636867088607595,
+            "frame_fraction_with_any_seed": 1.0
+          },
+          "transition": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.015776699029126214,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007888349514563107,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_signal_region_seed_fraction": 0.59375,
+          "joint_pooled_signal_region_seed_fraction": 0.7465277777777778,
+          "joint_floor_bias_at_tone_db": -0.9466072021741821,
+          "signal_region_seed_fraction": 0.017361111111111112,
+          "signal_region_pooled_seed_fraction": 0.001736111111111111,
+          "floor_bias_at_tone_db": 30.42269463132091
+        }
+      ]
+    },
+    {
+      "kind": "brief_chirp",
+      "cutoff_hz": 3000.0,
+      "filter": "butter",
+      "trials": [
+        {
+          "seed_fraction": 0.03757911392405063,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.05221518987341772,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.038765822784810125,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.05458860759493671,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": 0.37002556581880947,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": 0.4888433891021673
+        },
+        {
+          "seed_fraction": 0.04074367088607595,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.0636867088607595,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "joint": {
+            "seed_fraction": 0.040348101265822785,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.06566455696202532,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.011529126213592233,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": 0.17412486214298345,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": 1.0394553520511585
+        },
+        {
+          "seed_fraction": 0.033623417721518986,
+          "frame_fraction_with_any_seed": 0.5625,
+          "pooled": {
+            "seed_fraction": 0.043908227848101264,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.03560126582278481,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0490506329113924,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "transition": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_joint": {
+            "seed_fraction": 0.007281553398058253,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": -1.4285028401753552,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": 0.609908372008996
+        },
+        {
+          "seed_fraction": 0.03322784810126582,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.05261075949367089,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "joint": {
+            "seed_fraction": 0.036787974683544306,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.06210443037974683,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "transition": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": -0.13930692424136823,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": -0.13930692424136823
+        },
+        {
+          "seed_fraction": 0.02531645569620253,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.03955696202531646,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "joint": {
+            "seed_fraction": 0.024920886075949368,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.038370253164556965,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition": {
+            "seed_fraction": 0.013956310679611651,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.017597087378640776,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.011529126213592233,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": 0.4781063103615365,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": 0.4781063103615365
+        },
+        {
+          "seed_fraction": 0.03757911392405063,
+          "frame_fraction_with_any_seed": 0.8125,
+          "pooled": {
+            "seed_fraction": 0.05458860759493671,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "joint": {
+            "seed_fraction": 0.04113924050632911,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.05814873417721519,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition": {
+            "seed_fraction": 0.006674757281553398,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.006067961165048544,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": -0.7845347080492481,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": -0.7845347080492481
+        },
+        {
+          "seed_fraction": 0.03401898734177215,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.051819620253164556,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint": {
+            "seed_fraction": 0.03322784810126582,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.051819620253164556,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0024271844660194173,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0018203883495145632,
+            "frame_fraction_with_any_seed": 0.125
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": -0.20657673170788632,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": -0.005371868926515138
+        },
+        {
+          "seed_fraction": 0.035205696202531646,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.05102848101265823,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint": {
+            "seed_fraction": 0.03560126582278481,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.05221518987341772,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition": {
+            "seed_fraction": 0.0048543689320388345,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.1875
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": 0.3387655506820391,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": 0.9519786081955575
+        },
+        {
+          "seed_fraction": 0.04628164556962025,
+          "frame_fraction_with_any_seed": 0.9375,
+          "pooled": {
+            "seed_fraction": 0.07001582278481013,
+            "frame_fraction_with_any_seed": 0.8125
+          },
+          "joint": {
+            "seed_fraction": 0.04588607594936709,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.06882911392405064,
+            "frame_fraction_with_any_seed": 0.9375
+          },
+          "transition": {
+            "seed_fraction": 0.0054611650485436895,
+            "frame_fraction_with_any_seed": 0.375
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0036407766990291263,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.0048543689320388345,
+            "frame_fraction_with_any_seed": 0.3125
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": 0.36475482166547935,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": 0.7918702218997968
+        },
+        {
+          "seed_fraction": 0.038765822784810125,
+          "frame_fraction_with_any_seed": 0.625,
+          "pooled": {
+            "seed_fraction": 0.06289556962025317,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.03916139240506329,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.0625,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "transition": {
+            "seed_fraction": 0.010315533980582525,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_joint": {
+            "seed_fraction": 0.009101941747572815,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": -0.6134280903552654,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": 0.2497225140540189
+        },
+        {
+          "seed_fraction": 0.030854430379746837,
+          "frame_fraction_with_any_seed": 0.4375,
+          "pooled": {
+            "seed_fraction": 0.04746835443037975,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "joint": {
+            "seed_fraction": 0.032041139240506326,
+            "frame_fraction_with_any_seed": 0.4375
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.050237341772151896,
+            "frame_fraction_with_any_seed": 0.5
+          },
+          "transition": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.0,
+            "frame_fraction_with_any_seed": 0.0
+          },
+          "transition_joint": {
+            "seed_fraction": 0.003033980582524272,
+            "frame_fraction_with_any_seed": 0.25
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": -0.25319621953143934,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": -0.25319621953143934
+        },
+        {
+          "seed_fraction": 0.03481012658227848,
+          "frame_fraction_with_any_seed": 0.6875,
+          "pooled": {
+            "seed_fraction": 0.04786392405063291,
+            "frame_fraction_with_any_seed": 0.625
+          },
+          "joint": {
+            "seed_fraction": 0.038370253164556965,
+            "frame_fraction_with_any_seed": 0.875
+          },
+          "joint_pooled": {
+            "seed_fraction": 0.05419303797468354,
+            "frame_fraction_with_any_seed": 0.6875
+          },
+          "transition": {
+            "seed_fraction": 0.009708737864077669,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "transition_pooled": {
+            "seed_fraction": 0.015776699029126214,
+            "frame_fraction_with_any_seed": 0.75
+          },
+          "transition_joint": {
+            "seed_fraction": 0.00849514563106796,
+            "frame_fraction_with_any_seed": 0.5625
+          },
+          "joint_signal_region_seed_fraction": 1.0,
+          "joint_pooled_signal_region_seed_fraction": 1.0,
+          "joint_floor_bias_at_tone_db": -1.1833210909348266,
+          "signal_region_seed_fraction": 1.0,
+          "signal_region_pooled_seed_fraction": 1.0,
+          "floor_bias_at_tone_db": -0.12912443048902872
+        }
+      ]
+    }
+  ],
+  "registered_global_gain_equivariance_relative_error": 6.350781778154867e-13,
+  "lag1_time_correlation": 0.5168325070281907,
+  "seconds": 50.073040291899815,
+  "recording_diagnostic_bands": [
+    {
+      "low_hz": 250,
+      "high_hz": 2800,
+      "selected_fraction": 0.1537058371735791,
+      "mean_squared_guide_magnitude": 5.1814210230875333e-05
+    },
+    {
+      "low_hz": 3100,
+      "high_hz": 4000,
+      "selected_fraction": 0.34523809523809523,
+      "mean_squared_guide_magnitude": 2.4150332521355826e-11
+    },
+    {
+      "low_hz": 4000,
+      "high_hz": 24001,
+      "selected_fraction": 0.08594665885111372,
+      "mean_squared_guide_magnitude": 1.6788375626620837e-11
+    }
+  ]
+}

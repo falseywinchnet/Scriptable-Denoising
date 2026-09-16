@@ -1,0 +1,2 @@
+# Optional, installed only when the GUI is wanted. No remote installation needed.
+dearpygui==2.3.1

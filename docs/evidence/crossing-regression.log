@@ -1,0 +1,21 @@
+test_00_cached_observations_match_fresh_context (__main__.GuideTests.test_00_cached_observations_match_fresh_context) ... ok
+test_01_exact_registered_oracle (__main__.GuideTests.test_01_exact_registered_oracle) ... ok
+test_02_complete_cleanup_and_projection (__main__.GuideTests.test_02_complete_cleanup_and_projection) ... ok
+test_03_gain_centers_rfft_odft_and_identity (__main__.GuideTests.test_03_gain_centers_rfft_odft_and_identity) ... ok
+test_04_native_stream_viewer_reload (__main__.GuideTests.test_04_native_stream_viewer_reload) ... ok
+test_05_stereo_deadlines (__main__.GuideTests.test_05_stereo_deadlines) ... ok
+test_reference_units_and_temporal_kernel_support (__main__.GuideTests.test_reference_units_and_temporal_kernel_support) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 44.819s
+
+OK
+[{'signal': 'silence', 'max_absolute_error': 0.0, 'seconds': 0.05353129096329212}, {'signal': 'noise', 'max_absolute_error': 5.069729358542219e-16, 'seconds': 0.05639237514697015}, {'signal': 'tones', 'max_absolute_error': 4.897597258302078e-11, 'seconds': 0.05529654189012945}, {'signal': 'radio', 'max_absolute_error': 1.5300148572140043e-13, 'seconds': 0.05573633289895952}]
+test_identity_and_constant_gain_with_registered_parent (__main__.GuideSynthesis.test_identity_and_constant_gain_with_registered_parent) ... ok
+test_reload_smoke_uses_actual_host_geometry (__main__.GuideSynthesis.test_reload_smoke_uses_actual_host_geometry) ... ok
+test_viewer_has_actual_guide_and_final_preinverse_coefficients (__main__.GuideSynthesis.test_viewer_has_actual_guide_and_final_preinverse_coefficients) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 5.944s
+
+OK

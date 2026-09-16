@@ -1,0 +1,93 @@
+{
+  "archive_bytes": 16892113,
+  "files": [
+    "index.html",
+    "manifest.json",
+    "occupancy-excitation-final.u8",
+    "occupancy-excitation-spectra.json",
+    "occupancy-excitation.py",
+    "occupancy-excitation.wav",
+    "occupancy-final.u8",
+    "occupancy-spectra.json",
+    "occupancy-surface_floor.u8",
+    "occupancy-surface_low.u8",
+    "occupancy-surface_mask.u8",
+    "occupancy-surface_occupancy.u8",
+    "occupancy.py",
+    "occupancy.wav",
+    "surface-excitation-final.u8",
+    "surface-excitation-spectra.json",
+    "surface-excitation.py",
+    "surface-excitation.wav"
+  ],
+  "shared": [
+    {
+      "original": "occupancy-guide.u8",
+      "reuse": "surface-guide.u8"
+    },
+    {
+      "original": "occupancy-surface_mean.u8",
+      "reuse": "surface-surface_mean.u8"
+    },
+    {
+      "original": "occupancy-surface_variance.u8",
+      "reuse": "surface-surface_variance.u8"
+    },
+    {
+      "original": "occupancy-surface_reference.u8",
+      "reuse": "surface-surface_floor.u8"
+    },
+    {
+      "original": "surface-excitation-guide.u8",
+      "reuse": "surface-guide.u8"
+    },
+    {
+      "original": "surface-excitation-surface_mean.u8",
+      "reuse": "surface-surface_mean.u8"
+    },
+    {
+      "original": "surface-excitation-surface_variance.u8",
+      "reuse": "surface-surface_variance.u8"
+    },
+    {
+      "original": "surface-excitation-surface_floor.u8",
+      "reuse": "surface-surface_floor.u8"
+    },
+    {
+      "original": "surface-excitation-surface_mask.u8",
+      "reuse": "surface-surface_mask.u8"
+    },
+    {
+      "original": "occupancy-excitation-guide.u8",
+      "reuse": "surface-guide.u8"
+    },
+    {
+      "original": "occupancy-excitation-surface_mean.u8",
+      "reuse": "surface-surface_mean.u8"
+    },
+    {
+      "original": "occupancy-excitation-surface_variance.u8",
+      "reuse": "surface-surface_variance.u8"
+    },
+    {
+      "original": "occupancy-excitation-surface_floor.u8",
+      "reuse": "occupancy-surface_floor.u8"
+    },
+    {
+      "original": "occupancy-excitation-surface_mask.u8",
+      "reuse": "occupancy-surface_mask.u8"
+    },
+    {
+      "original": "occupancy-excitation-surface_low.u8",
+      "reuse": "occupancy-surface_low.u8"
+    },
+    {
+      "original": "occupancy-excitation-surface_occupancy.u8",
+      "reuse": "occupancy-surface_occupancy.u8"
+    },
+    {
+      "original": "occupancy-excitation-surface_reference.u8",
+      "reuse": "surface-surface_floor.u8"
+    }
+  ]
+}

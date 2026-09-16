@@ -1,0 +1,34 @@
+{
+  "frame_at_seconds": 2.7,
+  "frame_index": 269,
+  "raw_archive": "/Users/joshuahkuttenkuler/Developer/CodexBuilds/cleanup2-a07b457b1144/build/listening-demo-v6/surface-spectra.npz",
+  "fields_finite": true,
+  "mask_min": 0.0,
+  "mask_max": 1.0,
+  "bands": [
+    {
+      "low_hz": 200,
+      "high_hz": 2800,
+      "mean_mask_at_cursor": 0.26408258080482483,
+      "mean_mask_all_frames": 0.5121156573295593,
+      "median_floor_to_mean_at_cursor": 0.7920833826065063,
+      "guide_db_at_cursor": -34.056427001953125
+    },
+    {
+      "low_hz": 3100,
+      "high_hz": 4000,
+      "mean_mask_at_cursor": 0.5434504151344299,
+      "mean_mask_all_frames": 0.6528098583221436,
+      "median_floor_to_mean_at_cursor": 0.47350627183914185,
+      "guide_db_at_cursor": -117.29736328125
+    },
+    {
+      "low_hz": 4000,
+      "high_hz": 24001,
+      "mean_mask_at_cursor": 0.389178603887558,
+      "mean_mask_all_frames": 0.5221184492111206,
+      "median_floor_to_mean_at_cursor": 0.8103522062301636,
+      "guide_db_at_cursor": -106.05073547363281
+    }
+  ]
+}

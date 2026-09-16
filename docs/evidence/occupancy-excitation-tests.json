@@ -1,0 +1,32 @@
+{
+  "excitation": {
+    "pitch": 154.0,
+    "confidence": 0.9981218746155851,
+    "added_power": 0.0010622189338331503,
+    "low_power": 57.00874300393254,
+    "edge_hz": 3000.0
+  },
+  "occupancy_identity": "T=L+RMS(A-L); lower-tail mean matches independent sorting",
+  "pitch": [
+    {
+      "expected": 100.0,
+      "pitch": 100.0,
+      "confidence": 0.9630189061285023
+    },
+    {
+      "expected": 154.0,
+      "pitch": 154.0,
+      "confidence": 0.9701797987981474
+    },
+    {
+      "expected": 220.0,
+      "pitch": 220.0,
+      "confidence": 0.9759881944845226
+    },
+    {
+      "expected": 302.0,
+      "pitch": 302.0,
+      "confidence": 0.9791773807848054
+    }
+  ]
+}

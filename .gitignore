@@ -1,0 +1,17 @@
+.build/
+build/
+out/
+.venv
+.venv/
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+plugin/bin/
+plugin/obj/
+.runtime/
+runtime/viewer.log
+.DS_Store
+
+tests/AnalysisTapProbe/bin/
+tests/AnalysisTapProbe/obj/

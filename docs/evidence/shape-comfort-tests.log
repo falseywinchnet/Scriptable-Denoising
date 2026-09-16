@@ -1,0 +1,8 @@
+test_comfort_locality_budget_determinism_and_ramp (__main__.ShapeComfort.test_comfort_locality_budget_determinism_and_ramp) ... ok
+test_distribution_shape_scale_and_continual_line (__main__.ShapeComfort.test_distribution_shape_scale_and_continual_line) ... ok
+test_exact_baseline_weight_structure_and_aliasing (__main__.ShapeComfort.test_exact_baseline_weight_structure_and_aliasing) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 8.765s
+
+OK

@@ -1,0 +1,505 @@
+{
+  "sha256": "71f0f7793c94a42aaf00a08b3b0aa4e50d2f072497c1620701d0618c86387bd8",
+  "methods": {
+    "publish_viewer": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "logistic": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "correlation": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "median_sorted": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "heap_sort": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "sort_values": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "median_select": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "support_line": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "support_robust_line": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "population_support": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "statistics": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "row_statistics": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "remove_runs": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "entropy": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "reference_entropy": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "guide_entropy": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "sawtooth": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "population_peaks": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "peaks": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "recursive_smooth": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "cleanup": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "record_evidence": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "apply_guide_gain": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "crossing_neighbors": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "crossing_peaks": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "research_floor_ratio": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "research_tail_seeds": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "research_guarded_floor": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "research_joint_ratio": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "research_pool_score": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "variance_surface": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "occupancy_surface": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "local_distribution_shape": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "shape_surface_peaks": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "surface_peaks": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "surface_residual_peaks": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "audit_gain_stage": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "cleanup_registered": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "softstep": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "lattice_noise": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "coherent_noise": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "centroid_erosion": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "occupied_edge": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "harmonics": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "guide_sample": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "excitation_pitch": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "harmonic_window_response": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "centroid_comfort": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "harmonics_excitation": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "FilterBank.run": {
+      "signatures": 1,
+      "objectmode": false
+    },
+    "Filter": {
+      "signatures": 1,
+      "objectmode": false
+    }
+  },
+  "graph": {
+    "entry": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+    "reachable_functions": 30,
+    "external_calls": [
+      "NRT_Free",
+      "NRT_MemInfo_call_dtor",
+      "PyBytes_FromStringAndSize",
+      "PyErr_Clear",
+      "PyErr_SetNone",
+      "PyErr_SetString",
+      "PyErr_WriteUnraisable",
+      "PyUnicode_FromString",
+      "Py_DecRef",
+      "hypot",
+      "llvm.ceil.f64",
+      "llvm.cos.f64",
+      "llvm.exp.f64",
+      "llvm.fabs.f64",
+      "llvm.fabs.v2f64",
+      "llvm.floor.f64",
+      "llvm.lifetime.end.p0",
+      "llvm.lifetime.start.p0",
+      "llvm.log.f64",
+      "llvm.memset.p0.i64",
+      "llvm.pow.f64",
+      "llvm.sin.f64",
+      "llvm.smax.i64",
+      "llvm.smin.i64",
+      "llvm.uadd.with.overflow.i64",
+      "llvm.umin.i64",
+      "llvm.vector.reduce.fadd.v2f64",
+      "memset_pattern16",
+      "numba_attempt_nocopy_reshape",
+      "numba_do_raise",
+      "numba_gil_ensure",
+      "numba_gil_release",
+      "numba_runtime_build_excinfo_struct",
+      "numba_unpickle",
+      "sqrt"
+    ],
+    "indirect_calls": [
+      {
+        "function": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+        "instruction": "%.43 = call ptr %.41(ptr %.39)"
+      },
+      {
+        "function": "_ZN41_cleanup_2248be8d465c40988fbe4ca1efda80e39harmonicsB4v113B40c8tJTIeFIjxB2IKSgI4CrvQClQZ6FcpCShpgEU0AE5ArrayIdLi3E1C7mutable7alignedE5ArrayIdLi3E1C7mutable7alignedE5ArrayIdLi1E1C7mutable7alignedE5ArrayIdLi1E1C7mutable7alignedE",
+        "instruction": "%.8334 = call i32 %.7995(ptr %.8049, ptr %.20176069, ptr %.2321, ptr %.2632, ptr %.2819, ptr nonnull @.const.array.data.11, ptr nonnull @.const.array.data.1, i64 512, i64 8, i64 0)"
+      },
+      {
+        "function": "_ZN41_cleanup_2248be8d465c40988fbe4ca1efda80e318cleanup_registeredB4v103B40c8tJTIeFIjxB2IKSgI4CrvQClQZ6FcpCShpgEU0AE5ArrayIdLi3E1C7mutable7alignedE5ArrayIdLi3E1C7mutable7alignedE5ArrayIdLi2E1C7mutable7alignedE5ArrayIdLi1E1C7mutable7alignedE",
+        "instruction": "%.378.i = call i32 %.247.i(ptr nonnull %.1786, ptr %.2095, ptr %.2404, ptr %.3843380, i64 %.1787.fca.0.load, i64 %.1787.fca.1.load, i64 %nb.2.0, i64 13, i64 3, i64 3), !noalias !61"
+      }
+    ],
+    "runtime_calls": [
+      {
+        "function": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+        "target": "numba_gil_ensure",
+        "instruction": "call void @numba_gil_ensure(ptr nonnull %.22)"
+      },
+      {
+        "function": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+        "target": "PyUnicode_FromString",
+        "instruction": "%.73 = call ptr @PyUnicode_FromString(ptr nonnull @\".const.<numba.core.cpu.CPUContext object at 0x1161eb860>\")"
+      },
+      {
+        "function": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+        "target": "PyErr_WriteUnraisable",
+        "instruction": "call void @PyErr_WriteUnraisable(ptr %.73)"
+      },
+      {
+        "function": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+        "target": "Py_DecRef",
+        "instruction": "call void @Py_DecRef(ptr %.73)"
+      },
+      {
+        "function": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+        "target": "numba_gil_release",
+        "instruction": "call void @numba_gil_release(ptr nonnull %.22)"
+      },
+      {
+        "function": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+        "target": "PyErr_Clear",
+        "instruction": "call void @PyErr_Clear()"
+      },
+      {
+        "function": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+        "target": "PyBytes_FromStringAndSize",
+        "instruction": "%.37 = call ptr @PyBytes_FromStringAndSize(ptr %.33, i64 %.36)"
+      },
+      {
+        "function": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+        "target": "PyErr_SetString",
+        "instruction": "call void @PyErr_SetString(ptr nonnull @PyExc_RuntimeError, ptr nonnull @\".const.Error creating Python tuple from runtime exception arguments\")"
+      },
+      {
+        "function": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+        "target": "PyErr_SetNone",
+        "instruction": "call void @PyErr_SetNone(ptr nonnull @PyExc_StopIteration)"
+      },
+      {
+        "function": "cfunc._ZN14compile_filter17compile_candidate12_3clocals_3e8callbackB4v121B52c8tJTIeFIjxB2IKSgI4CrvQClUYkACQB1EiFSRRB9GgCAA_3d_3dE10float64_2a10float64_2a10float64_2a10float64_2a",
+        "target": "PyErr_SetString",
+        "instruction": "call void @PyErr_SetString(ptr nonnull @PyExc_SystemError, ptr nonnull @\".const.unknown error when calling native function\")"
+      }
+    ]
+  },
+  "records": [
+    {
+      "stimulus": "silence",
+      "squelch": 0,
+      "harmonics": 0,
+      "calls": 3,
+      "actions": [
+        0,
+        0,
+        0
+      ],
+      "nrt": {
+        "alloc": 0,
+        "free": 0,
+        "mi_alloc": 0,
+        "mi_free": 0
+      },
+      "state_counter": 3.0,
+      "content_changed": false
+    },
+    {
+      "stimulus": "silence",
+      "squelch": 1,
+      "harmonics": 0,
+      "calls": 3,
+      "actions": [
+        2,
+        2,
+        2
+      ],
+      "nrt": {
+        "alloc": 0,
+        "free": 0,
+        "mi_alloc": 0,
+        "mi_free": 0
+      },
+      "state_counter": 3.0,
+      "content_changed": false
+    },
+    {
+      "stimulus": "silence",
+      "squelch": 0,
+      "harmonics": 1,
+      "calls": 3,
+      "actions": [
+        1,
+        1,
+        1
+      ],
+      "nrt": {
+        "alloc": 0,
+        "free": 0,
+        "mi_alloc": 0,
+        "mi_free": 0
+      },
+      "state_counter": 3.0,
+      "content_changed": false
+    },
+    {
+      "stimulus": "random",
+      "squelch": 0,
+      "harmonics": 0,
+      "calls": 3,
+      "actions": [
+        1,
+        1,
+        1
+      ],
+      "nrt": {
+        "alloc": 0,
+        "free": 0,
+        "mi_alloc": 0,
+        "mi_free": 0
+      },
+      "state_counter": 3.0,
+      "content_changed": true
+    },
+    {
+      "stimulus": "random",
+      "squelch": 1,
+      "harmonics": 0,
+      "calls": 3,
+      "actions": [
+        2,
+        2,
+        2
+      ],
+      "nrt": {
+        "alloc": 0,
+        "free": 0,
+        "mi_alloc": 0,
+        "mi_free": 0
+      },
+      "state_counter": 3.0,
+      "content_changed": false
+    },
+    {
+      "stimulus": "random",
+      "squelch": 0,
+      "harmonics": 1,
+      "calls": 3,
+      "actions": [
+        1,
+        1,
+        1
+      ],
+      "nrt": {
+        "alloc": 0,
+        "free": 0,
+        "mi_alloc": 0,
+        "mi_free": 0
+      },
+      "state_counter": 3.0,
+      "content_changed": true
+    },
+    {
+      "stimulus": "peaked",
+      "squelch": 0,
+      "harmonics": 0,
+      "calls": 3,
+      "actions": [
+        1,
+        1,
+        1
+      ],
+      "nrt": {
+        "alloc": 0,
+        "free": 0,
+        "mi_alloc": 0,
+        "mi_free": 0
+      },
+      "state_counter": 3.0,
+      "content_changed": true
+    },
+    {
+      "stimulus": "peaked",
+      "squelch": 1,
+      "harmonics": 0,
+      "calls": 3,
+      "actions": [
+        1,
+        1,
+        1
+      ],
+      "nrt": {
+        "alloc": 0,
+        "free": 0,
+        "mi_alloc": 0,
+        "mi_free": 0
+      },
+      "state_counter": 3.0,
+      "content_changed": true
+    },
+    {
+      "stimulus": "peaked",
+      "squelch": 0,
+      "harmonics": 1,
+      "calls": 3,
+      "actions": [
+        1,
+        1,
+        1
+      ],
+      "nrt": {
+        "alloc": 0,
+        "free": 0,
+        "mi_alloc": 0,
+        "mi_free": 0
+      },
+      "state_counter": 3.0,
+      "content_changed": true
+    }
+  ],
+  "probes": {
+    "view": {
+      "alloc": 0,
+      "free": 0,
+      "mi_alloc": 0,
+      "mi_free": 0
+    },
+    "sort": {
+      "alloc": 4,
+      "free": 4,
+      "mi_alloc": 2,
+      "mi_free": 2
+    },
+    "same_pointer_and_write_visible": true
+  },
+  "note": "Synthetic spectra exercise C callback only; timings and audio quality are not measured."
+}

@@ -1,0 +1,1349 @@
+{
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "machine": "arm64",
+  "identical_channels": false,
+  "channels": 2,
+  "paced": true,
+  "harmonic_extension": false,
+  "block_seconds": 0.17066666666666666,
+  "callback_seconds": [
+    0.1451708748936653,
+    0.14143625018186867,
+    0.1482407080475241,
+    0.14988462487235665,
+    0.14941449998877943,
+    0.14640570804476738,
+    0.1442365839611739,
+    0.1463338329922408,
+    0.15131008299067616,
+    0.15182875003665686,
+    0.15235879202373326,
+    0.14364870893768966,
+    0.14340766705572605,
+    0.14669091603718698,
+    0.15125849982723594,
+    0.15365816606208682,
+    0.15001074993051589,
+    0.14726025005802512,
+    0.14360729092732072,
+    0.1480032498948276,
+    0.15004274994134903,
+    0.14995904103852808,
+    0.14957908308133483,
+    0.14932954218238592,
+    0.14844187488779426,
+    0.14971837494522333,
+    0.14966283296234906,
+    0.1506715000141412,
+    0.14979637507349253,
+    0.14545379183255136,
+    0.14862424996681511,
+    0.15035724989138544,
+    0.15139433299191296,
+    0.15005349996499717,
+    0.14631774998269975,
+    0.1441723748575896,
+    0.14523216686211526,
+    0.14714345801621675,
+    0.15084849996492267,
+    0.14930504094809294,
+    0.14624862489290535,
+    0.14370150002650917,
+    0.14689433388412,
+    0.14866308285854757,
+    0.15179666690528393,
+    0.14845783286727965,
+    0.1454492921475321,
+    0.1437246249988675,
+    0.1466369170229882,
+    0.15008345898240805,
+    0.14896687492728233,
+    0.1504684998653829,
+    0.1445964160375297,
+    0.1445595419500023,
+    0.14839091687463224,
+    0.14993999991565943,
+    0.1506435840856284,
+    0.14876962499693036,
+    0.14565387507900596,
+    0.1465942501090467,
+    0.1465909171383828,
+    0.14926766720600426,
+    0.15033445809967816,
+    0.14906387496739626,
+    0.14649191708303988,
+    0.14449004200287163,
+    0.14779520803131163,
+    0.15038933302275836,
+    0.15113316592760384,
+    0.14800279214978218,
+    0.14590770797803998,
+    0.14898016606457531,
+    0.14794229180552065,
+    0.1500131250359118,
+    0.15156170912086964,
+    0.1492599998600781,
+    0.15194629086181521,
+    0.1468105420935899,
+    0.15052358293905854,
+    0.1504892921075225,
+    0.14970308309420943,
+    0.1499066250398755,
+    0.14331566682085395,
+    0.14703337498940527,
+    0.1509826669935137,
+    0.1492359999101609,
+    0.1491832910105586,
+    0.14655291591770947,
+    0.14731408306397498,
+    0.14445991604588926,
+    0.15007479186169803,
+    0.15043083298951387,
+    0.1497481248807162,
+    0.14553583320230246,
+    0.14370299992151558,
+    0.14835004112683237,
+    0.14924199995584786,
+    0.15104074985720217,
+    0.14730070787481964,
+    0.14532608282752335,
+    0.143381749978289,
+    0.14920954196713865,
+    0.15044429199770093,
+    0.14998345798812807,
+    0.150488207815215,
+    0.14582729199901223,
+    0.14676745887845755,
+    0.14732058299705386,
+    0.14994358317926526,
+    0.15466429106891155,
+    0.149155291961506,
+    0.1445410419255495,
+    0.1450303338933736,
+    0.14868529210798442,
+    0.1503081670962274,
+    0.15198429208248854,
+    0.15138454199768603,
+    0.14679779089055955,
+    0.14585391688160598,
+    0.1470128339715302,
+    0.15397908305749297,
+    0.15143645787611604,
+    0.14896466699428856,
+    0.14695866592228413,
+    0.14563345909118652,
+    0.15284574986435473,
+    0.15094587486237288,
+    0.14990295888856053
+  ],
+  "median_seconds": 0.14896577096078545,
+  "stage_ns": [
+    {
+      "guide": 112347417,
+      "filter": 29421000,
+      "observations": 24615042,
+      "views": 12316084,
+      "registration": 74888875,
+      "stft": 867250,
+      "publication": 0
+    },
+    {
+      "guide": 105440917,
+      "filter": 34978583,
+      "observations": 11260333,
+      "views": 13360333,
+      "registration": 80293584,
+      "stft": 869375,
+      "publication": 0
+    },
+    {
+      "guide": 107000001,
+      "filter": 40234708,
+      "observations": 11348083,
+      "views": 14098584,
+      "registration": 81020375,
+      "stft": 862751,
+      "publication": 0
+    },
+    {
+      "guide": 106631333,
+      "filter": 42255249,
+      "observations": 11093292,
+      "views": 14141041,
+      "registration": 80875292,
+      "stft": 853457,
+      "publication": 0
+    },
+    {
+      "guide": 105679708,
+      "filter": 42740459,
+      "observations": 11139708,
+      "views": 14391500,
+      "registration": 79615792,
+      "stft": 849750,
+      "publication": 0
+    },
+    {
+      "guide": 104572708,
+      "filter": 40853292,
+      "observations": 11142334,
+      "views": 13519792,
+      "registration": 79388374,
+      "stft": 839626,
+      "publication": 0
+    },
+    {
+      "guide": 103921750,
+      "filter": 39321792,
+      "observations": 11219334,
+      "views": 13605917,
+      "registration": 78573042,
+      "stft": 850958,
+      "publication": 0
+    },
+    {
+      "guide": 105136125,
+      "filter": 40211958,
+      "observations": 11362500,
+      "views": 14126541,
+      "registration": 79114209,
+      "stft": 844376,
+      "publication": 0
+    },
+    {
+      "guide": 109094166,
+      "filter": 41218917,
+      "observations": 11408751,
+      "views": 14151291,
+      "registration": 83008541,
+      "stft": 855792,
+      "publication": 0
+    },
+    {
+      "guide": 109551959,
+      "filter": 41300500,
+      "observations": 10999583,
+      "views": 13901501,
+      "registration": 84125999,
+      "stft": 841540,
+      "publication": 0
+    },
+    {
+      "guide": 108632375,
+      "filter": 42761375,
+      "observations": 11034958,
+      "views": 13362500,
+      "registration": 83707917,
+      "stft": 830583,
+      "publication": 0
+    },
+    {
+      "guide": 102885958,
+      "filter": 39777375,
+      "observations": 11064334,
+      "views": 13134166,
+      "registration": 78166959,
+      "stft": 845001,
+      "publication": 0
+    },
+    {
+      "guide": 103722293,
+      "filter": 38695083,
+      "observations": 11297959,
+      "views": 13946124,
+      "registration": 77939168,
+      "stft": 852584,
+      "publication": 0
+    },
+    {
+      "guide": 106551709,
+      "filter": 39156292,
+      "observations": 11285917,
+      "views": 14511542,
+      "registration": 80227125,
+      "stft": 849418,
+      "publication": 0
+    },
+    {
+      "guide": 108438458,
+      "filter": 41815292,
+      "observations": 11330083,
+      "views": 14228291,
+      "registration": 82344418,
+      "stft": 869082,
+      "publication": 0
+    },
+    {
+      "guide": 110069208,
+      "filter": 42587834,
+      "observations": 11089542,
+      "views": 14541000,
+      "registration": 83897291,
+      "stft": 858332,
+      "publication": 0
+    },
+    {
+      "guide": 106348791,
+      "filter": 42685667,
+      "observations": 11071958,
+      "views": 13705792,
+      "registration": 81052624,
+      "stft": 829834,
+      "publication": 0
+    },
+    {
+      "guide": 105513334,
+      "filter": 40746042,
+      "observations": 11100541,
+      "views": 13677125,
+      "registration": 80211375,
+      "stft": 862583,
+      "publication": 0
+    },
+    {
+      "guide": 103215000,
+      "filter": 39408291,
+      "observations": 11259875,
+      "views": 13420958,
+      "registration": 78003625,
+      "stft": 841584,
+      "publication": 0
+    },
+    {
+      "guide": 106627084,
+      "filter": 40370001,
+      "observations": 11314499,
+      "views": 13592292,
+      "registration": 81193666,
+      "stft": 853916,
+      "publication": 0
+    },
+    {
+      "guide": 108147125,
+      "filter": 40892624,
+      "observations": 11173333,
+      "views": 14524250,
+      "registration": 81920584,
+      "stft": 855083,
+      "publication": 0
+    },
+    {
+      "guide": 107207834,
+      "filter": 41759167,
+      "observations": 11043791,
+      "views": 14145584,
+      "registration": 81487958,
+      "stft": 844958,
+      "publication": 0
+    },
+    {
+      "guide": 107057125,
+      "filter": 41536292,
+      "observations": 11004876,
+      "views": 13783416,
+      "registration": 81748625,
+      "stft": 843374,
+      "publication": 0
+    },
+    {
+      "guide": 107905958,
+      "filter": 40433583,
+      "observations": 11117666,
+      "views": 13655083,
+      "registration": 82602417,
+      "stft": 850333,
+      "publication": 0
+    },
+    {
+      "guide": 107763917,
+      "filter": 39695750,
+      "observations": 11075458,
+      "views": 13658793,
+      "registration": 82504374,
+      "stft": 843084,
+      "publication": 0
+    },
+    {
+      "guide": 107428625,
+      "filter": 41310792,
+      "observations": 11182501,
+      "views": 14127708,
+      "registration": 81593042,
+      "stft": 846708,
+      "publication": 0
+    },
+    {
+      "guide": 107096750,
+      "filter": 41573916,
+      "observations": 11126208,
+      "views": 14191791,
+      "registration": 81247792,
+      "stft": 849917,
+      "publication": 0
+    },
+    {
+      "guide": 107835500,
+      "filter": 41855416,
+      "observations": 11121208,
+      "views": 14294084,
+      "registration": 81898833,
+      "stft": 843125,
+      "publication": 0
+    },
+    {
+      "guide": 107776125,
+      "filter": 41045666,
+      "observations": 11001666,
+      "views": 13858917,
+      "registration": 82387166,
+      "stft": 839167,
+      "publication": 0
+    },
+    {
+      "guide": 104141292,
+      "filter": 40314292,
+      "observations": 11081667,
+      "views": 13912501,
+      "registration": 78616999,
+      "stft": 859292,
+      "publication": 0
+    },
+    {
+      "guide": 108205583,
+      "filter": 39422626,
+      "observations": 11324084,
+      "views": 13923041,
+      "registration": 82427334,
+      "stft": 858790,
+      "publication": 0
+    },
+    {
+      "guide": 108983542,
+      "filter": 40384125,
+      "observations": 11310792,
+      "views": 13643416,
+      "registration": 83496126,
+      "stft": 851332,
+      "publication": 0
+    },
+    {
+      "guide": 108404459,
+      "filter": 42019166,
+      "observations": 11065750,
+      "views": 13916417,
+      "registration": 82902250,
+      "stft": 835166,
+      "publication": 0
+    },
+    {
+      "guide": 106782250,
+      "filter": 42305292,
+      "observations": 11093792,
+      "views": 14129834,
+      "registration": 81030958,
+      "stft": 831626,
+      "publication": 0
+    },
+    {
+      "guide": 105257708,
+      "filter": 40071708,
+      "observations": 11080792,
+      "views": 13828958,
+      "registration": 79824542,
+      "stft": 853541,
+      "publication": 0
+    },
+    {
+      "guide": 104171874,
+      "filter": 39007083,
+      "observations": 11223167,
+      "views": 13587583,
+      "registration": 78833625,
+      "stft": 856667,
+      "publication": 0
+    },
+    {
+      "guide": 104399791,
+      "filter": 39829625,
+      "observations": 11277249,
+      "views": 13975459,
+      "registration": 78612250,
+      "stft": 866207,
+      "publication": 0
+    },
+    {
+      "guide": 105658291,
+      "filter": 40502708,
+      "observations": 11213791,
+      "views": 13672083,
+      "registration": 80239916,
+      "stft": 846459,
+      "publication": 0
+    },
+    {
+      "guide": 108508208,
+      "filter": 41360583,
+      "observations": 11068125,
+      "views": 13982626,
+      "registration": 82932666,
+      "stft": 842750,
+      "publication": 0
+    },
+    {
+      "guide": 106596291,
+      "filter": 41735917,
+      "observations": 11105042,
+      "views": 14143917,
+      "registration": 80815333,
+      "stft": 837541,
+      "publication": 0
+    },
+    {
+      "guide": 104762042,
+      "filter": 40491583,
+      "observations": 11081376,
+      "views": 13832874,
+      "registration": 79313542,
+      "stft": 853708,
+      "publication": 0
+    },
+    {
+      "guide": 103589709,
+      "filter": 39111625,
+      "observations": 11189958,
+      "views": 13630042,
+      "registration": 78241333,
+      "stft": 860793,
+      "publication": 0
+    },
+    {
+      "guide": 105793667,
+      "filter": 40107500,
+      "observations": 11223750,
+      "views": 13400459,
+      "registration": 80629125,
+      "stft": 857291,
+      "publication": 0
+    },
+    {
+      "guide": 106467166,
+      "filter": 41207458,
+      "observations": 11124666,
+      "views": 13650292,
+      "registration": 81168958,
+      "stft": 851167,
+      "publication": 0
+    },
+    {
+      "guide": 109275084,
+      "filter": 41527124,
+      "observations": 11121750,
+      "views": 14382959,
+      "registration": 83236458,
+      "stft": 857043,
+      "publication": 0
+    },
+    {
+      "guide": 105297376,
+      "filter": 42191583,
+      "observations": 11071125,
+      "views": 14074167,
+      "registration": 79635458,
+      "stft": 831457,
+      "publication": 0
+    },
+    {
+      "guide": 104090167,
+      "filter": 40367542,
+      "observations": 11144667,
+      "views": 14174916,
+      "registration": 78243417,
+      "stft": 853624,
+      "publication": 0
+    },
+    {
+      "guide": 103550583,
+      "filter": 39186208,
+      "observations": 11319000,
+      "views": 13711833,
+      "registration": 77993876,
+      "stft": 851083,
+      "publication": 0
+    },
+    {
+      "guide": 105170959,
+      "filter": 40472374,
+      "observations": 11329499,
+      "views": 13942084,
+      "registration": 79371208,
+      "stft": 855208,
+      "publication": 0
+    },
+    {
+      "guide": 107044958,
+      "filter": 42050293,
+      "observations": 11305459,
+      "views": 13975250,
+      "registration": 81233582,
+      "stft": 847334,
+      "publication": 0
+    },
+    {
+      "guide": 106555875,
+      "filter": 41428834,
+      "observations": 11022417,
+      "views": 13779292,
+      "registration": 81225167,
+      "stft": 844500,
+      "publication": 0
+    },
+    {
+      "guide": 107728042,
+      "filter": 41757125,
+      "observations": 11327708,
+      "views": 13671375,
+      "registration": 82198458,
+      "stft": 846333,
+      "publication": 0
+    },
+    {
+      "guide": 103965875,
+      "filter": 39661125,
+      "observations": 11118209,
+      "views": 13605541,
+      "registration": 78717250,
+      "stft": 834375,
+      "publication": 0
+    },
+    {
+      "guide": 104089541,
+      "filter": 39475417,
+      "observations": 11334042,
+      "views": 13902209,
+      "registration": 78326666,
+      "stft": 854832,
+      "publication": 0
+    },
+    {
+      "guide": 106588499,
+      "filter": 40814250,
+      "observations": 11301041,
+      "views": 13840792,
+      "registration": 80902708,
+      "stft": 852834,
+      "publication": 0
+    },
+    {
+      "guide": 107697792,
+      "filter": 41252291,
+      "observations": 11115375,
+      "views": 14516584,
+      "registration": 81535749,
+      "stft": 852625,
+      "publication": 0
+    },
+    {
+      "guide": 107252416,
+      "filter": 42418624,
+      "observations": 11087166,
+      "views": 14438917,
+      "registration": 81200250,
+      "stft": 834168,
+      "publication": 0
+    },
+    {
+      "guide": 106335001,
+      "filter": 41450667,
+      "observations": 11074250,
+      "views": 13822041,
+      "registration": 80908625,
+      "stft": 846041,
+      "publication": 0
+    },
+    {
+      "guide": 103808958,
+      "filter": 40849750,
+      "observations": 11296124,
+      "views": 13776043,
+      "registration": 78207874,
+      "stft": 863167,
+      "publication": 0
+    },
+    {
+      "guide": 106359542,
+      "filter": 39255333,
+      "observations": 11324584,
+      "views": 13923749,
+      "registration": 80586375,
+      "stft": 842332,
+      "publication": 0
+    },
+    {
+      "guide": 105734459,
+      "filter": 39855250,
+      "observations": 11186292,
+      "views": 13852958,
+      "registration": 80163625,
+      "stft": 866626,
+      "publication": 0
+    },
+    {
+      "guide": 107561375,
+      "filter": 40726291,
+      "observations": 11235167,
+      "views": 13936084,
+      "registration": 81860416,
+      "stft": 843333,
+      "publication": 0
+    },
+    {
+      "guide": 106932416,
+      "filter": 42420959,
+      "observations": 11033458,
+      "views": 13878959,
+      "registration": 81493374,
+      "stft": 841085,
+      "publication": 0
+    },
+    {
+      "guide": 106027750,
+      "filter": 42049209,
+      "observations": 11034584,
+      "views": 14139874,
+      "registration": 80327209,
+      "stft": 852500,
+      "publication": 0
+    },
+    {
+      "guide": 105566958,
+      "filter": 39940334,
+      "observations": 11064000,
+      "views": 13607167,
+      "registration": 80377916,
+      "stft": 851085,
+      "publication": 0
+    },
+    {
+      "guide": 103975041,
+      "filter": 39541791,
+      "observations": 11156709,
+      "views": 13875875,
+      "registration": 78415083,
+      "stft": 834584,
+      "publication": 0
+    },
+    {
+      "guide": 105384457,
+      "filter": 41422625,
+      "observations": 11221209,
+      "views": 13789500,
+      "registration": 79844292,
+      "stft": 851126,
+      "publication": 0
+    },
+    {
+      "guide": 106870542,
+      "filter": 42528375,
+      "observations": 11188000,
+      "views": 13842584,
+      "registration": 81308042,
+      "stft": 851750,
+      "publication": 0
+    },
+    {
+      "guide": 107411875,
+      "filter": 42741792,
+      "observations": 11082167,
+      "views": 14412166,
+      "registration": 81394042,
+      "stft": 839167,
+      "publication": 0
+    },
+    {
+      "guide": 105314376,
+      "filter": 41703458,
+      "observations": 11090959,
+      "views": 14111833,
+      "registration": 79588542,
+      "stft": 853373,
+      "publication": 0
+    },
+    {
+      "guide": 105784001,
+      "filter": 39136126,
+      "observations": 11277626,
+      "views": 13537125,
+      "registration": 80440500,
+      "stft": 851876,
+      "publication": 0
+    },
+    {
+      "guide": 108280834,
+      "filter": 39720250,
+      "observations": 11223333,
+      "views": 13779292,
+      "registration": 82750792,
+      "stft": 847959,
+      "publication": 0
+    },
+    {
+      "guide": 105265167,
+      "filter": 41707500,
+      "observations": 11130334,
+      "views": 13863542,
+      "registration": 79752791,
+      "stft": 834417,
+      "publication": 0
+    },
+    {
+      "guide": 107154542,
+      "filter": 41869667,
+      "observations": 11369124,
+      "views": 14418834,
+      "registration": 80843833,
+      "stft": 855708,
+      "publication": 0
+    },
+    {
+      "guide": 108352584,
+      "filter": 42234417,
+      "observations": 11087126,
+      "views": 13891834,
+      "registration": 82850750,
+      "stft": 840375,
+      "publication": 0
+    },
+    {
+      "guide": 106686626,
+      "filter": 41612874,
+      "observations": 11073876,
+      "views": 14154417,
+      "registration": 80940541,
+      "stft": 828749,
+      "publication": 0
+    },
+    {
+      "guide": 110478250,
+      "filter": 40469042,
+      "observations": 11144042,
+      "views": 13805750,
+      "registration": 84994041,
+      "stft": 868044,
+      "publication": 0
+    },
+    {
+      "guide": 105740083,
+      "filter": 40067208,
+      "observations": 11082959,
+      "views": 13279707,
+      "registration": 80850042,
+      "stft": 866750,
+      "publication": 0
+    },
+    {
+      "guide": 107591583,
+      "filter": 41931791,
+      "observations": 11336583,
+      "views": 13970666,
+      "registration": 81755209,
+      "stft": 860417,
+      "publication": 0
+    },
+    {
+      "guide": 106799250,
+      "filter": 42718584,
+      "observations": 11129416,
+      "views": 14077917,
+      "registration": 81062292,
+      "stft": 836833,
+      "publication": 0
+    },
+    {
+      "guide": 106352041,
+      "filter": 42368834,
+      "observations": 11077208,
+      "views": 13581333,
+      "registration": 81171042,
+      "stft": 847500,
+      "publication": 0
+    },
+    {
+      "guide": 108418292,
+      "filter": 40497792,
+      "observations": 11095667,
+      "views": 13870124,
+      "registration": 82922459,
+      "stft": 852708,
+      "publication": 0
+    },
+    {
+      "guide": 102916916,
+      "filter": 39414375,
+      "observations": 11041584,
+      "views": 13121124,
+      "registration": 78227751,
+      "stft": 846126,
+      "publication": 0
+    },
+    {
+      "guide": 106239333,
+      "filter": 39798000,
+      "observations": 11238208,
+      "views": 13392792,
+      "registration": 81081125,
+      "stft": 860625,
+      "publication": 0
+    },
+    {
+      "guide": 108122750,
+      "filter": 41868750,
+      "observations": 11351959,
+      "views": 14554959,
+      "registration": 81690458,
+      "stft": 855750,
+      "publication": 0
+    },
+    {
+      "guide": 106112376,
+      "filter": 42152208,
+      "observations": 11124125,
+      "views": 14002375,
+      "registration": 80466042,
+      "stft": 836417,
+      "publication": 0
+    },
+    {
+      "guide": 106685875,
+      "filter": 41496208,
+      "observations": 11039333,
+      "views": 14122543,
+      "registration": 80992499,
+      "stft": 860958,
+      "publication": 0
+    },
+    {
+      "guide": 105853958,
+      "filter": 39732875,
+      "observations": 11009209,
+      "views": 14030791,
+      "registration": 80291543,
+      "stft": 834959,
+      "publication": 0
+    },
+    {
+      "guide": 106794375,
+      "filter": 39516042,
+      "observations": 11322916,
+      "views": 13783042,
+      "registration": 81149875,
+      "stft": 866083,
+      "publication": 0
+    },
+    {
+      "guide": 104038459,
+      "filter": 39428624,
+      "observations": 11058292,
+      "views": 13732541,
+      "registration": 78711375,
+      "stft": 855750,
+      "publication": 0
+    },
+    {
+      "guide": 107758292,
+      "filter": 41314916,
+      "observations": 11307416,
+      "views": 14322250,
+      "registration": 81594042,
+      "stft": 865583,
+      "publication": 0
+    },
+    {
+      "guide": 107223542,
+      "filter": 42222875,
+      "observations": 11129375,
+      "views": 14393250,
+      "registration": 81169875,
+      "stft": 849082,
+      "publication": 0
+    },
+    {
+      "guide": 106744000,
+      "filter": 42026667,
+      "observations": 11145959,
+      "views": 14075875,
+      "registration": 81003708,
+      "stft": 841292,
+      "publication": 0
+    },
+    {
+      "guide": 104664666,
+      "filter": 39899166,
+      "observations": 11060750,
+      "views": 13421000,
+      "registration": 79652167,
+      "stft": 839499,
+      "publication": 0
+    },
+    {
+      "guide": 103933417,
+      "filter": 38748125,
+      "observations": 11300792,
+      "views": 13831499,
+      "registration": 78259958,
+      "stft": 884292,
+      "publication": 0
+    },
+    {
+      "guide": 107724375,
+      "filter": 39635584,
+      "observations": 11144083,
+      "views": 14086458,
+      "registration": 81962417,
+      "stft": 854498,
+      "publication": 0
+    },
+    {
+      "guide": 107409124,
+      "filter": 40843708,
+      "observations": 11123916,
+      "views": 13823625,
+      "registration": 81925584,
+      "stft": 850958,
+      "publication": 0
+    },
+    {
+      "guide": 108940749,
+      "filter": 41140208,
+      "observations": 10976374,
+      "views": 14554875,
+      "registration": 82893292,
+      "stft": 828711,
+      "publication": 0
+    },
+    {
+      "guide": 105009542,
+      "filter": 41328416,
+      "observations": 10940499,
+      "views": 14222959,
+      "registration": 79326291,
+      "stft": 832584,
+      "publication": 0
+    },
+    {
+      "guide": 104095000,
+      "filter": 40238666,
+      "observations": 11316167,
+      "views": 13585001,
+      "registration": 78664749,
+      "stft": 853999,
+      "publication": 0
+    },
+    {
+      "guide": 103131416,
+      "filter": 39265041,
+      "observations": 11218041,
+      "views": 13401001,
+      "registration": 77990625,
+      "stft": 848794,
+      "publication": 0
+    },
+    {
+      "guide": 107204041,
+      "filter": 41016416,
+      "observations": 11284375,
+      "views": 13766959,
+      "registration": 81622874,
+      "stft": 852958,
+      "publication": 0
+    },
+    {
+      "guide": 108754750,
+      "filter": 40712625,
+      "observations": 11111334,
+      "views": 14143458,
+      "registration": 82966708,
+      "stft": 841083,
+      "publication": 0
+    },
+    {
+      "guide": 107323709,
+      "filter": 41686416,
+      "observations": 11057041,
+      "views": 14537043,
+      "registration": 81205207,
+      "stft": 840208,
+      "publication": 0
+    },
+    {
+      "guide": 107334083,
+      "filter": 42155084,
+      "observations": 11002000,
+      "views": 14279667,
+      "registration": 81532250,
+      "stft": 865707,
+      "publication": 0
+    },
+    {
+      "guide": 105497084,
+      "filter": 39352458,
+      "observations": 11109417,
+      "views": 13263375,
+      "registration": 80596374,
+      "stft": 839956,
+      "publication": 0
+    },
+    {
+      "guide": 106252583,
+      "filter": 39515875,
+      "observations": 11218625,
+      "views": 13524834,
+      "registration": 80977083,
+      "stft": 856834,
+      "publication": 0
+    },
+    {
+      "guide": 105032375,
+      "filter": 41302584,
+      "observations": 11139791,
+      "views": 13877292,
+      "registration": 79486125,
+      "stft": 848167,
+      "publication": 0
+    },
+    {
+      "guide": 107306167,
+      "filter": 41641042,
+      "observations": 11233792,
+      "views": 14215208,
+      "registration": 81327792,
+      "stft": 861544,
+      "publication": 0
+    },
+    {
+      "guide": 110855583,
+      "filter": 42814584,
+      "observations": 11063750,
+      "views": 14463917,
+      "registration": 84798333,
+      "stft": 858250,
+      "publication": 0
+    },
+    {
+      "guide": 106972332,
+      "filter": 41215834,
+      "observations": 10972917,
+      "views": 13691375,
+      "registration": 81784959,
+      "stft": 834751,
+      "publication": 0
+    },
+    {
+      "guide": 103895416,
+      "filter": 39677501,
+      "observations": 11106334,
+      "views": 13728292,
+      "registration": 78535624,
+      "stft": 834626,
+      "publication": 0
+    },
+    {
+      "guide": 104230542,
+      "filter": 39812542,
+      "observations": 11321584,
+      "views": 13943791,
+      "registration": 78437708,
+      "stft": 852957,
+      "publication": 0
+    },
+    {
+      "guide": 107374667,
+      "filter": 40329459,
+      "observations": 11228708,
+      "views": 13928874,
+      "registration": 81681167,
+      "stft": 847917,
+      "publication": 0
+    },
+    {
+      "guide": 107354584,
+      "filter": 41963167,
+      "observations": 11308750,
+      "views": 14023916,
+      "registration": 81495875,
+      "stft": 855667,
+      "publication": 0
+    },
+    {
+      "guide": 109764917,
+      "filter": 41245709,
+      "observations": 10975333,
+      "views": 14149709,
+      "registration": 84116000,
+      "stft": 840833,
+      "publication": 0
+    },
+    {
+      "guide": 109435625,
+      "filter": 40988959,
+      "observations": 10985708,
+      "views": 14005417,
+      "registration": 83917583,
+      "stft": 828874,
+      "publication": 0
+    },
+    {
+      "guide": 105827000,
+      "filter": 39995417,
+      "observations": 11107875,
+      "views": 13631042,
+      "registration": 80555417,
+      "stft": 844375,
+      "publication": 0
+    },
+    {
+      "guide": 104312875,
+      "filter": 40538625,
+      "observations": 11198167,
+      "views": 13468124,
+      "registration": 79117376,
+      "stft": 862209,
+      "publication": 0
+    },
+    {
+      "guide": 105622042,
+      "filter": 40406541,
+      "observations": 11322958,
+      "views": 13665958,
+      "registration": 80106709,
+      "stft": 849708,
+      "publication": 0
+    },
+    {
+      "guide": 110306250,
+      "filter": 42679042,
+      "observations": 11163500,
+      "views": 14131292,
+      "registration": 84480833,
+      "stft": 859666,
+      "publication": 0
+    },
+    {
+      "guide": 108628667,
+      "filter": 41842541,
+      "observations": 10974958,
+      "views": 14379750,
+      "registration": 82749459,
+      "stft": 827374,
+      "publication": 0
+    },
+    {
+      "guide": 107476417,
+      "filter": 40523457,
+      "observations": 11011750,
+      "views": 14201208,
+      "registration": 81745250,
+      "stft": 830707,
+      "publication": 0
+    },
+    {
+      "guide": 106341459,
+      "filter": 39640874,
+      "observations": 11067667,
+      "views": 13686833,
+      "registration": 81061166,
+      "stft": 845417,
+      "publication": 0
+    },
+    {
+      "guide": 104485751,
+      "filter": 40165209,
+      "observations": 11268959,
+      "views": 13688041,
+      "registration": 78995708,
+      "stft": 849749,
+      "publication": 0
+    },
+    {
+      "guide": 109946292,
+      "filter": 41917792,
+      "observations": 11321626,
+      "views": 14033334,
+      "registration": 84057708,
+      "stft": 844834,
+      "publication": 0
+    },
+    {
+      "guide": 108467500,
+      "filter": 41507917,
+      "observations": 11023375,
+      "views": 14266334,
+      "registration": 82654792,
+      "stft": 833126,
+      "publication": 0
+    },
+    {
+      "guide": 106798250,
+      "filter": 42132999,
+      "observations": 11044125,
+      "views": 14029000,
+      "registration": 81205875,
+      "stft": 840043,
+      "publication": 0
+    }
+  ],
+  "population": true,
+  "p95_seconds": 0.1519051515730098,
+  "peak_seconds": 0.15466429106891155,
+  "observed_deadline_pass": true,
+  "final": {
+    "abi": 1,
+    "generation": 1,
+    "attempt": 1,
+    "loading": false,
+    "success": true,
+    "error": "",
+    "bypass": false,
+    "squelch": false,
+    "harmonics": false,
+    "runtime_fault": false,
+    "port": 52381,
+    "sample_rate": 48000,
+    "channels": 2,
+    "bandwidth": 3400,
+    "fft": 512,
+    "hop": 128,
+    "block": 8192,
+    "frames": 192,
+    "bins": 257,
+    "transform": "rfft",
+    "analysis_mode": "registered",
+    "guide_threads": 6,
+    "guide_fft": 2048,
+    "guide_bins": 2048,
+    "guide_frames": 48,
+    "guide_hop": 512,
+    "guide_coverage_hz": 24000,
+    "viewer": false,
+    "viewer_error": "",
+    "latency_samples": 16768,
+    "blocks_processed": 128,
+    "faults": 0,
+    "last_block_ns": 149855542,
+    "peak_block_ns": 154617583,
+    "stage_ns": {
+      "guide": 106798250,
+      "filter": 42132999,
+      "observations": 11044125,
+      "views": 14029000,
+      "registration": 81205875,
+      "stft": 840043,
+      "publication": 0
+    },
+    "last_calls": {
+      "filter": 2,
+      "guide": 2,
+      "shared_channels": 0
+    },
+    "sha256": "6e863086fd5cab651a770c33f1cb006926bdd342229963573e87718961b7badb"
+  }
+}

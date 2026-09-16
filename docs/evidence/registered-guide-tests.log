@@ -1,0 +1,129 @@
+Syncing /Users/ultimussecundai/Desktop/cleanup2 -> m4mini:/Users/joshuahkuttenkuler/Developer/CodexBuilds/cleanup2-a07b457b1144
+Running on m4mini: sh -c sh tools/verify-mini.sh && sh tools/verify-guide-mini.sh
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/joshuahkuttenkuler/Developer/CodexBuilds/cleanup2-a07b457b1144/build
+[ 53%] Built target bfft_static
+[ 76%] Building CXX object CMakeFiles/CleanupNative.dir/native/src/recursive_smooth.cpp.o
+[ 76%] Building CXX object CMakeFiles/CleanupNative.dir/native/src/dip_transport.cpp.o
+[ 76%] Building CXX object CMakeFiles/CleanupNative.dir/native/src/engine.cpp.o
+[ 84%] Linking CXX shared library libCleanupNative.dylib
+[100%] Built target CleanupNative
+[100%] Built target cleanupctl
+test_invalid_geometry_and_input_leave_mask_unchanged (__main__.NativeSmoothing.test_invalid_geometry_and_input_leave_mask_unchanged) ... ok
+test_literal_oracle_and_original_numba (__main__.NativeSmoothing.test_literal_oracle_and_original_numba) ... ok
+test_native_vs_prior_numba_timing (__main__.NativeSmoothing.test_native_vs_prior_numba_timing) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.554s
+
+OK
+native smoothing maximum absolute drift: 8.326672684688674e-16
+smoothing benchmark: [{"shape": [192, 257], "nb": 37, "method": "native", "median_ns": 187208, "minimum_ns": 179625, "maximum_ns": 200708}, {"shape": [192, 257], "nb": 37, "method": "prior_numba", "median_ns": 203249, "minimum_ns": 194708, "maximum_ns": 220125}, {"shape": [48, 512], "nb": 291, "method": "native", "median_ns": 129312, "minimum_ns": 124292, "maximum_ns": 142500}, {"shape": [48, 512], "nb": 291, "method": "prior_numba", "median_ns": 233396, "minimum_ns": 223250, "maximum_ns": 251250}, {"shape": [48, 512], "nb": 512, "method": "native", "median_ns": 143125, "minimum_ns": 138084, "maximum_ns": 152917}, {"shape": [48, 512], "nb": 512, "method": "prior_numba", "median_ns": 327292, "minimum_ns": 321042, "maximum_ns": 336833}]
+test_reject_undecorated_and_unused_and_bad_geometry (__main__.CompilerTests.test_reject_undecorated_and_unused_and_bad_geometry) ... ok
+test_actual_cleanup_finite_and_denoising (__main__.NativeTests.test_actual_cleanup_finite_and_denoising) ... ok
+test_bfft_identity_arbitrary_buffers_stereo_and_inplace (__main__.NativeTests.test_bfft_identity_arbitrary_buffers_stereo_and_inplace) ... ok
+test_passthrough_exact_and_controls_use_dll (__main__.NativeTests.test_passthrough_exact_and_controls_use_dll) ... ok
+test_reload_while_audio_runs_and_real_filter_geometry (__main__.NativeTests.test_reload_while_audio_runs_and_real_filter_geometry) ... ok
+test_runtime_failure_and_two_independent_entities (__main__.NativeTests.test_runtime_failure_and_two_independent_entities) ... ok
+test_skip_drains_overlap_then_exact_zeros (__main__.NativeTests.test_skip_drains_overlap_then_exact_zeros) ... ok
+test_transactional_reload_geometry_reset_and_failure_retention (__main__.NativeTests.test_transactional_reload_geometry_reset_and_failure_retention) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 15.406s
+
+OK
+cleanup-smoke {"rms_in": 0.07674292474985123, "rms_out": 0.05737357959151268, "status": {"abi": 1, "generation": 1, "attempt": 1, "loading": false, "success": true, "error": "", "bypass": false, "squelch": false, "harmonics": false, "runtime_fault": false, "port": 52381, "sample_rate": 48000, "channels": 1, "bandwidth": 3400, "fft": 512, "hop": 128, "block": 8192, "frames": 192, "bins": 257, "transform": "rfft", "analysis_mode": "baseline", "guide_threads": 0, "guide_fft": 0, "guide_bins": 0, "guide_frames": 0, "guide_hop": 0, "guide_coverage_hz": 0, "viewer": false, "viewer_error": "", "latency_samples": 16768, "blocks_processed": 12, "faults": 0, "last_block_ns": 2276709, "peak_block_ns": 2607041, "sha256": "8a6a9fc4fb4910d737939bbdb3436a3190edfa6cb8c49e682492b21b8fa91cd4"}}
+identity {"latency": 16768, "max_error": 0.0}
+test_duplicates_gaps_and_generation_reset (test_viewer.HistoryTests.test_duplicates_gaps_and_generation_reset) ... ok
+test_launch_reports_child_failure_before_first_frame (test_viewer.HistoryTests.test_launch_reports_child_failure_before_first_frame) ... ok
+test_texture_frequency_direction_and_missing_data (test_viewer.HistoryTests.test_texture_frequency_direction_and_missing_data) ... ok
+test_published_spectra_gate_and_reload (test_viewer.DiagnosticTests.test_published_spectra_gate_and_reload) ... ok
+test_custom_filter_state_publication (test_viewer.DiagnosticTests.test_custom_filter_state_publication) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.615s
+
+OK
+/Users/joshuahkuttenkuler/Developer/CodexBuilds/cleanup2-a07b457b1144/build/legacy-oracle/oracle.cpp
+In file included from build/legacy-oracle/oracle.cpp:1:
+build/legacy-oracle/legacy.h:12:9: warning: 'M_PI' macro redefined [-Wmacro-redefined]
+   12 | #define M_PI 3.14159265358979323846  /* pi */
+      |         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h:741:9: note: previous definition is here
+  741 | #define M_PI        3.14159265358979323846264338327950288   /* pi             */
+      |         ^
+In file included from build/legacy-oracle/oracle.cpp:1:
+build/legacy-oracle/legacy.h:134:58: warning: braces around scalar initializer [-Wbraced-scalar-init]
+  134 |         HeapArray<HeapArray<dfloat, 512>, 192> windowed_Sx = { {{static_cast<dfloat>(0.0)}} };
+      |                                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+build/legacy-oracle/legacy.h:193:56: warning: braces around scalar initializer [-Wbraced-scalar-init]
+  193 |         HeapArray<HeapArray<dfloat, 257>, 192> stft_real = { {{static_cast<dfloat>(0.0)}} };
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+build/legacy-oracle/legacy.h:194:55: warning: braces around scalar initializer [-Wbraced-scalar-init]
+  194 |         HeapArray<HeapArray<dfloat, 257>, 192> smoothed = { {{static_cast<dfloat>(0.0)}} };
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+build/legacy-oracle/legacy.h:196:55: warning: braces around scalar initializer [-Wbraced-scalar-init]
+  196 |         HeapArray<HeapArray<dfloat, 257>, 192> previous = { {{static_cast<dfloat>(0.0)}} };
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+build/legacy-oracle/legacy.h:197:90: warning: braces around scalar initializer [-Wbraced-scalar-init]
+  197 |         HeapArray<HeapArray<dfloat, (FREQ_PAD * 2) + 257>, (TIME_PAD * 2) + 192 > vertical = { {{static_cast<dfloat>(0.0)}} };
+      |                                                                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+build/legacy-oracle/legacy.h:198:91: warning: braces around scalar initializer [-Wbraced-scalar-init]
+  198 |         HeapArray<HeapArray<dfloat, (FREQ_PAD * 2) + 257>, (TIME_PAD * 2) + 192> horizontal = { {{static_cast<dfloat>(0.0)}} };
+      |                                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+build/legacy-oracle/legacy.h:930:64: warning: braces around scalar initializer [-Wbraced-scalar-init]
+  930 |         HeapArray<HeapArray<dfloat, 512>, 64> time_domain_buffer = { {{static_cast<dfloat>(0.0)}} };
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+8 warnings generated.
+test_two_pass_mask_and_recursive_smoothing_match_legacy (__main__.LegacyParity.test_two_pass_mask_and_recursive_smoothing_match_legacy) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.275s
+
+OK
+[{'squelch': False, 'nb': 26, 'max_center_mask_error': 2.220446049250313e-16}, {'squelch': False, 'nb': 37, 'max_center_mask_error': 3.0531133177191805e-16}, {'squelch': False, 'nb': 129, 'max_center_mask_error': 1.1102230246251565e-16}, {'squelch': True, 'nb': 26, 'max_center_mask_error': 2.220446049250313e-16}, {'squelch': True, 'nb': 37, 'max_center_mask_error': 3.0531133177191805e-16}, {'squelch': True, 'nb': 129, 'max_center_mask_error': 1.1102230246251565e-16}]
+test_erosion_is_soft_and_between_time_peaks (__main__.HarmonicEntity.test_erosion_is_soft_and_between_time_peaks) ... ok
+test_off_is_exact_identity_and_on_protects_measured_band (__main__.HarmonicEntity.test_off_is_exact_identity_and_on_protects_measured_band) ... ok
+test_invalid_donors_rejected (__main__.PacketTransport.test_invalid_donors_rejected) ... ok
+test_packet_projection_matches_finite_zak_definition (__main__.PacketTransport.test_packet_projection_matches_finite_zak_definition) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.736s
+
+OK
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/joshuahkuttenkuler/Developer/CodexBuilds/cleanup2-a07b457b1144/build
+[ 53%] Built target bfft_static
+[100%] Built target CleanupNative
+guide_fft max error vs direct DFT: 4.39307e-13
+test_00_cached_observations_match_fresh_context (__main__.GuideTests.test_00_cached_observations_match_fresh_context) ... ok
+test_01_exact_registered_oracle (__main__.GuideTests.test_01_exact_registered_oracle) ... ok
+test_02_complete_cleanup_and_projection (__main__.GuideTests.test_02_complete_cleanup_and_projection) ... ok
+test_03_gain_centers_rfft_odft_and_identity (__main__.GuideTests.test_03_gain_centers_rfft_odft_and_identity) ... ok
+test_04_native_stream_viewer_reload (__main__.GuideTests.test_04_native_stream_viewer_reload) ... ok
+test_05_stereo_deadlines (__main__.GuideTests.test_05_stereo_deadlines) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 37.661s
+
+OK
+[{'signal': 'silence', 'max_absolute_error': 0.0, 'seconds': 0.054368749959394336}, {'signal': 'noise', 'max_absolute_error': 5.069729358542219e-16, 'seconds': 0.05676662502810359}, {'signal': 'tones', 'max_absolute_error': 4.897597258302078e-11, 'seconds': 0.055831125006079674}, {'signal': 'radio', 'max_absolute_error': 1.5300148572140043e-13, 'seconds': 0.05595954111777246}]
+test_erosion_is_soft_and_between_time_peaks (__main__.HarmonicEntity.test_erosion_is_soft_and_between_time_peaks) ... ok
+test_off_is_exact_identity_and_on_protects_measured_band (__main__.HarmonicEntity.test_off_is_exact_identity_and_on_protects_measured_band) ... ok
+test_invalid_donors_rejected (__main__.PacketTransport.test_invalid_donors_rejected) ... ok
+test_packet_projection_matches_finite_zak_definition (__main__.PacketTransport.test_packet_projection_matches_finite_zak_definition) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.800s
+
+OK
+test_identity_and_constant_gain_with_registered_parent (__main__.GuideSynthesis.test_identity_and_constant_gain_with_registered_parent) ... ok
+test_reload_smoke_uses_actual_host_geometry (__main__.GuideSynthesis.test_reload_smoke_uses_actual_host_geometry) ... ok
+test_viewer_has_actual_guide_and_final_preinverse_coefficients (__main__.GuideSynthesis.test_viewer_has_actual_guide_and_final_preinverse_coefficients) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 5.938s
+
+OK

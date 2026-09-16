@@ -1,0 +1,21 @@
+Syncing /Users/ultimussecundai/Desktop/cleanup2 -> m4mini:/Users/joshuahkuttenkuler/Developer/CodexBuilds/cleanup2-a07b457b1144
+Running on m4mini: sh -c PATH=/opt/homebrew/bin:$PATH cmake --build build --target CleanupNative -j4 && /Users/joshuahkuttenkuler/miniforge3/bin/python tests/test_harmonics.py && /Users/joshuahkuttenkuler/miniforge3/bin/python tools/listening_demo.py /tmp/cleanup-demo-source.wav --library build/libCleanupNative.dylib --output build/listening-demo-v3 --seconds 30
+[ 53%] Built target bfft_static
+[ 61%] Building CXX object CMakeFiles/CleanupNative.dir/native/src/engine.cpp.o
+[ 69%] Linking CXX shared library libCleanupNative.dylib
+[100%] Built target CleanupNative
+test_centered_stft_carrier_phase_for_odd_comb_shift (__main__.HarmonicEntity.test_centered_stft_carrier_phase_for_odd_comb_shift) ... ok
+test_empty_receiver_tail_joins_lower_and_members_decay (__main__.HarmonicEntity.test_empty_receiver_tail_joins_lower_and_members_decay) ... ok
+test_erosion_is_soft_and_between_time_peaks (__main__.HarmonicEntity.test_erosion_is_soft_and_between_time_peaks) ... ok
+test_formant_valley_and_sparse_tones_do_not_define_receiver_edge (__main__.HarmonicEntity.test_formant_valley_and_sparse_tones_do_not_define_receiver_edge) ... ok
+test_off_is_exact_identity_and_on_protects_measured_band (__main__.HarmonicEntity.test_off_is_exact_identity_and_on_protects_measured_band) ... ok
+test_invalid_donors_rejected (__main__.PacketTransport.test_invalid_donors_rejected) ... ok
+test_packet_projection_matches_finite_zak_definition (__main__.PacketTransport.test_packet_projection_matches_finite_zak_definition) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.905s
+
+OK
+{"name": "baseline", "status": {"abi": 1, "generation": 1, "attempt": 1, "loading": false, "success": true, "error": "", "bypass": false, "squelch": false, "harmonics": false, "runtime_fault": false, "port": 52381, "sample_rate": 48000, "channels": 1, "bandwidth": 3400, "fft": 512, "hop": 128, "block": 8192, "frames": 192, "bins": 257, "transform": "rfft", "analysis_mode": "baseline", "guide_threads": 0, "guide_fft": 0, "guide_bins": 0, "guide_frames": 0, "guide_hop": 0, "guide_coverage_hz": 0, "viewer": true, "viewer_error": "", "latency_samples": 16768, "blocks_processed": 178, "faults": 0, "last_block_ns": 1206375, "peak_block_ns": 2425208, "sha256": "0082c37b986d46b3c837233b777b16d407ca00a592de0e27045abbc4663fd580"}, "render_seconds": 1.6922025419771671, "peak": 0.5829001069068909, "rms": 0.09395762532949448, "clipped_samples": 0}
+{"name": "registered", "status": {"abi": 1, "generation": 1, "attempt": 1, "loading": false, "success": true, "error": "", "bypass": false, "squelch": false, "harmonics": false, "runtime_fault": false, "port": 61416, "sample_rate": 48000, "channels": 1, "bandwidth": 3400, "fft": 512, "hop": 128, "block": 8192, "frames": 192, "bins": 257, "transform": "rfft", "analysis_mode": "registered", "guide_threads": 3, "guide_fft": 2048, "guide_bins": 512, "guide_frames": 48, "guide_hop": 512, "guide_coverage_hz": 5991.21, "viewer": true, "viewer_error": "", "latency_samples": 16768, "blocks_processed": 178, "faults": 0, "last_block_ns": 57140916, "peak_block_ns": 68942750, "sha256": "48fdc35b8b00d9c5892e9fed2763e00e10d24cd641b1ec2a84eb3ddefc260da4"}, "render_seconds": 12.774863707832992, "peak": 0.5263649225234985, "rms": 0.07645650207996368, "clipped_samples": 0}
+{"name": "registered-harmonics", "status": {"abi": 1, "generation": 1, "attempt": 1, "loading": false, "success": true, "error": "", "bypass": false, "squelch": false, "harmonics": true, "runtime_fault": false, "port": 61595, "sample_rate": 48000, "channels": 1, "bandwidth": 3400, "fft": 512, "hop": 128, "block": 8192, "frames": 192, "bins": 257, "transform": "rfft", "analysis_mode": "registered", "guide_threads": 3, "guide_fft": 2048, "guide_bins": 512, "guide_frames": 48, "guide_hop": 512, "guide_coverage_hz": 5991.21, "viewer": true, "viewer_error": "", "latency_samples": 16768, "blocks_processed": 178, "faults": 0, "last_block_ns": 57285584, "peak_block_ns": 70063542, "sha256": "48fdc35b8b00d9c5892e9fed2763e00e10d24cd641b1ec2a84eb3ddefc260da4"}, "render_seconds": 13.577065124874935, "peak": 0.5283909440040588, "rms": 0.07649383693933487, "clipped_samples": 0}

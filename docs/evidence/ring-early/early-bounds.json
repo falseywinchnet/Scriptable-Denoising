@@ -1,0 +1,118 @@
+{
+  "charts": 153,
+  "meaning": "Measure bounds before completion of the FIRST Fourier axis.\n\nThis is an optimistic feasibility audit: oracle peak/competitor incumbents are\nused to show how much a given bound can ever prune. It is not a speed claim or\nan executable search schedule. Each bound is checked against every covered row.\n",
+  "speech": {
+    "2": {
+      "triangle": {
+        "optimistic_peak_branches_skipped": 0.011408730158730118,
+        "optimistic_final_branches_skipped": 0.00694444444444442
+      },
+      "weighted_energy": {
+        "optimistic_peak_branches_skipped": 0.0014880952380953438,
+        "optimistic_final_branches_skipped": 0.0004960317460316332
+      },
+      "envelope_energy": {
+        "optimistic_peak_branches_skipped": 0.007440476190476053,
+        "optimistic_final_branches_skipped": 0.004960317460317554
+      }
+    },
+    "3": {
+      "triangle": {
+        "optimistic_peak_branches_skipped": 0.0625,
+        "optimistic_final_branches_skipped": 0.028108465608465583
+      },
+      "weighted_energy": {
+        "optimistic_peak_branches_skipped": 0.039682539682539764,
+        "optimistic_final_branches_skipped": 0.017526455026455
+      },
+      "envelope_energy": {
+        "optimistic_peak_branches_skipped": 0.04894179894179884,
+        "optimistic_final_branches_skipped": 0.02083333333333337
+      }
+    },
+    "4": {
+      "triangle": {
+        "optimistic_peak_branches_skipped": 0.23735119047619047,
+        "optimistic_final_branches_skipped": 0.0982142857142857
+      },
+      "weighted_energy": {
+        "optimistic_peak_branches_skipped": 0.17212301587301582,
+        "optimistic_final_branches_skipped": 0.07167658730158721
+      },
+      "envelope_energy": {
+        "optimistic_peak_branches_skipped": 0.18229166666666663,
+        "optimistic_final_branches_skipped": 0.07738095238095233
+      }
+    },
+    "6": {
+      "triangle": {
+        "optimistic_peak_branches_skipped": 0.4715608465608465,
+        "optimistic_final_branches_skipped": 0.1820436507936507
+      },
+      "weighted_energy": {
+        "optimistic_peak_branches_skipped": 0.40062830687830686,
+        "optimistic_final_branches_skipped": 0.15542328042328046
+      },
+      "envelope_energy": {
+        "optimistic_peak_branches_skipped": 0.38955026455026454,
+        "optimistic_final_branches_skipped": 0.1521164021164021
+      }
+    },
+    "8": {
+      "triangle": {
+        "optimistic_peak_branches_skipped": 0.6292162698412699,
+        "optimistic_final_branches_skipped": 0.2465277777777778
+      },
+      "weighted_energy": {
+        "optimistic_peak_branches_skipped": 0.5554315476190477,
+        "optimistic_final_branches_skipped": 0.2141617063492064
+      },
+      "envelope_energy": {
+        "optimistic_peak_branches_skipped": 0.5307539682539681,
+        "optimistic_final_branches_skipped": 0.2077132936507936
+      }
+    },
+    "12": {
+      "triangle": {
+        "optimistic_peak_branches_skipped": 0.794808201058201,
+        "optimistic_final_branches_skipped": 0.3848379629629629
+      },
+      "weighted_energy": {
+        "optimistic_peak_branches_skipped": 0.7454530423280423,
+        "optimistic_final_branches_skipped": 0.33341600529100524
+      },
+      "envelope_energy": {
+        "optimistic_peak_branches_skipped": 0.7308201058201058,
+        "optimistic_final_branches_skipped": 0.3249007936507936
+      }
+    },
+    "16": {
+      "triangle": {
+        "optimistic_peak_branches_skipped": 0.8580109126984127,
+        "optimistic_final_branches_skipped": 0.486359126984127
+      },
+      "weighted_energy": {
+        "optimistic_peak_branches_skipped": 0.8224206349206349,
+        "optimistic_final_branches_skipped": 0.4259052579365079
+      },
+      "envelope_energy": {
+        "optimistic_peak_branches_skipped": 0.8151661706349207,
+        "optimistic_final_branches_skipped": 0.41610863095238093
+      }
+    },
+    "24": {
+      "triangle": {
+        "optimistic_peak_branches_skipped": 0.9169560185185185,
+        "optimistic_final_branches_skipped": 0.6157407407407407
+      },
+      "weighted_energy": {
+        "optimistic_peak_branches_skipped": 0.8934358465608465,
+        "optimistic_final_branches_skipped": 0.5431960978835979
+      },
+      "envelope_energy": {
+        "optimistic_peak_branches_skipped": 0.8956266534391535,
+        "optimistic_final_branches_skipped": 0.5387318121693121
+      }
+    }
+  }
+}

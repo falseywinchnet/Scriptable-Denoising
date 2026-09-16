@@ -1,0 +1,32 @@
+{
+  "description": "Controlled, time-constant magnitude fields; this probes threshold selectivity, not audio perceptual quality.",
+  "records": [
+    {
+      "ripple": 0.0,
+      "reference_plateau_acceptance": 1.0,
+      "occupancy_plateau_acceptance": 0.0,
+      "reference_threshold": 0.9894860983451329,
+      "occupancy_threshold": 2.0839503965783495,
+      "plateau_mean": 2.0206063576198487,
+      "minimum_threshold_minus_mean": 0.023936755337150117
+    },
+    {
+      "ripple": 0.005,
+      "reference_plateau_acceptance": 1.0,
+      "occupancy_plateau_acceptance": 0.0,
+      "reference_threshold": 0.9901875106222833,
+      "occupancy_threshold": 2.077303810365623,
+      "plateau_mean": 2.020813299240235,
+      "minimum_threshold_minus_mean": 0.017078355688175506
+    },
+    {
+      "ripple": 0.05,
+      "reference_plateau_acceptance": 1.0,
+      "occupancy_plateau_acceptance": 0.3296875,
+      "reference_threshold": 0.9966167827993774,
+      "occupancy_threshold": 2.0592683603578785,
+      "plateau_mean": 2.022675773823701,
+      "minimum_threshold_minus_mean": 0.016720566316361207
+    }
+  ]
+}

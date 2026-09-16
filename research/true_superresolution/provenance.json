@@ -1,0 +1,41 @@
+{
+  "source": "/Users/ultimussecundai/bfft",
+  "commit": "6e64386f2da658a90493733c08b01dea6425ecdd",
+  "thread": "01a03b18-6686-79a3-87b1-ddee0b5a7b14",
+  "adaptations": [
+    "Relative imports",
+    "Lazy bfft import for unused Meyer audit functions"
+  ],
+  "files": [
+    {
+      "source": "experiments/ostensibly_frontend/uncertainty_fusion.py",
+      "sha256": "036eaea1f35bfc46d249472b3222656d40bf44da05e21c04e551042adbcbdcf8",
+      "snapshot_sha256": "bdef2375d0982ece4e874d6d985fec4b2f9ca24ef7e00a6865e68b5415f99c8b"
+    },
+    {
+      "source": "experiments/ostensibly_frontend/fourier_unrolled_densified.py",
+      "sha256": "1d30deb7f7670fc514d6ca08dbef77def2a3adf1b4aaaa0f024cbf23bbe89c98",
+      "snapshot_sha256": "5c18b53f13f7458759d39a5617c149e5434f8a6ecd2606c510dd33296c368038"
+    },
+    {
+      "source": "experiments/ostensibly_frontend/cleanup_shark_vad.py",
+      "sha256": "fe547e827454a06000f2be6c5bbf51107b0dcfac6b69c6264856616c10efbfb2",
+      "snapshot_sha256": "fe547e827454a06000f2be6c5bbf51107b0dcfac6b69c6264856616c10efbfb2"
+    },
+    {
+      "source": "personal_deblurrer/circles.py",
+      "sha256": "a80e61df6435dd731627115030e7bab4812af2a81c196111ca4cf3a22f06dd6c",
+      "snapshot_sha256": "a80e61df6435dd731627115030e7bab4812af2a81c196111ca4cf3a22f06dd6c"
+    },
+    {
+      "source": "experiments/ostensibly_frontend/test_cleanup_shark_vad.py",
+      "sha256": "eda7f71f3b9c1145aa8baf6bbc73e9fc7b406f9a0571589fd30140502ed3f220",
+      "snapshot_sha256": "eda7f71f3b9c1145aa8baf6bbc73e9fc7b406f9a0571589fd30140502ed3f220"
+    },
+    {
+      "source": "LICENSE",
+      "sha256": "a03d30bb4f88439a5403d76cf44ef66a818d85327312cf20f9bf42f95b970cf5",
+      "snapshot_sha256": "a03d30bb4f88439a5403d76cf44ef66a818d85327312cf20f9bf42f95b970cf5"
+    }
+  ]
+}

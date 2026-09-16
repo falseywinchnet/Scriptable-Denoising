@@ -1,0 +1,10 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${prefix}/@CMAKE_INSTALL_LIBDIR@
+includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+
+Name: bfft
+Description: Small Bruun real FFT library for C and C++
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -lbfft -lm
+Cflags: -I${includedir}

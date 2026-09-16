@@ -1,0 +1,8 @@
+test_inferred_ignores_receiver_bandwidth (__main__.PopulationTests.test_inferred_ignores_receiver_bandwidth) ... ok
+test_oracle_preserves_interior_and_has_no_audio_cut (__main__.PopulationTests.test_oracle_preserves_interior_and_has_no_audio_cut) ... ok
+test_padding_does_not_change_population_statistics_or_peak_decisions (__main__.PopulationTests.test_padding_does_not_change_population_statistics_or_peak_decisions) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 23.446s
+
+OK

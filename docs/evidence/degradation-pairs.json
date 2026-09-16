@@ -1,0 +1,138 @@
+{
+  "reference": "/Users/ultimussecundai/Desktop/cleanup2/research/true_superresolution/daveandsimon-first-second.wav",
+  "reference_kind": "proxy",
+  "reference_sha256": "d442c7b40dfdbd23e14869d612c593d744983f50de48eae3c46cb8bd213b4472",
+  "generator_sha256": "c132e920574e638dfd81534b164ff6d036331816cf422f3ba0d0dba77b412690",
+  "sample_rate": 48000,
+  "seed": 20260915,
+  "snr_convention": "whole-reference mean-square power, including any pauses",
+  "channel_model": "additive audio-domain corruption; no RF/AGC/fading simulation",
+  "pairs": [
+    {
+      "file": "white_0dB.npz",
+      "corruption": "white",
+      "snr_db": 0.0,
+      "peak": 0.9415422498448621,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "white_10dB.npz",
+      "corruption": "white",
+      "snr_db": 9.999999999999998,
+      "peak": 0.7133126078041847,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "white_20dB.npz",
+      "corruption": "white",
+      "snr_db": 20.0,
+      "peak": 0.6443296647780803,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "colored_0dB.npz",
+      "corruption": "colored",
+      "snr_db": 0.0,
+      "peak": 0.9135442016794599,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "colored_10dB.npz",
+      "corruption": "colored",
+      "snr_db": 9.999999999999998,
+      "peak": 0.7050390185724499,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "colored_20dB.npz",
+      "corruption": "colored",
+      "snr_db": 20.0,
+      "peak": 0.6439878370485491,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "evolving_floor_0dB.npz",
+      "corruption": "evolving_floor",
+      "snr_db": 0.0,
+      "peak": 0.9496333305795149,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "evolving_floor_10dB.npz",
+      "corruption": "evolving_floor",
+      "snr_db": 10.0,
+      "peak": 0.6556701127167542,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "evolving_floor_20dB.npz",
+      "corruption": "evolving_floor",
+      "snr_db": 20.0,
+      "peak": 0.6194567405066087,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "bursts_0dB.npz",
+      "corruption": "bursts",
+      "snr_db": 9.64327466553287e-16,
+      "peak": 1.7830238319892542,
+      "would_clip_pcm16": 125
+    },
+    {
+      "file": "bursts_10dB.npz",
+      "corruption": "bursts",
+      "snr_db": 10.0,
+      "peak": 0.8846520168403349,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "bursts_20dB.npz",
+      "corruption": "bursts",
+      "snr_db": 20.0,
+      "peak": 0.6473546000966055,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "ringing_impulses_0dB.npz",
+      "corruption": "ringing_impulses",
+      "snr_db": -1.446491199829931e-15,
+      "peak": 3.925589951278951,
+      "would_clip_pcm16": 232
+    },
+    {
+      "file": "ringing_impulses_10dB.npz",
+      "corruption": "ringing_impulses",
+      "snr_db": 10.0,
+      "peak": 1.4986089441650172,
+      "would_clip_pcm16": 22
+    },
+    {
+      "file": "ringing_impulses_20dB.npz",
+      "corruption": "ringing_impulses",
+      "snr_db": 20.0,
+      "peak": 0.7311301621200825,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "drifting_tone_0dB.npz",
+      "corruption": "drifting_tone",
+      "snr_db": 0.0,
+      "peak": 0.8097686927250722,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "drifting_tone_10dB.npz",
+      "corruption": "drifting_tone",
+      "snr_db": 9.999999999999998,
+      "peak": 0.6744704702659688,
+      "would_clip_pcm16": 0
+    },
+    {
+      "file": "drifting_tone_20dB.npz",
+      "corruption": "drifting_tone",
+      "snr_db": 20.0,
+      "peak": 0.633173524315847,
+      "would_clip_pcm16": 0
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+test_erosion_is_soft_and_between_time_peaks (__main__.HarmonicEntity.test_erosion_is_soft_and_between_time_peaks) ... ok
+test_off_is_exact_identity_and_on_protects_measured_band (__main__.HarmonicEntity.test_off_is_exact_identity_and_on_protects_measured_band) ... ok
+test_invalid_donors_rejected (__main__.PacketTransport.test_invalid_donors_rejected) ... ok
+test_packet_projection_matches_finite_zak_definition (__main__.PacketTransport.test_packet_projection_matches_finite_zak_definition) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.731s
+
+OK

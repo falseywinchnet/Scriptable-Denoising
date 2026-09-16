@@ -1,0 +1,62 @@
+[
+  {
+    "driver": "hardware",
+    "requested": [
+      "0xb000",
+      "0xa000"
+    ],
+    "hresult": "0x80004005",
+    "actual": "0x0",
+    "device_created": false
+  },
+  {
+    "driver": "hardware",
+    "requested": [
+      "0xa000"
+    ],
+    "hresult": "0x80004005",
+    "actual": "0x0",
+    "device_created": false
+  },
+  {
+    "driver": "hardware",
+    "requested": [
+      "0x9300",
+      "0x9200",
+      "0x9100"
+    ],
+    "hresult": "0x00000000",
+    "actual": "0x9300",
+    "device_created": true
+  },
+  {
+    "driver": "warp",
+    "requested": [
+      "0xb000",
+      "0xa000"
+    ],
+    "hresult": "0x80004005",
+    "actual": "0x0",
+    "device_created": false
+  },
+  {
+    "driver": "warp",
+    "requested": [
+      "0xa000"
+    ],
+    "hresult": "0x80004005",
+    "actual": "0x0",
+    "device_created": false
+  },
+  {
+    "driver": "warp",
+    "requested": [
+      "0x9300",
+      "0x9200",
+      "0x9100"
+    ],
+    "hresult": "0x00000000",
+    "actual": "0x9300",
+    "device_created": true
+  }
+]

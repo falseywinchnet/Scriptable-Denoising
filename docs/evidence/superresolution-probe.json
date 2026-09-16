@@ -1,0 +1,42 @@
+{
+  "source": "daveandsimon.wav first second",
+  "sample_rate": 48000,
+  "apertures": [
+    1024,
+    2048,
+    4096
+  ],
+  "offsets": [
+    -379,
+    -241,
+    -64,
+    0,
+    83,
+    214,
+    427
+  ],
+  "field_shape": [
+    256,
+    94
+  ],
+  "field_seconds": 2.021791165927425,
+  "vad_seconds": 0.0075748751405626535,
+  "selected_candidate": "registered_subhop",
+  "comparison_reference": "full_enhanced_field",
+  "registered_subhop_seconds": 0.4851643340662122,
+  "native_subhop_core_seconds": 0.024657625006511807,
+  "native_core_plus_python_registration_seconds": 0.47381608304567635,
+  "native_registered_max_absolute_error": 3.2786273695961654e-15,
+  "mapped_shape": [
+    376,
+    256
+  ],
+  "guidance_highest_hz": 2989.741084513923,
+  "speech_intervals": [
+    {
+      "start": 0.3413333333333333,
+      "end": 0.9706666666666667
+    }
+  ],
+  "stage": "offline extraction and provisional decision projection, not live filtering"
+}

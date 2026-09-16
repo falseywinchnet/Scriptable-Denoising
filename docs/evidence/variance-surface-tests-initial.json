@@ -1,0 +1,50 @@
+{
+  "outlier": {
+    "input_ratio": 1000000000.0,
+    "max_floor": 1.0,
+    "clipped_observation": 4.0
+  },
+  "native": {
+    "status": {
+      "abi": 1,
+      "generation": 1,
+      "attempt": 1,
+      "loading": false,
+      "success": true,
+      "error": "",
+      "bypass": false,
+      "squelch": false,
+      "harmonics": false,
+      "runtime_fault": false,
+      "port": 52381,
+      "sample_rate": 48000,
+      "channels": 1,
+      "bandwidth": 500,
+      "fft": 512,
+      "hop": 128,
+      "block": 8192,
+      "frames": 192,
+      "bins": 257,
+      "transform": "rfft",
+      "analysis_mode": "registered",
+      "guide_threads": 3,
+      "guide_fft": 2048,
+      "guide_bins": 2048,
+      "guide_frames": 48,
+      "guide_hop": 512,
+      "guide_coverage_hz": 24000,
+      "viewer": true,
+      "viewer_error": "",
+      "latency_samples": 16768,
+      "blocks_processed": 7,
+      "faults": 0,
+      "last_block_ns": 425383459,
+      "peak_block_ns": 428281125,
+      "sha256": "9197f1515801093ee9f9d3d2fc29d614831afb7b4b13689ca2bcaf1065b86b09"
+    },
+    "floor_max": 0.716877997,
+    "mask_mean": 0.8490996541167022,
+    "output_peak": 0.13695770502090454
+  },
+  "overlap": "same observations updated once; complete anchor region agrees"
+}

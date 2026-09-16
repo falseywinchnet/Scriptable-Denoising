@@ -1,0 +1,15 @@
+test_reject_undecorated_and_unused_and_bad_geometry (__main__.CompilerTests.test_reject_undecorated_and_unused_and_bad_geometry) ... ok
+test_actual_cleanup_finite_and_denoising (__main__.NativeTests.test_actual_cleanup_finite_and_denoising) ... ok
+test_bfft_identity_arbitrary_buffers_stereo_and_inplace (__main__.NativeTests.test_bfft_identity_arbitrary_buffers_stereo_and_inplace) ... ok
+test_passthrough_exact_and_controls_use_dll (__main__.NativeTests.test_passthrough_exact_and_controls_use_dll) ... ok
+test_reload_while_audio_runs_and_real_filter_geometry (__main__.NativeTests.test_reload_while_audio_runs_and_real_filter_geometry) ... ok
+test_runtime_failure_and_two_independent_entities (__main__.NativeTests.test_runtime_failure_and_two_independent_entities) ... ok
+test_skip_drains_overlap_then_exact_zeros (__main__.NativeTests.test_skip_drains_overlap_then_exact_zeros) ... ok
+test_transactional_reload_geometry_reset_and_failure_retention (__main__.NativeTests.test_transactional_reload_geometry_reset_and_failure_retention) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 35.471s
+
+OK
+cleanup-smoke {"rms_in": 0.07674292474985123, "rms_out": 0.05737357959151268, "status": {"abi": 1, "generation": 1, "attempt": 1, "loading": false, "success": true, "error": "", "bypass": false, "squelch": false, "runtime_fault": false, "port": 49308, "sample_rate": 48000, "channels": 1, "bandwidth": 3400, "fft": 512, "hop": 128, "block": 8192, "frames": 192, "latency_samples": 16768, "blocks_processed": 12, "faults": 0, "last_block_ns": 4443000, "peak_block_ns": 6299000, "sha256": "688b6c8bd715883eeeb77ba0d194baec3123bb3086a491160af5750b19572159"}}
+identity {"latency": 16768, "max_error": 0.0}

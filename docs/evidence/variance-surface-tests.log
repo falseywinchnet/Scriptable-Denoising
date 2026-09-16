@@ -1,0 +1,17 @@
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/joshuahkuttenkuler/Developer/CodexBuilds/cleanup2-a07b457b1144/build
+[ 53%] Built target bfft_static
+[100%] Built target CleanupNative
+[100%] Built target cleanupctl
+test_formula_constant_zero_gain_and_outlier_bound (__main__.SurfaceTests.test_formula_constant_zero_gain_and_outlier_bound) ... ok
+test_geometry_rejects_bad_publication (__main__.SurfaceTests.test_geometry_rejects_bad_publication) ... ok
+test_mean_variance_and_floor_innovations_are_bounded (__main__.SurfaceTests.test_mean_variance_and_floor_innovations_are_bounded) ... ok
+test_native_continuous_fm_and_reload (__main__.SurfaceTests.test_native_continuous_fm_and_reload) ... ok
+test_overlapping_context_not_retrained (__main__.SurfaceTests.test_overlapping_context_not_retrained) ... ok
+test_penalty_matches_measured_moments (__main__.SurfaceTests.test_penalty_matches_measured_moments) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 20.002s
+
+OK

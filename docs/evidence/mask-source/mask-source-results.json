@@ -1,0 +1,10 @@
+[
+  {
+    "case": "1000x_preagc_difference",
+    "max_channel_error": 0.0
+  },
+  {
+    "case": "silent_early_with_loud_content",
+    "output_peak": 0.0
+  }
+]

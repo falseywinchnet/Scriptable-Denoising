@@ -1,0 +1,16 @@
+{
+  "baseline_spectrum_time_alignment_errors": [
+    1.532779583257593e-07,
+    4.2305013359111854e-07,
+    4.6303304479522467e-07,
+    7.797664869357845e-08,
+    4.6263586739314633e-07
+  ],
+  "registered_waveform_lags_samples": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "captured_spectra_blocks": 178
+}

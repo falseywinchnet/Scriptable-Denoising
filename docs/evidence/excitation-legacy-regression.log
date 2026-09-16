@@ -1,0 +1,12 @@
+test_centered_stft_carrier_phase_for_odd_comb_shift (__main__.HarmonicEntity.test_centered_stft_carrier_phase_for_odd_comb_shift) ... ok
+test_empty_receiver_tail_joins_lower_and_members_decay (__main__.HarmonicEntity.test_empty_receiver_tail_joins_lower_and_members_decay) ... ok
+test_erosion_is_soft_and_between_time_peaks (__main__.HarmonicEntity.test_erosion_is_soft_and_between_time_peaks) ... ok
+test_formant_valley_and_sparse_tones_do_not_define_receiver_edge (__main__.HarmonicEntity.test_formant_valley_and_sparse_tones_do_not_define_receiver_edge) ... ok
+test_off_is_exact_identity_and_on_protects_measured_band (__main__.HarmonicEntity.test_off_is_exact_identity_and_on_protects_measured_band) ... ok
+test_invalid_donors_rejected (__main__.PacketTransport.test_invalid_donors_rejected) ... ok
+test_packet_projection_matches_finite_zak_definition (__main__.PacketTransport.test_packet_projection_matches_finite_zak_definition) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 8.626s
+
+OK

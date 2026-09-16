@@ -1,0 +1,410 @@
+{
+  "method": "Derived from recorded clean output/input energy and squared error: g=(1+Pout/Pin-D)/2; residual=Pout/Pin-g\u00b2. Identical known-mixture adaptive mask on clean and noise; no refit.",
+  "rows": [
+    {
+      "name": "baseline",
+      "cutoff_hz": 1200.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.033903899789288094,
+      "clean_coherence": 0.5986342529736876,
+      "gain_compensated_distortion": 1.7904668924232223,
+      "snr_change_db": 2.8548717498779297
+    },
+    {
+      "name": "baseline",
+      "cutoff_hz": 1200.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.14600024661071342,
+      "clean_coherence": 0.7477898452032115,
+      "gain_compensated_distortion": 0.7883020463093502,
+      "snr_change_db": 2.497056007385254
+    },
+    {
+      "name": "baseline",
+      "cutoff_hz": 1200.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.005305751690428906,
+      "clean_coherence": 0.9853090053941859,
+      "gain_compensated_distortion": 0.030042385014060265,
+      "snr_change_db": -12.952156066894531
+    },
+    {
+      "name": "baseline",
+      "cutoff_hz": 3000.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.5617981223544708,
+      "clean_coherence": 0.8766556419023566,
+      "gain_compensated_distortion": 0.3011936515277303,
+      "snr_change_db": 5.736598014831543
+    },
+    {
+      "name": "baseline",
+      "cutoff_hz": 3000.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.9212048666498316,
+      "clean_coherence": 0.989564196897274,
+      "gain_compensated_distortion": 0.021202930304735777,
+      "snr_change_db": 6.402152180671692
+    },
+    {
+      "name": "baseline",
+      "cutoff_hz": 3000.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.004127823594342495,
+      "clean_coherence": 0.9529721282574996,
+      "gain_compensated_distortion": 0.10113255341576395,
+      "snr_change_db": 1.8053054809570312
+    },
+    {
+      "name": "baseline",
+      "cutoff_hz": 6000.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.8212701369433416,
+      "clean_coherence": 0.9525379371475455,
+      "gain_compensated_distortion": 0.1021366308649979,
+      "snr_change_db": 7.844290494918823
+    },
+    {
+      "name": "baseline",
+      "cutoff_hz": 6000.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.9536254662157126,
+      "clean_coherence": 0.9942124462904118,
+      "gain_compensated_distortion": 0.01167637583651715,
+      "snr_change_db": 9.080804884433746
+    },
+    {
+      "name": "baseline",
+      "cutoff_hz": 6000.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.0031758382470101765,
+      "clean_coherence": 0.9501175391649324,
+      "gain_compensated_distortion": 0.10775910808070314,
+      "snr_change_db": 0.4127082824707031
+    },
+    {
+      "name": "surface",
+      "cutoff_hz": 1200.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.5461753525688804,
+      "clean_coherence": 0.8992653998878273,
+      "gain_compensated_distortion": 0.23658573521954102,
+      "snr_change_db": -0.47757554054260254
+    },
+    {
+      "name": "surface",
+      "cutoff_hz": 1200.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.6190593049809437,
+      "clean_coherence": 0.9265251213199381,
+      "gain_compensated_distortion": 0.1648918368702108,
+      "snr_change_db": 0.3072357177734375
+    },
+    {
+      "name": "surface",
+      "cutoff_hz": 1200.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.8959378335025596,
+      "clean_coherence": 0.9981658600118265,
+      "gain_compensated_distortion": 0.0036783969222428225,
+      "snr_change_db": 3.6734575033187866
+    },
+    {
+      "name": "surface",
+      "cutoff_hz": 3000.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.4808331222915565,
+      "clean_coherence": 0.9020327022524388,
+      "gain_compensated_distortion": 0.22901005084240547,
+      "snr_change_db": -0.17177724838256836
+    },
+    {
+      "name": "surface",
+      "cutoff_hz": 3000.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.633107388571918,
+      "clean_coherence": 0.9308892084574255,
+      "gain_compensated_distortion": 0.15399521662110008,
+      "snr_change_db": 1.1623685359954834
+    },
+    {
+      "name": "surface",
+      "cutoff_hz": 3000.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.713857573846334,
+      "clean_coherence": 0.9985581748595782,
+      "gain_compensated_distortion": 0.00288989887110491,
+      "snr_change_db": 2.2959866523742676
+    },
+    {
+      "name": "surface",
+      "cutoff_hz": 6000.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.4752282417632019,
+      "clean_coherence": 0.8963120505716035,
+      "gain_compensated_distortion": 0.24474826392863308,
+      "snr_change_db": -0.15272140502929688
+    },
+    {
+      "name": "surface",
+      "cutoff_hz": 6000.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.6220813087885507,
+      "clean_coherence": 0.9263400295088368,
+      "gain_compensated_distortion": 0.16535739697480153,
+      "snr_change_db": 1.4484410285949707
+    },
+    {
+      "name": "surface",
+      "cutoff_hz": 6000.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.7537328156189456,
+      "clean_coherence": 0.9980006977416671,
+      "gain_compensated_distortion": 0.004010628191826959,
+      "snr_change_db": 2.685117483139038
+    },
+    {
+      "name": "occupancy",
+      "cutoff_hz": 1200.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.37464162757076624,
+      "clean_coherence": 0.740117875704643,
+      "gain_compensated_distortion": 0.8255688333083512,
+      "snr_change_db": 0.5045709609985352
+    },
+    {
+      "name": "occupancy",
+      "cutoff_hz": 1200.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.3589268431615762,
+      "clean_coherence": 0.8155462691369295,
+      "gain_compensated_distortion": 0.5034977738240574,
+      "snr_change_db": 1.7703452110290527
+    },
+    {
+      "name": "occupancy",
+      "cutoff_hz": 1200.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.7179634060477404,
+      "clean_coherence": 0.9972705789430728,
+      "gain_compensated_distortion": 0.005481272944078384,
+      "snr_change_db": 6.250640630722046
+    },
+    {
+      "name": "occupancy",
+      "cutoff_hz": 3000.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.28883891860380473,
+      "clean_coherence": 0.7271504244957628,
+      "gain_compensated_distortion": 0.8912610393272611,
+      "snr_change_db": 2.0822629928588867
+    },
+    {
+      "name": "occupancy",
+      "cutoff_hz": 3000.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.36395069213148856,
+      "clean_coherence": 0.8114882906556106,
+      "gain_compensated_distortion": 0.5185723389315781,
+      "snr_change_db": 2.3123674392700195
+    },
+    {
+      "name": "occupancy",
+      "cutoff_hz": 3000.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.5833435281141621,
+      "clean_coherence": 0.9814937162651988,
+      "gain_compensated_distortion": 0.03806596718149087,
+      "snr_change_db": 5.1090569496154785
+    },
+    {
+      "name": "occupancy",
+      "cutoff_hz": 6000.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.28960421291505234,
+      "clean_coherence": 0.728798209312322,
+      "gain_compensated_distortion": 0.8827185699182423,
+      "snr_change_db": 1.9035072326660156
+    },
+    {
+      "name": "occupancy",
+      "cutoff_hz": 6000.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.3632639681107357,
+      "clean_coherence": 0.8124709763995317,
+      "gain_compensated_distortion": 0.5149011261153297,
+      "snr_change_db": 2.3526382446289062
+    },
+    {
+      "name": "occupancy",
+      "cutoff_hz": 6000.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.6195651761778511,
+      "clean_coherence": 0.9791521977811021,
+      "gain_compensated_distortion": 0.04303671014053508,
+      "snr_change_db": 5.376616954803467
+    },
+    {
+      "name": "shape",
+      "cutoff_hz": 1200.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.2822308481400859,
+      "clean_coherence": 0.7219994350377041,
+      "gain_compensated_distortion": 0.9183431008708234,
+      "snr_change_db": 3.394892692565918
+    },
+    {
+      "name": "shape",
+      "cutoff_hz": 1200.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.16319207582166062,
+      "clean_coherence": 0.6001033852756348,
+      "gain_compensated_distortion": 1.7768207540695873,
+      "snr_change_db": 2.5119943618774414
+    },
+    {
+      "name": "shape",
+      "cutoff_hz": 1200.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.006051397142870063,
+      "clean_coherence": 0.982699740617512,
+      "gain_compensated_distortion": 0.03551958487803545,
+      "snr_change_db": 1.2428016662597656
+    },
+    {
+      "name": "shape",
+      "cutoff_hz": 3000.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.20922118148652147,
+      "clean_coherence": 0.6545672114084409,
+      "gain_compensated_distortion": 1.333949776337187,
+      "snr_change_db": 7.636683464050293
+    },
+    {
+      "name": "shape",
+      "cutoff_hz": 3000.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.17816200817406003,
+      "clean_coherence": 0.6680802274632386,
+      "gain_compensated_distortion": 1.240488726021175,
+      "snr_change_db": 6.659618377685547
+    },
+    {
+      "name": "shape",
+      "cutoff_hz": 3000.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.42693032194574376,
+      "clean_coherence": 0.9461678601754867,
+      "gain_compensated_distortion": 0.11702686100456183,
+      "snr_change_db": 21.07124137878418
+    },
+    {
+      "name": "shape",
+      "cutoff_hz": 6000.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.22326639743319632,
+      "clean_coherence": 0.6605537314731544,
+      "gain_compensated_distortion": 1.291836857615048,
+      "snr_change_db": 10.401737213134766
+    },
+    {
+      "name": "shape",
+      "cutoff_hz": 6000.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.15707099687242432,
+      "clean_coherence": 0.6310614885757465,
+      "gain_compensated_distortion": 1.5110574265409578,
+      "snr_change_db": 8.89689826965332
+    },
+    {
+      "name": "shape",
+      "cutoff_hz": 6000.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.2633223790563116,
+      "clean_coherence": 0.916138450988977,
+      "gain_compensated_distortion": 0.19145536625328163,
+      "snr_change_db": 23.082310676574707
+    },
+    {
+      "name": "shape-soft",
+      "cutoff_hz": 1200.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.308711061043486,
+      "clean_coherence": 0.7443337546014834,
+      "gain_compensated_distortion": 0.8049474895260835,
+      "snr_change_db": 2.4502320289611816
+    },
+    {
+      "name": "shape-soft",
+      "cutoff_hz": 1200.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.37470145713289016,
+      "clean_coherence": 0.8223463111493073,
+      "gain_compensated_distortion": 0.4787355124396225,
+      "snr_change_db": 1.5695996284484863
+    },
+    {
+      "name": "shape-soft",
+      "cutoff_hz": 1200.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.4960954955306669,
+      "clean_coherence": 0.9781617451930423,
+      "gain_compensated_distortion": 0.045150064999741085,
+      "snr_change_db": 7.673981666564941
+    },
+    {
+      "name": "shape-soft",
+      "cutoff_hz": 3000.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.2884847012608317,
+      "clean_coherence": 0.7344942638329527,
+      "gain_compensated_distortion": 0.8536305696462978,
+      "snr_change_db": 4.62368106842041
+    },
+    {
+      "name": "shape-soft",
+      "cutoff_hz": 3000.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.3774073132320701,
+      "clean_coherence": 0.8224309644986039,
+      "gain_compensated_distortion": 0.47843111370749675,
+      "snr_change_db": 4.537316799163818
+    },
+    {
+      "name": "shape-soft",
+      "cutoff_hz": 3000.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.5717194893945656,
+      "clean_coherence": 0.9858686660301773,
+      "gain_compensated_distortion": 0.02887324237076529,
+      "snr_change_db": 9.457799911499023
+    },
+    {
+      "name": "shape-soft",
+      "cutoff_hz": 6000.0,
+      "kind": "voiced",
+      "least_squares_gain": 0.2930362025836102,
+      "clean_coherence": 0.7374706278570984,
+      "gain_compensated_distortion": 0.8386985956267664,
+      "snr_change_db": 5.560090065002441
+    },
+    {
+      "name": "shape-soft",
+      "cutoff_hz": 6000.0,
+      "kind": "continuous_fm",
+      "least_squares_gain": 0.3784173774549102,
+      "clean_coherence": 0.820986576202071,
+      "gain_compensated_distortion": 0.48363779338826196,
+      "snr_change_db": 5.9621429443359375
+    },
+    {
+      "name": "shape-soft",
+      "cutoff_hz": 6000.0,
+      "kind": "weak_chirp",
+      "least_squares_gain": 0.5118431092165283,
+      "clean_coherence": 0.9826472328380335,
+      "gain_compensated_distortion": 0.035630253864622534,
+      "snr_change_db": 9.300803184509277
+    }
+  ]
+}

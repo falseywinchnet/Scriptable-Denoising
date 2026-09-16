@@ -1,0 +1,69 @@
+Firstly, the license:
+
+By installing the Software, you explicitly agree to be bound by the conditions of this agreement. 
+If you do not accept the conditions of this agreement, you may not use the software.
+
+This software is free.
+
+You agree to hold the author of this software completely immune to any and all consequences involved with your use or obtaining 
+of the software. You agree it comes with no guarantee of any suitability for any purpose at all, and that the author is immune to damages,
+irrespective of legal basis or consideration, and that you will not bring nor permit any attempt to charge the author with liability relating to you.
+You agree any binaries part of the software are proprietary and not to reverse engineer them or do any other sketchy stuff to them.
+You agree your rights to use the software or do anything with it end the moment you violate the conditions set above.
+you agree to accept this program in its currently available form, and consequently to not be not entitled to any warranty claims.
+This softeware is not sold or offered with warrentee, and not subject to any such legislations.
+This software performs no encryption or de-encryption, and is not subject to any relevant legislations.
+
+You may use this software for military or aviation purposes, but again- no guarantee of its reliability.
+
+The user is granted, legally, the right to use the software free of charge, as "donationware"-
+which is a form of free software subsidized by donations, which are voluntary payments made by kind users.
+This software is intended primarily for private use. For private use, you are asked, but not expected, to make a donation.
+For commercial or professional purposes, you are expected but not legally required to make a donation.
+
+The source code presented in the associated github repository is dual licensed under MIT and GPL licensing.
+This is done to make the work permissive and easy to adept(from a liability standpoint), not  necessarily to make it easier for you to incorporate it into your own craptacular productions.
+If you use the source code for anything that may earn money, you are expected, but not legally required, to contribute some of it to the author.
+
+You may use the software, for example, in hardware DSP devices you will sell, but if you don't recompensate the author, you acknowledge that would be a dick move-
+and furthermore if your "value added" consists simply of adding a resampler and porting it, then you acknowledge your act constitutes theft.
+On the other hand, you might use the software to denoise audio in a service, such as a relay station, where the denoising is value added and not explicitly 
+part of your contract- your service is to provide a relay. In such a capacity, your use is pro bono, and you are welcome and encouraged to do this.
+
+The binaries(VST3, VST, LV2, etc) presented in this software are closed source. You are not permitted to reverse-engineer them, 
+or modify them to make them work in a way the author did not intend(such as on other hardware platforms). You are permitted to wrap them
+or encapsulate them as you wish with DAW, etc, without violating this expectation. If you want them compiled for your needs, you should try sending me money.
+
+==========================================================================================================================================================================
+Now, the readme:
+
+If you can't understand the source code, don't use it.
+I do recommend the python especially because it is the most validated.
+
+The VST features some extra spice and secret tweaks that make it super effective.
+
+The C++ uses entirely stack memory, except the python. You need to set 4mb for float 16mb for double of reserved stack to run this, if you compile it yourself. 
+it's all fixed size memory, pre-allocated arrays, etc, so you'll never have to worry about memory overrruns or stuff like that.
+
+WHAT YOU REALLY WANTED TO KNOW:
+the VST interface contains only four settings.
+the first, nominally called the "entropy similarity" slider, concerns the noise-similarity threshholding. lower permits more signal but can result in some noise. 
+the method is, however, fairly robust at all settings as offered to you.
+the second, nominally called the "bins" slider, concerns a low pass filter applied to the processing and the output.
+The range provided is suitable for single sideband configuration.
+the bins slider also sets the number of frequency bins used in the entropy and threshholding estimation. 
+it is recommended to set this at or slightly above your input bandwidth if you wish to lower the thresholding floor a little bit,
+and to set it at or slightly below your input bandwidth for the most accurate behavior. 
+it is recommended to use this program primarily with an input bandwidth of around 3.6khz and a low pass internally at 3656.
+the third slider is a multiplier that adjusts a cutoff inside of the filter. the behavior was recently discovered, but to replicate
+the classical function, use the full range (1.0). I recommend setting it anywhere between 0.10 and 0.40, wherever you are comfortable.
+the enable button disables or enables all processing, for comparison testing.
+
+it is recommended you use a notch filter and no other noise reduction methods before this program.
+this program is immune to noise in the frequency domain(impulse noise, guassian noise, similar)
+but does not have any ability to filter out IMD. it will recognize IMD as signal.
+The presence of a carrier is often enough to break it, so use a notch filter.
+Other denoising methods *before* this filter will damage it's ability to effectively isolate noise from signal, so they are not recommended.
+if desired, they can be added after this filter.
+
+The delay on this software is 170.66ms.

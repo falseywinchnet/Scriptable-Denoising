@@ -1,0 +1,32 @@
+[
+  {
+    "squelch": false,
+    "nb": 26,
+    "max_center_mask_error": 5.551115123125783e-17
+  },
+  {
+    "squelch": false,
+    "nb": 37,
+    "max_center_mask_error": 5.551115123125783e-17
+  },
+  {
+    "squelch": false,
+    "nb": 129,
+    "max_center_mask_error": 5.551115123125783e-17
+  },
+  {
+    "squelch": true,
+    "nb": 26,
+    "max_center_mask_error": 5.551115123125783e-17
+  },
+  {
+    "squelch": true,
+    "nb": 37,
+    "max_center_mask_error": 5.551115123125783e-17
+  },
+  {
+    "squelch": true,
+    "nb": 129,
+    "max_center_mask_error": 5.551115123125783e-17
+  }
+]

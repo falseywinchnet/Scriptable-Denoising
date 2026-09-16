@@ -1,0 +1,10 @@
+{"viewer_exit": true, "platform": "darwin", "rendered_frames": 242, "generation": 1, "last_sequence": 24}
+{
+  "frozen_status": "OFFLINE REPLAY \u00b7 generation 1 \u00b7 block 6 \u00b7 action 1 \u00b7 SQUELCHED \u00b7 valid",
+  "frozen_texture": "a4f0ad270915a61785c4a71829945ca145cb4f551ce0b6623d9f923c2d94586a",
+  "pause_sequence": 6,
+  "polling_while_paused": true,
+  "resumed_status": "OFFLINE REPLAY \u00b7 generation 1 \u00b7 block 24 \u00b7 action 1 \u00b7 OPEN \u00b7 valid",
+  "resumed_sequence": 24,
+  "success": true
+}

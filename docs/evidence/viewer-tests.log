@@ -1,0 +1,8 @@
+test_duplicates_gaps_and_generation_reset (test_viewer.HistoryTests.test_duplicates_gaps_and_generation_reset) ... ok
+test_published_spectra_gate_and_reload (test_viewer.DiagnosticTests.test_published_spectra_gate_and_reload) ... ok
+test_custom_filter_state_publication (test_viewer.DiagnosticTests.test_custom_filter_state_publication) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 2.560s
+
+OK

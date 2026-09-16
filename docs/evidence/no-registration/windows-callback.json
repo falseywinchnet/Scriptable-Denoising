@@ -1,0 +1,150 @@
+{
+  "platform": "Windows-10-10.0.19045-SP0",
+  "machine": "AMD64",
+  "identical_channels": true,
+  "channels": 2,
+  "paced": false,
+  "harmonic_extension": false,
+  "block_seconds": 0.17066666666666666,
+  "callback_seconds": [
+    0.041159000000334345,
+    0.03968869999880553,
+    0.04350899999917601,
+    0.04729370000131894,
+    0.04798610000216286,
+    0.04573309999977937,
+    0.04047960000025341,
+    0.04125980000026175
+  ],
+  "median_seconds": 0.04238439999971888,
+  "stage_ns": [
+    {
+      "guide": 6402000,
+      "filter": 29963000,
+      "observations": 4857000,
+      "views": 0,
+      "registration": 0,
+      "stft": 2393000,
+      "publication": 0
+    },
+    {
+      "guide": 4451000,
+      "filter": 32367000,
+      "observations": 1483000,
+      "views": 0,
+      "registration": 0,
+      "stft": 2274000,
+      "publication": 0
+    },
+    {
+      "guide": 2862000,
+      "filter": 38585000,
+      "observations": 1186000,
+      "views": 0,
+      "registration": 0,
+      "stft": 1707000,
+      "publication": 0
+    },
+    {
+      "guide": 2356000,
+      "filter": 43560000,
+      "observations": 1060000,
+      "views": 0,
+      "registration": 0,
+      "stft": 1076000,
+      "publication": 0
+    },
+    {
+      "guide": 2837000,
+      "filter": 43591000,
+      "observations": 1246000,
+      "views": 0,
+      "registration": 0,
+      "stft": 1295000,
+      "publication": 0
+    },
+    {
+      "guide": 2802000,
+      "filter": 41158000,
+      "observations": 1238000,
+      "views": 0,
+      "registration": 0,
+      "stft": 1434000,
+      "publication": 0
+    },
+    {
+      "guide": 2659000,
+      "filter": 36494000,
+      "observations": 1142000,
+      "views": 0,
+      "registration": 0,
+      "stft": 1095000,
+      "publication": 0
+    },
+    {
+      "guide": 3022000,
+      "filter": 36877000,
+      "observations": 1216000,
+      "views": 0,
+      "registration": 0,
+      "stft": 1114000,
+      "publication": 0
+    }
+  ],
+  "population": true,
+  "p95_seconds": 0.04774376000186749,
+  "peak_seconds": 0.04798610000216286,
+  "observed_deadline_pass": true,
+  "final": {
+    "abi": 1,
+    "generation": 1,
+    "attempt": 1,
+    "loading": false,
+    "success": true,
+    "error": "",
+    "bypass": false,
+    "squelch": false,
+    "harmonics": false,
+    "runtime_fault": false,
+    "port": 52381,
+    "sample_rate": 48000,
+    "channels": 2,
+    "bandwidth": 3400,
+    "fft": 512,
+    "hop": 128,
+    "block": 8192,
+    "frames": 192,
+    "bins": 257,
+    "transform": "rfft",
+    "analysis_mode": "registered",
+    "guide_threads": 1,
+    "guide_registration": false,
+    "guide_fft": 2048,
+    "guide_bins": 2048,
+    "guide_frames": 48,
+    "guide_hop": 512,
+    "guide_coverage_hz": 24000,
+    "viewer": false,
+    "viewer_error": "",
+    "latency_samples": 16768,
+    "blocks_processed": 8,
+    "faults": 0,
+    "last_block_ns": 41131000,
+    "peak_block_ns": 47862000,
+    "stage_ns": {
+      "guide": 3022000,
+      "filter": 36877000,
+      "observations": 1216000,
+      "views": 0,
+      "registration": 0,
+      "stft": 1114000,
+      "publication": 0
+    },
+    "last_calls": {
+      "filter": 1,
+      "guide": 1,
+      "shared_channels": 1
+    },
+    "sha256": "3851545dcecbec74b22bcf2695902bca3b8f73deec4e198b82d5448ce7882f04"
+  }
+}

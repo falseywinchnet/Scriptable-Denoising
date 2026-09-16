@@ -1,0 +1,100 @@
+[
+  {
+    "rate": 12000,
+    "hz": 1500,
+    "analysis_amplitude": 1.0000120864731628,
+    "old_host_amplitude": 0.99930269686252,
+    "host_unchanged": true
+  },
+  {
+    "rate": 12000,
+    "hz": 2500,
+    "analysis_amplitude": 0.9999945694958305,
+    "old_host_amplitude": 0.6663557851714534,
+    "host_unchanged": true
+  },
+  {
+    "rate": 12000,
+    "hz": 2750,
+    "analysis_amplitude": 1.000003868446078,
+    "old_host_amplitude": 0.14315489615013263,
+    "host_unchanged": true
+  },
+  {
+    "rate": 12000,
+    "hz": 3000,
+    "analysis_amplitude": 1.0000101894629214,
+    "old_host_amplitude": 0.0002783316353998374,
+    "host_unchanged": true
+  },
+  {
+    "rate": 12000,
+    "hz": 3250,
+    "analysis_amplitude": 0.999997094713395,
+    "old_host_amplitude": 0.14315678883720923,
+    "host_unchanged": true
+  },
+  {
+    "rate": 12000,
+    "hz": 3500,
+    "analysis_amplitude": 1.0000014539442204,
+    "old_host_amplitude": 0.6663528223701084,
+    "host_unchanged": true
+  },
+  {
+    "rate": 12000,
+    "hz": 3750,
+    "analysis_amplitude": 1.0000077722809022,
+    "old_host_amplitude": 0.8589206387165568,
+    "host_unchanged": true
+  },
+  {
+    "rate": 48000,
+    "hz": 1500,
+    "analysis_amplitude": 1.000000001396232,
+    "old_host_amplitude": 1.0000002004578854,
+    "host_unchanged": true
+  },
+  {
+    "rate": 48000,
+    "hz": 2500,
+    "analysis_amplitude": 1.000065602101538,
+    "old_host_amplitude": 1.0000206534292349,
+    "host_unchanged": true
+  },
+  {
+    "rate": 48000,
+    "hz": 2750,
+    "analysis_amplitude": 0.99994002332548,
+    "old_host_amplitude": 0.9999879332810787,
+    "host_unchanged": true
+  },
+  {
+    "rate": 48000,
+    "hz": 3000,
+    "analysis_amplitude": 1.0000000128634645,
+    "old_host_amplitude": 1.0000001440199735,
+    "host_unchanged": true
+  },
+  {
+    "rate": 48000,
+    "hz": 3250,
+    "analysis_amplitude": 1.0000512124854712,
+    "old_host_amplitude": 0.9999911974200291,
+    "host_unchanged": true
+  },
+  {
+    "rate": 48000,
+    "hz": 3500,
+    "analysis_amplitude": 0.999952276203093,
+    "old_host_amplitude": 1.0000129738435313,
+    "host_unchanged": true
+  },
+  {
+    "rate": 48000,
+    "hz": 3750,
+    "analysis_amplitude": 1.0000000019333994,
+    "old_host_amplitude": 1.0000000561064368,
+    "host_unchanged": true
+  }
+]

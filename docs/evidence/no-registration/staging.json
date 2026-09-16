@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "file": "/Users/ultimussecundai/Downloads/sdrsharp-x64-next/Plugins/Cleanup/CleanupNative.dll",
+      "backup": "/Users/ultimussecundai/Downloads/sdrsharp-x64-next/_cleanup_backups/registration-off-20260916T071157Z/CleanupNative.dll",
+      "sha256": "023c20cbce4e13c767550329ce3a737ffe2a90bf5ffe7085ae2fb7af38c6b0f1"
+    },
+    {
+      "file": "/Users/ultimussecundai/Downloads/sdrsharp-x64-next/Plugins/Cleanup/runtime/compile_filter.py",
+      "backup": "/Users/ultimussecundai/Downloads/sdrsharp-x64-next/_cleanup_backups/registration-off-20260916T071157Z/runtime/compile_filter.py",
+      "sha256": "1f6c1f2d3dbf938a1774708e0d4fe66b371098b4d4f60146fe827623b5a7227b"
+    }
+  ],
+  "script": "/Users/ultimussecundai/Desktop/cleanup2/Filter.py",
+  "sdrsharp_audio_load_tested": false
+}

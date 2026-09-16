@@ -1,0 +1,24 @@
+{
+  "samples": 1440000,
+  "comparison": "Same native build, source gain, timing, Population Cleanup and no harmonics; only registration changes.",
+  "audio_correlation": 0.9865853585329104,
+  "output_rms_db_change": -0.8355571406651068,
+  "variants": {
+    "population": {
+      "rms": 0.07386034745458675,
+      "peak": 0.5369873046875,
+      "clipped_samples": 0,
+      "median_selected_fraction_pass1": 0.0146446228,
+      "median_selected_fraction_pass2": 0.00846481323,
+      "median_population_edge_hz": 2297.9970688812896
+    },
+    "population-unregistered": {
+      "rms": 0.06708624583241536,
+      "peak": 0.487548828125,
+      "clipped_samples": 0,
+      "median_selected_fraction_pass1": 0.01445007325,
+      "median_selected_fraction_pass2": 0.007041931155,
+      "median_population_edge_hz": 2297.9970688812896
+    }
+  }
+}

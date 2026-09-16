@@ -1,0 +1,15 @@
+test_00_cached_observations_match_fresh_context (__main__.GuideTests.test_00_cached_observations_match_fresh_context) ... ok
+test_01_exact_registered_oracle (__main__.GuideTests.test_01_exact_registered_oracle) ... ok
+test_02_complete_cleanup_and_projection (__main__.GuideTests.test_02_complete_cleanup_and_projection) ... ok
+test_03_gain_centers_rfft_odft_and_identity (__main__.GuideTests.test_03_gain_centers_rfft_odft_and_identity) ... ok
+test_04_native_stream_viewer_reload (__main__.GuideTests.test_04_native_stream_viewer_reload) ... ok
+test_05_stereo_deadlines (__main__.GuideTests.test_05_stereo_deadlines) ... ok
+test_reference_units_and_temporal_kernel_support (__main__.GuideTests.test_reference_units_and_temporal_kernel_support) ... ok
+test_shared_reference_and_half_spectrum_odd_even_charts (__main__.GuideTests.test_shared_reference_and_half_spectrum_odd_even_charts) ... ok
+test_unregistered_central_observation_and_cache (__main__.GuideTests.test_unregistered_central_observation_and_cache) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 90.227s
+
+OK
+[{'signal': 'silence', 'max_absolute_error': 0.0, 'seconds': 0.00959487515501678}, {'signal': 'noise', 'max_absolute_error': 4.939625097843958e-16, 'seconds': 0.01572908298112452}, {'signal': 'tones', 'max_absolute_error': 4.851581983378317e-11, 'seconds': 0.014715583063662052}, {'signal': 'radio', 'max_absolute_error': 1.5271618808410624e-13, 'seconds': 0.01529066707007587}]

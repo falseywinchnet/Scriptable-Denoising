@@ -1,0 +1,8 @@
+test_identity_and_constant_gain_with_registered_parent (__main__.GuideSynthesis.test_identity_and_constant_gain_with_registered_parent) ... ok
+test_reload_smoke_uses_actual_host_geometry (__main__.GuideSynthesis.test_reload_smoke_uses_actual_host_geometry) ... ok
+test_viewer_has_actual_guide_and_final_preinverse_coefficients (__main__.GuideSynthesis.test_viewer_has_actual_guide_and_final_preinverse_coefficients) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 5.007s
+
+OK

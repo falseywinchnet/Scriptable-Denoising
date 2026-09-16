@@ -1,0 +1,8 @@
+test_exact_output_and_aliasing (__main__.SmoothingTests.test_exact_output_and_aliasing) ... ok
+test_report_timing (__main__.SmoothingTests.test_report_timing) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.673s
+
+OK
+Time smoother median ms: {'original': 7.964771590195596, 'tiled': 2.2654164349660277, 'tap_major': 2.274770406074822}

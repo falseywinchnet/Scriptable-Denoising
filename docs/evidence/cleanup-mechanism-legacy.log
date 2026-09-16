@@ -1,0 +1,7 @@
+test_two_pass_mask_and_recursive_smoothing_match_legacy (__main__.LegacyParity.test_two_pass_mask_and_recursive_smoothing_match_legacy) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.043s
+
+OK
+[{'squelch': False, 'nb': 26, 'max_center_mask_error': 2.220446049250313e-16}, {'squelch': False, 'nb': 37, 'max_center_mask_error': 3.0531133177191805e-16}, {'squelch': False, 'nb': 129, 'max_center_mask_error': 1.1102230246251565e-16}, {'squelch': True, 'nb': 26, 'max_center_mask_error': 2.220446049250313e-16}, {'squelch': True, 'nb': 37, 'max_center_mask_error': 3.0531133177191805e-16}, {'squelch': True, 'nb': 129, 'max_center_mask_error': 1.1102230246251565e-16}]

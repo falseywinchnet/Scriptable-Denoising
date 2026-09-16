@@ -1,0 +1,11 @@
+{
+  "charts": 153,
+  "peak_mismatches": 0,
+  "near_tie_location_differences": 0,
+  "max_peak_error": 1.1102230246251565e-16,
+  "max_competitor_error": 6.9388939039072284e-17,
+  "speech_outputs_skipped_fraction": 0.76136739417989419,
+  "fused_full_transform_and_search_us": 37.378472222222221,
+  "pruned_transform_and_search_us": 30.336805555555557,
+  "speedup": 1.232116287055053
+}

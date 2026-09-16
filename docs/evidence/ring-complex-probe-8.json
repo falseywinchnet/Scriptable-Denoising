@@ -1,0 +1,9 @@
+{
+  "max_field_error": 1.1275702593849246e-16,
+  "max_direct_dft_error": 9.9746599868666408e-17,
+  "peak_mismatches": 0,
+  "max_competitor_error": 2.0816681711721685e-17,
+  "seven_inverse_us": 100.94403124999999,
+  "fused_forward_us": 54.227843749999998,
+  "speedup": 1.8614797172347461
+}

@@ -1,0 +1,26 @@
+{
+  "geometry": [
+    2048,
+    512,
+    48,
+    512
+  ],
+  "cases": [
+    {
+      "signal": "silence",
+      "max_absolute_error": 0.0
+    },
+    {
+      "signal": "noise",
+      "max_absolute_error": 5.969617161705187e-16
+    },
+    {
+      "signal": "tones",
+      "max_absolute_error": 4.878210682623951e-11
+    },
+    {
+      "signal": "radio",
+      "max_absolute_error": 1.5330788125534484e-13
+    }
+  ]
+}

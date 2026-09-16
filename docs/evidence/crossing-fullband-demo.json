@@ -1,0 +1,59 @@
+{
+  "unchanged_comparisons": {
+    "original": true,
+    "baseline": true,
+    "registered": true,
+    "registered-harmonics": true,
+    "previous-harmonics": true
+  },
+  "crossing": {
+    "name": "crossing",
+    "status": {
+      "abi": 1,
+      "generation": 1,
+      "attempt": 1,
+      "loading": false,
+      "success": true,
+      "error": "",
+      "bypass": false,
+      "squelch": false,
+      "harmonics": false,
+      "runtime_fault": false,
+      "port": 52381,
+      "sample_rate": 48000,
+      "channels": 1,
+      "bandwidth": 3400,
+      "fft": 512,
+      "hop": 128,
+      "block": 8192,
+      "frames": 192,
+      "bins": 257,
+      "transform": "rfft",
+      "analysis_mode": "registered",
+      "guide_threads": 3,
+      "guide_fft": 2048,
+      "guide_bins": 2048,
+      "guide_frames": 48,
+      "guide_hop": 512,
+      "guide_coverage_hz": 24000,
+      "viewer": true,
+      "viewer_error": "",
+      "latency_samples": 16768,
+      "blocks_processed": 178,
+      "faults": 0,
+      "last_block_ns": 259708625,
+      "peak_block_ns": 296397375,
+      "sha256": "cdf3d280be6b4d690a45245ebaad404252d33490ac6708d7e9e21da3ca711cae"
+    },
+    "render_seconds": 53.57918041711673,
+    "peak": 0.6291838884353638,
+    "rms": 0.1328103095293045,
+    "clipped_samples": 0
+  },
+  "fullband_mask_fraction": [
+    0.12247528077485716,
+    0.12197466168799999
+  ],
+  "mean_raw_floor": 0.013342614231314285,
+  "mean_converted_floor": 0.06523752707085714
+}

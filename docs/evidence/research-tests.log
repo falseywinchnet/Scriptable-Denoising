@@ -1,0 +1,28 @@
+test_bfft_exact_double_inverse (research.true_superresolution.test_research.ResearchTests.test_bfft_exact_double_inverse) ... ok
+test_coordinate_mapping_and_neutral_uncovered_bins (research.true_superresolution.test_research.ResearchTests.test_coordinate_mapping_and_neutral_uncovered_bins) ... ok
+test_overlapping_block_total_and_contiguous_evidence (research.true_superresolution.test_research.ResearchTests.test_overlapping_block_total_and_contiguous_evidence) ... ok
+test_actual_cleanup_finite_and_denoising (research.true_superresolution.test_research.ODFTNativeTests.test_actual_cleanup_finite_and_denoising) ... ok
+test_bfft_identity_arbitrary_buffers_stereo_and_inplace (research.true_superresolution.test_research.ODFTNativeTests.test_bfft_identity_arbitrary_buffers_stereo_and_inplace) ... ok
+test_odft_to_rfft_reload (research.true_superresolution.test_research.ODFTNativeTests.test_odft_to_rfft_reload) ... ok
+test_passthrough_exact_and_controls_use_dll (research.true_superresolution.test_research.ODFTNativeTests.test_passthrough_exact_and_controls_use_dll) ... ok
+test_reload_while_audio_runs_and_real_filter_geometry (research.true_superresolution.test_research.ODFTNativeTests.test_reload_while_audio_runs_and_real_filter_geometry) ... ok
+test_runtime_failure_and_two_independent_entities (research.true_superresolution.test_research.ODFTNativeTests.test_runtime_failure_and_two_independent_entities) ... ok
+test_skip_drains_overlap_then_exact_zeros (research.true_superresolution.test_research.ODFTNativeTests.test_skip_drains_overlap_then_exact_zeros) ... ok
+test_transactional_reload_geometry_reset_and_failure_retention (research.true_superresolution.test_research.ODFTNativeTests.test_transactional_reload_geometry_reset_and_failure_retention) ... ok
+test_cleanup_certifier_has_declared_endpoints (research.true_superresolution.oracle.test_cleanup_shark_vad.CleanupSharkVadTests.test_cleanup_certifier_has_declared_endpoints) ... ok
+test_cleanup_similarity_is_amplitude_scale_invariant (research.true_superresolution.oracle.test_cleanup_shark_vad.CleanupSharkVadTests.test_cleanup_similarity_is_amplitude_scale_invariant) ... ok
+test_denoised_magnitude_is_the_exposed_spectral_gain_product (research.true_superresolution.oracle.test_cleanup_shark_vad.CleanupSharkVadTests.test_denoised_magnitude_is_the_exposed_spectral_gain_product) ... ok
+test_logistic_reference_is_finite_symmetric_and_normalized (research.true_superresolution.oracle.test_cleanup_shark_vad.CleanupSharkVadTests.test_logistic_reference_is_finite_symmetric_and_normalized) ... ok
+test_pitch_periodicity_separates_tone_from_seeded_noise (research.true_superresolution.oracle.test_cleanup_shark_vad.CleanupSharkVadTests.test_pitch_periodicity_separates_tone_from_seeded_noise) ... ok
+test_state_machine_backfills_unvoiced_lead_and_trims_hangover (research.true_superresolution.oracle.test_cleanup_shark_vad.CleanupSharkVadTests.test_state_machine_backfills_unvoiced_lead_and_trims_hangover) ... ok
+test_state_machine_rejects_single_spike_and_unanchored_structure (research.true_superresolution.oracle.test_cleanup_shark_vad.CleanupSharkVadTests.test_state_machine_rejects_single_spike_and_unanchored_structure) ... ok
+test_tail_never_overlaps_a_new_candidate (research.true_superresolution.oracle.test_cleanup_shark_vad.CleanupSharkVadTests.test_tail_never_overlaps_a_new_candidate) ... ok
+test_vocalization_rejects_noise_hit_and_bounds_persistent_core (research.true_superresolution.oracle.test_cleanup_shark_vad.CleanupSharkVadTests.test_vocalization_rejects_noise_hit_and_bounds_persistent_core) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 12.024s
+
+OK
+{"max_absolute_error": 6.213345810079929e-15, "timings": [{"fft": 512, "rows": 128, "us_per_frame": 52.90187546052039}, {"fft": 1024, "rows": 256, "us_per_frame": 49.30104594677687}, {"fft": 2048, "rows": 256, "us_per_frame": 69.3629146553576}, {"fft": 4096, "rows": 512, "us_per_frame": 105.55353946983814}]}
+cleanup-smoke {"rms_in": 0.07674292474985123, "rms_out": 0.05844801664352417, "status": {"abi": 1, "generation": 1, "attempt": 1, "loading": false, "success": true, "error": "", "bypass": false, "squelch": false, "runtime_fault": false, "port": 52381, "sample_rate": 48000, "channels": 1, "bandwidth": 3400, "fft": 512, "hop": 128, "block": 8192, "frames": 192, "bins": 256, "transform": "odft", "latency_samples": 16768, "blocks_processed": 12, "faults": 0, "last_block_ns": 2756417, "peak_block_ns": 2984125, "sha256": "5bc897173c84747669b86ce445f41afb94962bc391ac13e54bc73caf36b69c9b"}}
+identity {"latency": 16768, "max_error": 0.0}

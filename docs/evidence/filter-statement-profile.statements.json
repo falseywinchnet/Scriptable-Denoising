@@ -1,0 +1,530 @@
+[
+  {
+    "line": 1299,
+    "statement": "sawtooth(mag, smoothed, nb, scratch)",
+    "total_ms": 271.380126,
+    "calls": 32
+  },
+  {
+    "line": 1367,
+    "statement": "sawtooth(mask, mask, nb, scratch)",
+    "total_ms": 268.816794,
+    "calls": 32
+  },
+  {
+    "line": 1340,
+    "statement": "sawtooth(mag, smoothed, nb, scratch)",
+    "total_ms": 268.511626,
+    "calls": 32
+  },
+  {
+    "line": 1302,
+    "statement": "if REGISTERED_FLOOR in ('variance_surface', 'occupancy_surface'):",
+    "total_ms": 97.699791,
+    "calls": 32
+  },
+  {
+    "line": 1281,
+    "statement": "guide_active, maximum, maximum3 = guide_entropy(mag, population_bins, raw, smooth, detected, log1, log3, scratch, active)",
+    "total_ms": 93.056833,
+    "calls": 32
+  },
+  {
+    "line": 1371,
+    "statement": "if not squelch and REGISTERED_FLOOR == 'legacy':",
+    "total_ms": 80.124789,
+    "calls": 32
+  },
+  {
+    "line": 1368,
+    "statement": "if recursive_smooth(mask, vertical, horizontal, nb, scratch) != 0:",
+    "total_ms": 55.40004,
+    "calls": 32
+  },
+  {
+    "line": 1268,
+    "statement": "active, rmaximum, rmaximum3 = reference_entropy(rmag, reference_nb, rraw, rsmooth, rdetected, rlog1, rlog3, evidence_storage[ro:])",
+    "total_ms": 9.067044,
+    "calls": 32
+  },
+  {
+    "line": 1337,
+    "statement": "multiplier = min(1.0, np.max(mag) / initial) if initial > 0.0 else 0.0",
+    "total_ms": 8.977666,
+    "calls": 32
+  },
+  {
+    "line": 1296,
+    "statement": "initial = np.max(mag)",
+    "total_ms": 8.967083,
+    "calls": 32
+  },
+  {
+    "line": 1341,
+    "statement": "if REGISTERED_FLOOR in ('variance_surface', 'occupancy_surface'):",
+    "total_ms": 7.797627,
+    "calls": 32
+  },
+  {
+    "line": 1240,
+    "statement": "if CLEANUP_POPULATION == 'rolloff':",
+    "total_ms": 7.680918,
+    "calls": 32
+  },
+  {
+    "line": 1338,
+    "statement": "if REGISTERED_FLOOR == 'legacy' and (not CLEANUP_AUDIT_BITS & 1):",
+    "total_ms": 6.862208,
+    "calls": 32
+  },
+  {
+    "line": 1385,
+    "statement": "for t in range(MASK_FRAMES):",
+    "total_ms": 5.720665,
+    "calls": 32
+  },
+  {
+    "line": 1333,
+    "statement": "for t in range(MASK_FRAMES):",
+    "total_ms": 3.225877,
+    "calls": 32
+  },
+  {
+    "line": 1363,
+    "statement": "for t in range(MASK_FRAMES):",
+    "total_ms": 2.109788,
+    "calls": 32
+  },
+  {
+    "line": 1274,
+    "statement": "for t in range(MASK_FRAMES):",
+    "total_ms": 1.604418,
+    "calls": 32
+  },
+  {
+    "line": 1401,
+    "statement": "apply_guide_gain(mask, content, synth_nb, half_bin)",
+    "total_ms": 0.990833,
+    "calls": 32
+  },
+  {
+    "line": 1272,
+    "statement": "mask[:] = 0.0",
+    "total_ms": 0.856084,
+    "calls": 32
+  },
+  {
+    "line": 1271,
+    "statement": "smoothed[:] = 0.0",
+    "total_ms": 0.819043,
+    "calls": 32
+  },
+  {
+    "line": 1270,
+    "statement": "mag[:] = 0.0",
+    "total_ms": 0.686995,
+    "calls": 32
+  },
+  {
+    "line": 1265,
+    "statement": "for t in range(REFERENCE_FRAMES):",
+    "total_ms": 0.17591,
+    "calls": 32
+  },
+  {
+    "line": 1213,
+    "statement": "state = all_state[0]",
+    "total_ms": 0.015376,
+    "calls": 32
+  },
+  {
+    "line": 1259,
+    "statement": "reference_nb = REFERENCE_BINS if REGISTERED_FLOOR in ('zero_crossing', 'variance_surface', 'occupancy_surface') else min(REFERENCE_BINS, max(4, int(np.floor(config[1] / (config[0] / 512) + 1.5))))",
+    "total_ms": 0.008961,
+    "calls": 32
+  },
+  {
+    "line": 1228,
+    "statement": "vertical = state[offset:offset + GUIDE_PAD_PLANE].reshape((GUIDE_PAD_T, GUIDE_PAD_B))",
+    "total_ms": 0.007377,
+    "calls": 32
+  },
+  {
+    "line": 1225,
+    "statement": "mag = state[offset:offset + MASK_PLANE].reshape((MASK_FRAMES, GUIDE_BINS))",
+    "total_ms": 0.005918,
+    "calls": 32
+  },
+  {
+    "line": 1282,
+    "statement": "record_evidence(smooth, state, 12, MASK_HOP)",
+    "total_ms": 0.005375,
+    "calls": 32
+  },
+  {
+    "line": 1273,
+    "statement": "guide = all_state[GUIDE_SLOT, GUIDE_OFFSET:GUIDE_OFFSET + GUIDE_PLANE].reshape((GUIDE_FRAMES, GUIDE_BINS))",
+    "total_ms": 0.005166,
+    "calls": 32
+  },
+  {
+    "line": 1269,
+    "statement": "record_evidence(rsmooth, state, 8, 128)",
+    "total_ms": 0.00488,
+    "calls": 32
+  },
+  {
+    "line": 1252,
+    "statement": "rmag = evidence_storage[64:64 + REFERENCE_PLANE].reshape((REFERENCE_FRAMES, REFERENCE_BINS))",
+    "total_ms": 0.003833,
+    "calls": 32
+  },
+  {
+    "line": 1214,
+    "statement": "half_bin = 0.5 if BINS == FFT_SIZE // 2 else 0.0",
+    "total_ms": 0.00342,
+    "calls": 32
+  },
+  {
+    "line": 1229,
+    "statement": "horizontal = state[offset:offset + GUIDE_PAD_PLANE].reshape((GUIDE_PAD_T, GUIDE_PAD_B))",
+    "total_ms": 0.002542,
+    "calls": 32
+  },
+  {
+    "line": 1227,
+    "statement": "mask = state[offset:offset + MASK_PLANE].reshape((MASK_FRAMES, GUIDE_BINS))",
+    "total_ms": 0.002291,
+    "calls": 32
+  },
+  {
+    "line": 1301,
+    "statement": "surface = state[SURFACE_OFFSET:SURFACE_OFFSET + MASK_PLANE].reshape((MASK_FRAMES, GUIDE_BINS)) if REGISTERED_FLOOR in ('variance_surface', 'occupancy_surface') else mask",
+    "total_ms": 0.002289,
+    "calls": 32
+  },
+  {
+    "line": 1260,
+    "statement": "if CLEANUP_POPULATION != 'receiver':",
+    "total_ms": 0.001917,
+    "calls": 32
+  },
+  {
+    "line": 1229,
+    "statement": "offset += GUIDE_PAD_PLANE",
+    "total_ms": 0.001874,
+    "calls": 32
+  },
+  {
+    "line": 1232,
+    "statement": "raw = state[offset:offset + MASK_FRAMES]",
+    "total_ms": 0.00175,
+    "calls": 32
+  },
+  {
+    "line": 1239,
+    "statement": "guide = all_state[GUIDE_SLOT, GUIDE_OFFSET:GUIDE_OFFSET + GUIDE_PLANE].reshape((GUIDE_FRAMES, GUIDE_BINS))",
+    "total_ms": 0.001665,
+    "calls": 32
+  },
+  {
+    "line": 1235,
+    "statement": "log1 = state[offset:offset + GUIDE_BINS]",
+    "total_ms": 0.001539,
+    "calls": 32
+  },
+  {
+    "line": 1253,
+    "statement": "ro = 64 + REFERENCE_PLANE",
+    "total_ms": 0.001372,
+    "calls": 32
+  },
+  {
+    "line": 1256,
+    "statement": "ro += REFERENCE_FRAMES",
+    "total_ms": 0.00125,
+    "calls": 32
+  },
+  {
+    "line": 1226,
+    "statement": "smoothed = state[offset:offset + MASK_PLANE].reshape((MASK_FRAMES, GUIDE_BINS))",
+    "total_ms": 0.001044,
+    "calls": 32
+  },
+  {
+    "line": 1256,
+    "statement": "rdetected = evidence_storage[ro:ro + REFERENCE_FRAMES]",
+    "total_ms": 0.000875,
+    "calls": 32
+  },
+  {
+    "line": 1258,
+    "statement": "rlog3 = evidence_storage[ro:ro + 3 * REFERENCE_BINS]",
+    "total_ms": 0.000834,
+    "calls": 32
+  },
+  {
+    "line": 1283,
+    "statement": "state[16:24] = 0.0",
+    "total_ms": 0.000792,
+    "calls": 32
+  },
+  {
+    "line": 1297,
+    "statement": "if initial <= 0.0 and REGISTERED_FLOOR not in ('variance_surface', 'occupancy_surface'):",
+    "total_ms": 0.000789,
+    "calls": 32
+  },
+  {
+    "line": 1233,
+    "statement": "offset += MASK_FRAMES",
+    "total_ms": 0.000749,
+    "calls": 32
+  },
+  {
+    "line": 1254,
+    "statement": "rraw = evidence_storage[ro:ro + REFERENCE_FRAMES]",
+    "total_ms": 0.000711,
+    "calls": 32
+  },
+  {
+    "line": 1398,
+    "statement": "if CLEANUP_AUDIT_TRACE:",
+    "total_ms": 0.000711,
+    "calls": 32
+  },
+  {
+    "line": 1236,
+    "statement": "log3 = state[offset:offset + 3 * GUIDE_BINS]",
+    "total_ms": 0.00067,
+    "calls": 32
+  },
+  {
+    "line": 1251,
+    "statement": "evidence_storage = all_state[3]",
+    "total_ms": 0.000669,
+    "calls": 32
+  },
+  {
+    "line": 1294,
+    "statement": "if squelch and (not active) and (REGISTERED_FLOOR not in ('variance_surface', 'occupancy_surface')):",
+    "total_ms": 0.000668,
+    "calls": 32
+  },
+  {
+    "line": 1257,
+    "statement": "rlog1 = evidence_storage[ro:ro + REFERENCE_BINS]",
+    "total_ms": 0.000627,
+    "calls": 32
+  },
+  {
+    "line": 1231,
+    "statement": "deviations = state[offset:offset + MASK_PLANE]",
+    "total_ms": 0.000626,
+    "calls": 32
+  },
+  {
+    "line": 1285,
+    "statement": "crossing_floor = 0.0",
+    "total_ms": 0.000625,
+    "calls": 32
+  },
+  {
+    "line": 1366,
+    "statement": "if CLEANUP_AUDIT_TRACE:",
+    "total_ms": 0.000625,
+    "calls": 32
+  },
+  {
+    "line": 1238,
+    "statement": "population_bins = nb",
+    "total_ms": 0.000622,
+    "calls": 32
+  },
+  {
+    "line": 1234,
+    "statement": "offset += MASK_FRAMES",
+    "total_ms": 0.000586,
+    "calls": 32
+  },
+  {
+    "line": 1255,
+    "statement": "rsmooth = evidence_storage[ro:ro + REFERENCE_FRAMES]",
+    "total_ms": 0.000585,
+    "calls": 32
+  },
+  {
+    "line": 1402,
+    "statement": "return PROCESS",
+    "total_ms": 0.000585,
+    "calls": 32
+  },
+  {
+    "line": 1230,
+    "statement": "offset += MASK_PLANE",
+    "total_ms": 0.000584,
+    "calls": 32
+  },
+  {
+    "line": 1254,
+    "statement": "ro += REFERENCE_FRAMES",
+    "total_ms": 0.000579,
+    "calls": 32
+  },
+  {
+    "line": 1225,
+    "statement": "offset += MASK_PLANE",
+    "total_ms": 0.000541,
+    "calls": 32
+  },
+  {
+    "line": 1284,
+    "statement": "state[24:28] = 0.0",
+    "total_ms": 0.00054,
+    "calls": 32
+  },
+  {
+    "line": 1222,
+    "statement": "squelch = config[2] != 0.0",
+    "total_ms": 0.000539,
+    "calls": 32
+  },
+  {
+    "line": 1370,
+    "statement": "if CLEANUP_AUDIT_TRACE:",
+    "total_ms": 0.000503,
+    "calls": 32
+  },
+  {
+    "line": 1257,
+    "statement": "ro += REFERENCE_BINS",
+    "total_ms": 0.000499,
+    "calls": 32
+  },
+  {
+    "line": 1258,
+    "statement": "ro += 3 * REFERENCE_BINS",
+    "total_ms": 0.000498,
+    "calls": 32
+  },
+  {
+    "line": 1224,
+    "statement": "offset = 64",
+    "total_ms": 0.000497,
+    "calls": 32
+  },
+  {
+    "line": 1227,
+    "statement": "offset += MASK_PLANE",
+    "total_ms": 0.000496,
+    "calls": 32
+  },
+  {
+    "line": 1236,
+    "statement": "offset += 3 * GUIDE_BINS",
+    "total_ms": 0.00046,
+    "calls": 32
+  },
+  {
+    "line": 1255,
+    "statement": "ro += REFERENCE_FRAMES",
+    "total_ms": 0.00046,
+    "calls": 32
+  },
+  {
+    "line": 1293,
+    "statement": "state[1] = 1.0 if active else 0.0",
+    "total_ms": 0.00046,
+    "calls": 32
+  },
+  {
+    "line": 1300,
+    "statement": "man = atd = 0.0",
+    "total_ms": 0.00046,
+    "calls": 32
+  },
+  {
+    "line": 1292,
+    "statement": "state[0] += 1.0",
+    "total_ms": 0.000459,
+    "calls": 32
+  },
+  {
+    "line": 1399,
+    "statement": "if squelch and (not active):",
+    "total_ms": 0.000417,
+    "calls": 32
+  },
+  {
+    "line": 1237,
+    "statement": "scratch = state[offset:]",
+    "total_ms": 0.000376,
+    "calls": 32
+  },
+  {
+    "line": 1215,
+    "statement": "if CLEANUP_POPULATION != 'receiver' or REGISTERED_FLOOR in ('zero_crossing', 'variance_surface', 'occupancy_surface'):",
+    "total_ms": 0.000374,
+    "calls": 32
+  },
+  {
+    "line": 1286,
+    "statement": "if REGISTERED_FLOOR == 'zero_crossing':",
+    "total_ms": 0.000374,
+    "calls": 32
+  },
+  {
+    "line": 1233,
+    "statement": "smooth = state[offset:offset + MASK_FRAMES]",
+    "total_ms": 0.000373,
+    "calls": 32
+  },
+  {
+    "line": 1235,
+    "statement": "offset += GUIDE_BINS",
+    "total_ms": 0.000373,
+    "calls": 32
+  },
+  {
+    "line": 1232,
+    "statement": "offset += MASK_FRAMES",
+    "total_ms": 0.000335,
+    "calls": 32
+  },
+  {
+    "line": 1226,
+    "statement": "offset += MASK_PLANE",
+    "total_ms": 0.000334,
+    "calls": 32
+  },
+  {
+    "line": 1228,
+    "statement": "offset += GUIDE_PAD_PLANE",
+    "total_ms": 0.000334,
+    "calls": 32
+  },
+  {
+    "line": 1231,
+    "statement": "offset += MASK_PLANE",
+    "total_ms": 0.000334,
+    "calls": 32
+  },
+  {
+    "line": 1230,
+    "statement": "values = state[offset:offset + MASK_PLANE]",
+    "total_ms": 0.000333,
+    "calls": 32
+  },
+  {
+    "line": 1234,
+    "statement": "detected = state[offset:offset + MASK_FRAMES]",
+    "total_ms": 0.00025,
+    "calls": 32
+  },
+  {
+    "line": 1332,
+    "statement": "if CLEANUP_AUDIT_TRACE:",
+    "total_ms": 0.000208,
+    "calls": 32
+  }
+]

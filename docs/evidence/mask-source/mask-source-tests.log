@@ -1,0 +1,9 @@
+test_invalid_source_rejected (__main__.MaskSource.test_invalid_source_rejected) ... ok
+test_parent_separates_reference_guide_and_channel_reuse (__main__.MaskSource.test_parent_separates_reference_guide_and_channel_reuse) ... ok
+test_real_mask_independent_of_preagc_level_but_squelch_uses_it (__main__.MaskSource.test_real_mask_independent_of_preagc_level_but_squelch_uses_it) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 9.043s
+
+OK
+[{'case': '1000x_preagc_difference', 'max_channel_error': 0.0}, {'case': 'silent_early_with_loud_content', 'output_peak': 0.0}]
